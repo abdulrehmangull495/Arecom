@@ -9,7 +9,7 @@ import Cart from './components/Cart'
 import Signup from './components/Signup'
 import Signin from './components/Signin'
 import Forget from './components/Forget'
-import Checkout from './components/Checkout'
+import Mycheckout from './components/Mycheckout'
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 function App() {
@@ -28,10 +28,13 @@ function App() {
      path:"/Shop",
      element:<><Headers/><Shop/></>
     },
+   
     {
-     path:"/Checkout",
-     element:<><Headers/><Checkout/></>
+     path:"/Mycheckout",
+     element:<><Headers/><Mycheckout/></>
     },
+
+
     {
      path:"/Newarrivals",
      element:<><Headers/><Newarrivals/></>
