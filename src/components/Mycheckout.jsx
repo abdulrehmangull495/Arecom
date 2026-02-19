@@ -82,15 +82,13 @@ const Mycheckout = () => {
         </div>
         </div>
       </div>
-      <div className="lastsectionscubs">
+       <div className="lastsectionscubs">
         <div>
           <img src="camelcoat.png" className="camelcoat" alt="" />
         </div>
         <div className="subsdiv">
-          <h5 className="news">Subscribe To Our Newsletter</h5>
-          <p className="amet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Neque iure dignissimos illum, vero, error reiciendis amet magni
-             explicabo assumenda corporis, eos eius.</p>
+          <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
+          <p className="getthe">Get the best deals and product updates delivered straight to your inbox.</p>
              <p>abdulrehmangull495@gmail.com</p>
              <div>
               <button className="subsnow">Subscribe Now</button>

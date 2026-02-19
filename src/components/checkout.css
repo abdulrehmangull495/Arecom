@@ -594,7 +594,7 @@ margin-top: 30px;
   outline: none;
 }
 
-.nextbtn{
+/* .nextbtn{
     padding: 10px;
     margin: 5px;
     background-color: #ddd;
@@ -606,7 +606,7 @@ margin-top: 30px;
 }
 .nextbtn:focus {
   outline: none;
-}
+} */
 .lastsectionscubs{
     display: flex;
     justify-content: center;

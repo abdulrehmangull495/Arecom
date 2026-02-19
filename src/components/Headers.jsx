@@ -1,49 +1,40 @@
-
 import { NavLink } from "react-router-dom";
-import './header.css';
-const Headers = () => {
+import { useState } from "react";
+import "./header.css";
+
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const handleLinkClick = () => setMenuOpen(false);
+
+
   return (
-    <header className="myheader">
-      
-      <nav className='header-nav'>
-        <h1 className='m-0 arecom'>Arecom</h1>
-        <ul>
-          
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/Deals">Deals</NavLink></li>
-          <li><NavLink to="/Shop">Shop</NavLink></li>
-          <li><NavLink to="/Newarrivals">New Arrivals</NavLink></li>
-          <li><NavLink to="/">Packages</NavLink></li>
-          <li><NavLink to="/Signin">Sign in</NavLink></li>
-          {/* <li><NavLink to="/">Sign in</NavLink></li> */}
-          <li><NavLink to="/Mycheckout">Checkout</NavLink></li>
-          
-          
-         
-        </ul>
-        <div className='seacartdiv'>
-          <ul>
-          <li><NavLink to="/"><img src="search.png" alt="" className='m-0'/></NavLink></li>
-          <li><NavLink to="/Cart"><img src="cart.png" alt="" className='m-0'/></NavLink></li>
-          <li><NavLink to="/Signup"><img src="account.png" alt="" className='m-0'/></NavLink></li>
-          <li><NavLink to="/Forget"><img src="forgeticon.jfif" alt="" className='m-0 forgetico'/></NavLink></li>
+    <header className="header">
+      <nav className="nav">
+        {/* Logo */}
+        <h1 className="logo">Arecom</h1>
 
-          </ul>
+        {/* Hamburger */}
+        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? "✕" : "☰"}
         </div>
-     
-        <button className='signup'>
-          
-          <ul>
-            {/* <li><NavLink to="/Forget">Forget your Password</NavLink></li> */}
-            <li><NavLink to="/Signup">Sign Up</NavLink></li>
 
-          </ul>
-          
-          
-         </button>
+        {/* Nav Links */}
+        <ul className={menuOpen ? "nav-links active" : "nav-links"}>
+  <li><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
+  <li><NavLink to="/Deals" onClick={handleLinkClick}>Deals</NavLink></li>
+  <li><NavLink to="/Shop" onClick={handleLinkClick}>Shop</NavLink></li>
+  <li><NavLink to="/Newarrivals" onClick={handleLinkClick}>New Arrivals</NavLink></li>
+  <li><NavLink to="/Signin" onClick={handleLinkClick}>Sign In</NavLink></li>
+  <li>
+    <NavLink to="/Signup" className="signup-btn" onClick={handleLinkClick}>
+      Sign Up
+    </NavLink>
+  </li>
+</ul>
+
       </nav>
     </header>
   );
 };
 
-export default Headers;
+export default Header;

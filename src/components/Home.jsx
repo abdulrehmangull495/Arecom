@@ -143,7 +143,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="peakysection">
+      <div className="peakysectionhome">
         <div>
           <img className="girlside" src="girlsidepose.png" alt="" />
         </div>
@@ -222,7 +222,7 @@ const Home = () => {
         </div>
       </div>
       <div className="thisissection">
-        <h6 className="is">This Is What Our Customers Say</h6>
+        <h6 className="isthis">This Is What Our Customers Say</h6>
         <p>Hear from our satisfied customers and see why our products are loved by many.</p>
         <div className="cardbox">
           <div className="card1">
@@ -284,14 +284,14 @@ const Home = () => {
       </div>
 
       
-      <footer class="footer">
+      <footer className="footer">
         <div className="d-flex ftdiv">
   <div class="footer-box">
     
     <p className="m-0 arecom">Arecom</p>
   </div>
 
-  <div class="footer-box">
+  <div className="footer-box">
   
 
     <a href="#">Support Center</a>

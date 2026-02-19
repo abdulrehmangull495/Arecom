@@ -180,7 +180,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    padding-top: 500px;
     gap: 20px;
     
 }
@@ -488,11 +488,7 @@ margin-top: 30px;
     padding: 10px;
     color: rgb(72, 72, 72,100);
 
-    /* display: flex;
-
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; */
+    
     gap: 10px;
 }
 .copydiv{

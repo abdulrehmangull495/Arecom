@@ -111,8 +111,11 @@ const Shop = () => {
     
     
    </div>
+   
 </div>
-  <div className="peakysection">
+ 
+
+ <div className="peakysection">
         <div>
           <img className="girlside" src="girlsidepose.png" alt="" />
         </div>
@@ -255,8 +258,9 @@ const Shop = () => {
         </div>
       </div>
 
+ 
       
-      <footer class="footer">
+      <footer className="footer">
         <div className="d-flex ftdiv">
   <div class="footer-box">
     
