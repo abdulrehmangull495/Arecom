@@ -1,0 +1,37 @@
+/* .title h2{
+    text-align: center;
+    padding-top: 100px;
+} */
+
+.titlediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.nxtbtimg{
+    max-width: 7px;
+    width: 100%;
+
+}
+.shopingcart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.shopingcart li{
+   
+    list-style: none;
+
+}
+.shopingcart li a{
+    
+     text-decoration: none;
+     color: rgb(72,72,72,100);
+}
+.shopingcart p{
+    margin-left: 10px;
+}

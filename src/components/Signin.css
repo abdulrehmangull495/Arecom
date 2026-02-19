@@ -1,0 +1,152 @@
+.leftrightsigupdiv{
+    display: flex;
+    justify-items: center;
+    gap: 30px;
+    /* align-items: center; */
+}
+.leftsignupsideimg{
+    max-width: 900px;
+    width: 100%;
+    height: 500px;
+}
+
+.goo{
+    max-width: 20px;
+    width: 100%;
+    
+}
+.googlediv{
+    
+}
+.ma{
+   max-width: 20px;
+    width: 100%; 
+}
+.google{
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(91,134,229,100);
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.mail{
+    
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(91,134,229,100);
+    padding: 8px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.createaccountdiv{
+    display: flex;
+    gap: 20px;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(131,131,131);
+}
+
+
+.inputfields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 13px;
+  padding-top: 20xp;
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  color: rgb(157,157,157);
+
+}
+
+.row input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid rgb(131, 131, 131);
+  outline: none;
+  padding: 6px 0;
+  
+
+}
+
+.inputfields input::placeholder {
+  color: rgb(157,157,157);
+  font-size: 13px;
+}
+.createaccount{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 10px 200px;
+    text-align: center;
+     border-radius: 10px
+    
+}
+.createbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    outline: none;
+    border: none;
+   
+}
+.already{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+
+}
+.alreadytext{
+    font-size: 12px;
+    color: rgb(0,0,0);
+    padding-right: 10px;
+}
+.login{
+    color: blue;
+    border: none;
+    outline: none;
+    background-color: none;
+    padding: 8 px;
+    
+}
+
+.login:hover{
+    font-weight: 500;
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forgot ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+.forget a{
+      text-decoration:none;
+      color: rgb(131, 131, 131);
+}
+.forgot a,
+.forgot a.active {
+  text-decoration: none;
+  font-size: 12px;
+}
+

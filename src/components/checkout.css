@@ -1,0 +1,677 @@
+.title h3{
+    text-align: center;
+    padding-top: 50px;
+}
+.left{
+    max-width: 400px;
+    width: 100%;
+    height: 850px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+.leftcontent{
+    padding: 10px;
+}
+.contact{
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.create{
+    color: rgb(68, 105, 207);
+    font-weight: 700;
+    padding:2px;
+}
+.email{
+    color: rgb(138,138,138,100);
+    font-size: 12px;
+    
+    width: 100%;
+    padding: 10px;
+  box-sizing: border-box;
+    
+}
+.emaildiv{
+    padding:10px;
+}
+
+
+
+.custom-dropdown {
+    position: relative;
+    /* width: 400px;  */
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  /* Styling for the select box */
+  .Country{
+    font-size: 10px;
+  }
+  select {
+    
+    padding: 15px; /* Image ki tarah space dene ke liye */
+    font-size: 10px;
+    padding: 10px 220px 10px 10px;
+    color: #888; /* Light grey text color */
+    border: 1px solid #ccc; /* Patla border */
+    border-radius: 2px;
+    background-color: white;
+    appearance: none; /* Default arrow hatane ke liye */
+    -webkit-appearance: none;
+    cursor: pointer;
+    outline: none;
+    
+  }
+
+  /* Custom Arrow (Dropdown ke kone mein chota icon) */
+  .custom-dropdown::after {
+    content: "▼"; /* Ya aap image wala arrow icon bhi laga sakte hain */
+    font-size: 11px;
+    color: #555;
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Takay arrow par click karne se bhi dropdown khule */
+  }
+
+  /* Border color change on hover */
+  select:focus {
+    border-color: #333;
+  }
+
+  .first{
+    padding: 5px;
+    font-size: 12px;
+  }
+  .last{
+     padding: 5px;
+    font-size: 12px;
+
+  }
+
+  .firstlastname{
+    display: flex;
+    padding: 10px;
+    gap: 7px;
+  }
+  .classdiv{
+    padding: 10px;
+  }
+  .address{
+     padding: 5px;
+    font-size: 12px;
+    
+     width: 100%;
+    padding: 10px;
+  }
+  .city{
+    padding: 5px;
+    font-size: 12px;
+  }
+  .postal{
+    padding: 5px;
+    font-size: 12px;
+    
+  }
+
+  .citypostaldiv{
+ display: flex;
+    padding: 10px;
+    gap: 7px;
+    
+    
+  }
+  .save{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    
+  }
+  
+  .this{
+  font-size: 12px;
+  color: rgb(138,138,138,100);
+  }
+  .crddiv{
+    padding: 10px;
+  }
+
+  .carddetails{
+    padding: 10px 200px 10px 10px; ;
+    font-size: 12px;
+    color: rgb(138,138,138,100);
+  }
+  .cardnodiv{
+    padding:10px 200px 10px 10px; ;
+  }
+  .cardno{
+    font-size: 12px;
+    color: rgb(138,138,138,100);
+    padding:10px 200px 10px 10px; ;
+  }
+  .expiry{
+     padding: 5px;
+    font-size: 12px;
+  }
+  .cvc{
+     padding: 5px;
+    font-size: 12px;
+  }
+  .expcvcdiv{
+    display: flex;
+    gap: 7px;
+    padding: 10px;
+  }
+
+  .cardnodiv{
+   padding:10px 200px 10px 10px; 
+  }
+  .cardno{
+    font-size: 12px;
+    color: rgb(138,138,138,100);
+
+  }
+  .checkbox{
+    border: 3px solid black;
+
+  }
+
+  .checkbox {
+  appearance: none; 
+  width: 20px;
+  height: 20px;
+  border: 3px solid black;
+  border-radius: 4px; 
+  cursor: pointer;
+ 
+}
+
+.checkbox:checked {
+  background-color: rgb(44, 44, 44); 
+   
+}
+.paymentdiv{
+    background-color: rgb(245,245,245);
+    padding:10px 10px 20px 0px;
+    border-radius: 10px;
+}
+.paydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay {
+  padding: 10px 20px; 
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+.copydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding-top: 10px;
+}
+.copy{
+ color: rgb(72, 72, 72,100);
+ font-size: 12px;
+}
+
+ .lastdatesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+.dealsof{
+    font-size: 35px;
+}
+.lorem{
+    color: rgb(138, 138, 138,100);
+    max-width: 340px;
+    width: 100%;
+}
+.buynow{
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.hurry{
+         color: rgb(72, 72, 72,100);
+         margin-top: 50px;
+}
+
+.previousimg{
+    
+    padding: 15px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+}
+.mixgirlimg{
+    display: flex;
+    gap: 30px;
+}
+.blackgirlimg{
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+}
+.bluegirlimg{
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+}
+
+.nextimg{
+    
+    padding: 15px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+}
+.prenexdiv{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.newarrivalsection{
+    margin-top: 200px;
+}
+.newarrival{
+    color: rgb(72, 72, 72,100);
+}
+.lor{
+     color: rgb(138, 138, 138,100);
+    max-width: 550px;
+    width: 100%;
+}
+.newarrivals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.menus h6{
+    border-radius: 10px;
+    background-color: rgb(236, 236, 238);
+    padding: 15px;
+    color: rgb(138, 138, 138,100);
+    cursor: pointer;
+    
+}
+.menus h6:hover{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+  
+  padding: 50px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap; 
+          
+}
+.imgtitle{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.product-card {
+  flex: 1;            
+  padding: 16px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.viewmore{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.viewmorediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+.peakysection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+    
+}
+
+.girlside{
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+}
+.womencollection{
+    color: rgb(138, 138, 138,100);
+    font-size: 14px;
+}
+.Peakyblinders{
+    color: rgb(72, 72, 72,100);
+}
+.desc{
+    color: rgb(138, 138, 138,100);
+    font-size: 14px;
+    color: black;
+}
+.ipsum{
+      color: rgb(118, 118, 118,100);
+      max-width: 700px;
+      width: 100%;
+
+}
+.Peakyblinders{
+    background-color: rgb(218,218,218,100);
+    padding: 42px;
+    
+}
+.sizediv{
+    display: flex;
+   
+    gap:10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.m{
+    background-color: black;
+    color: white;
+    padding: 3px 20px;
+    border-radius: 3px;
+}
+.hundred{
+    font-size: 30px;
+    color: black;
+}
+.buy{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    outline: none;
+    box-shadow: none;
+}
+.warrentydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qualitydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.freediv{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calldiv{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dedicated,.crafted,.over,.order{
+    font-size: 12px;
+}
+.icon{
+    max-width: 400px;
+    width: 100%;
+    height: 40px;
+}
+.fouritemsdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 80px;
+margin-top: 30px;
+}
+
+.sit{
+    max-width: 300px;
+}
+
+.follow{
+    display: flex;
+    
+    align-items: center;
+    
+    flex-direction: column;
+    padding-top: 100px;
+}
+.browncoat{
+
+    max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+
+.blueheel{
+    max-width: 220px;
+    width: 100%;
+    height: 340px;
+     
+}
+.greydress{
+    max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+.redpant{
+    max-width: 220px;
+    width: 100%;
+    height: 340px;
+}
+.blackcoat{
+     max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+.blackgirl{
+    max-width: 200px;
+    width: 100%;
+    height: 340px;
+}
+.redfull{
+    max-width: 200px;
+    width: 100%;
+    height: 230px;
+}
+
+.followsecimg{
+    padding: 20px;
+}
+.thisissection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250,100);
+    margin-top: 50px;
+    padding: 50px;
+    
+    
+    
+}
+.is{
+    font-size: 35px;
+     
+     color: rgb(72, 72, 72,100);
+   
+
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.card1{
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    
+}
+.card2{
+    background-color: #e9e9e9;
+     display: flex;
+    align-items: center;
+    
+}
+
+.blacktshirt{
+    max-width: 100px;
+    width: 100%;
+
+}
+
+
+.you{
+    max-width: 500px;
+}
+.hrcard1{
+    max-width: 100px;
+    background-color: gray;
+    height: 10px;
+}
+.btndiv{
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.previousbtn{
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+}
+.previousbtn:focus {
+  outline: none;
+}
+
+.nextbtn{
+    padding: 10px;
+    margin: 5px;
+    background-color: #ddd;
+    
+    border-radius: 20px;
+    border: none;
+     border: none !important;
+  box-shadow: none !important;
+}
+.nextbtn:focus {
+  outline: none;
+}
+.lastsectionscubs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.subsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subsnow{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.news{
+    color: rgb(72, 72, 72,100);
+    font-size: 35px;
+}
+.amet{
+    color: rgb(138, 138, 138,100);
+    max-width: 500px;
+    width: 100%;
+    font-size: 14.5px;
+}
+.camelcoat{
+    max-width: 270px;
+    width: 100%;
+     height: 400px;
+}
+.darkgreycoat{
+    max-width: 200px;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.ftdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+
+}
+.arecom{
+    color: rgb(72, 72, 72,100);
+    color: black;
+    font-weight: 700;
+}
+.footer-box a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(72, 72, 72,100);
+    gap: 10px;
+}
+.copydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(72, 72, 72,100);
+    padding-top: 10px;
+}

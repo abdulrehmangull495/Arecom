@@ -1,0 +1,109 @@
+.newarrivalsection{
+    margin-top: 50px;
+}
+.newarrival{
+    color: rgb(72, 72, 72,100);
+}
+.lor{
+     color: rgb(138, 138, 138,100);
+    max-width: 550px;
+    width: 100%;
+}
+.newarrivals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.imgtitle{
+    font-weight: 700;
+    padding-top: 10px;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.menus h6{
+    border-radius: 10px;
+    background-color: rgb(236, 236, 238);
+    padding: 15px;
+    color: rgb(138, 138, 138,100);
+    cursor: pointer;
+    
+}
+.menus h6:hover{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+  
+  padding: 50px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap; 
+          
+}
+
+.product-card {
+  flex: 1;            
+  padding: 16px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.viewmore{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.viewmorediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+
+
+
+
+.ftdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.arecom{
+    color: rgb(72, 72, 72,100);
+    color: black;
+    font-weight: 700;
+}
+.footer-box a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(72, 72, 72,100);
+    gap: 10px;
+}
+.copydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(72, 72, 72,100);
+    padding-top: 10px;
+}

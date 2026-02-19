@@ -1,0 +1,13 @@
+import React from 'react'
+
+const Deals = () => {
+  return (
+    <div>
+      <h1>
+        abdul
+      </h1>
+    </div>
+  )
+}
+
+export default Deals
