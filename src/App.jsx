@@ -4,12 +4,12 @@ import Headers from './components/Headers'
 import Home from './components/Home'
 import Deals from './components/Deals'
 import Shop from './components/Shop'
-import Checkout from './components/Checkout'
 import Newarrivals from './components/Newarrivals'
 import Cart from './components/Cart'
 import Signup from './components/Signup'
 import Signin from './components/Signin'
 import Forget from './components/Forget'
+import Checkout from './components/Checkout'
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 function App() {
