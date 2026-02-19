@@ -18,9 +18,7 @@ const Cart = () => {
         </div>
         <div className="subsdiv">
           <h5 className="news">Subscribe To Our Newsletter</h5>
-          <p className="amet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Neque iure dignissimos illum, vero, error reiciendis amet magni
-             explicabo assumenda corporis, eos eius.</p>
+          <p className="getthe">Get the best deals and product updates delivered straight to your inbox.</p>
              <p>abdulrehmangull495@gmail.com</p>
              <div>
               <button className="subsnow">Subscribe Now</button>
