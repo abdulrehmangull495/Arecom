@@ -37,9 +37,7 @@ const Home = () => {
         <div>
           <h3 className="dealsof">Deals Of The Month</h3>
           <p className="lorem">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-            sollicitudin{" "}
+           Exclusive deals of the month. Shop now and enjoy special prices before they’re gone.
           </p>
           <button className="buynow">Buynow</button>
           <h3 className="hurry">Hurry, Before It’s Too Late!</h3>
