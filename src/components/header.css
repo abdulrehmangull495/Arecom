@@ -66,3 +66,12 @@ nav ul li a{
     gap: 30px;
 }
 
+
+@media (max-width:575px) {
+    .header-nav{
+    display:none;
+    align-items: center;  
+    justify-content: space-around; 
+    width: 100%;
+}
+}

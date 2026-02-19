@@ -1,14 +1,25 @@
 .leftrightsigupdiv{
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
-    /* align-items: center; */
+    padding: 20px;
+    height: 80vh;
+    flex-wrap: wrap;
 }
 .leftsignupsideimg{
     max-width: 900px;
     width: 100%;
     height: 500px;
 }
+
+/* .rightsignupside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
 
 .goo{
     max-width: 20px;
@@ -46,6 +57,7 @@
 .createaccountdiv{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .or{
     display: flex;
@@ -60,7 +72,8 @@
   flex-direction: column;
   gap: 20px;
   padding-left: 13px;
-  padding-top: 20xp;
+  padding-top: 20px;
+  
 }
 
 .row {
@@ -89,8 +102,14 @@
     color: white;
     font-size: 11px;
     padding: 10px 200px;
+    /* max-width: 20px;
+
+    height: 80px;
+    width: 100%; */
     text-align: center;
-     border-radius: 10px
+     border-radius: 10px;
+     /* text-wrap: nowrap;
+     text-align: center; */
     
 }
 .registernow{
@@ -112,6 +131,8 @@
     padding-top: 10px;
     outline: none;
     border: none;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
    
 }
 .already{
@@ -165,4 +186,66 @@ text-decoration: none;
 .already a.active {
   text-decoration: none;
   font-size: 12px;
+}
+.lastcreatebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:575px) {
+    .rightsignupside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    height: 80vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.createaccountdiv{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rightsignupside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.createaccount{
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    /* padding: 10px 200px; */
+    max-width: 20px;
+
+    height: 80px;
+    width: 100%;
+    text-align: center;
+     border-radius: 10px;
+     text-wrap: nowrap;
+     text-align: center;
+    
+}
+
+/* .inputfields {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    
+    padding: 20px;
+
+} */
+
 }

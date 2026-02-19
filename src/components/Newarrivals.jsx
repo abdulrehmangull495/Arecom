@@ -6,13 +6,11 @@ const Headers = () => {
     <>
     
 
-    <div className="newarrivalsection">
+<div className="newarrivalsection">
         <div className="newarrivals">
           <h1 className="newarrival">New Arrivals</h1>
-          <p className="lor">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-            sollicitudin
+          <p className="Fresh">
+            Fresh arrivals are here! Be the first to grab the newest products.
           </p>
         </div>
         <div className="menus">
@@ -100,6 +98,7 @@ const Headers = () => {
           <button className="viewmore">viewmore</button>
         </div>
       </div>
+    
       <footer class="footer">
         <div className="d-flex ftdiv">
   <div class="footer-box">

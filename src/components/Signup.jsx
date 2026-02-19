@@ -39,8 +39,10 @@ const Signup = () => {
     <input type="password" placeholder="Enter Your Password" />
     <input type="password" placeholder="Confirm Password" />
   </div>
-</div>
+          </div>
+    
 
+<div className='lastcreatebtn'>
 <div className="createbtn">
   <button className='createaccount'>Create Account</button>
 </div>
@@ -49,8 +51,9 @@ const Signup = () => {
     
     </p>
 </div>
-
+         </div>
       </div>
+       
     </div>
 </>
   )

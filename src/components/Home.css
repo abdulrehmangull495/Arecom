@@ -1,8 +1,7 @@
 .firstboy{
-    /* max-width: 392px;
-    width: 100%; */
+    
     background-color: rgb(224, 224, 224,100);
-    /* height:550px; */
+   
     padding: 50px;
 }
 .herosection{
@@ -86,10 +85,11 @@
 .dealsof{
     font-size: 35px;
 }
-.lorem{
+.exc{
     color: rgb(138, 138, 138,100);
     max-width: 340px;
     width: 100%;
+    font-size: 20px;
 }
 .buynow{
     background-color: black;
@@ -143,11 +143,15 @@
 .newarrival{
     color: rgb(72, 72, 72,100);
 }
-.lor{
-     color: rgb(138, 138, 138,100);
+.Fresh{
+    color: rgb(168, 168, 168);
     max-width: 550px;
     width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    
 }
+
 .newarrivals{
     display: flex;
     justify-content: center;
@@ -308,7 +312,7 @@
     width: 100%;
     height: 40px;
 }
-.fouritemsdiv{
+ .fouritemsdiv{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -316,8 +320,8 @@ gap: 80px;
 margin-top: 30px;
 }
 
-.sit{
-    max-width: 300px;
+.stay{
+    max-width: 350px
 }
 
 .follow{
@@ -327,6 +331,9 @@ margin-top: 30px;
     
     flex-direction: column;
     padding-top: 100px;
+}
+.follow h6{
+    font-size: 23px;
 }
 .browncoat{
 
@@ -520,4 +527,574 @@ margin-top: 30px;
     align-items: center;
     color: rgb(72, 72, 72,100);
     padding-top: 10px;
+}
+
+@media (max-width:575px) {
+    .firstboy{
+    
+    background-color: rgb(224, 224, 224,100);
+   
+    padding: 50px;
+}
+
+.herosection{
+    margin-top: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+ 
+}
+.herosectiondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+    flex-wrap: wrap;
+    /* margin-left: 200px; */
+}
+
+.firstboyimg{
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+}
+
+.ultimatesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnshopnow{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.girlsimg{
+    margin-bottom: 36px;
+}
+.ulti{
+    color: rgb(72, 72, 72,100);
+}
+.newcollection{
+    color: rgb(72, 72, 72,100);
+    font-size: 35px;
+}
+
+.brownboy{
+      background-color: rgb(224, 224, 224,100);
+      padding: 50px 90px;
+
+}
+.girlsimgpink{
+    margin-top: 36px;
+}
+
+.brownboyimg{
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+}
+
+.logosection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+  .lastdatesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.dealsof{
+    font-size: 35px;
+}
+.exc{
+    color: rgb(138, 138, 138,100);
+    max-width: 340px;
+    width: 100%;
+    font-size: 20px;
+}
+.buynow{
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.hurry{
+         color: rgb(72, 72, 72,100);
+         margin-top: 50px;
+}
+
+.previousimg{
+    
+    padding: 15px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+}
+.mixgirlimg{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blackgirlimg{
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+}
+.bluegirlimg{
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+}
+
+.nextimg{
+    
+    padding: 15px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+
+}
+.prenexdiv{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.newarrivalsection{
+    margin-top: 200px;
+}
+.newarrival{
+    color: rgb(72, 72, 72,100);
+    
+}
+.Fresh{
+    color: rgb(168, 168, 168);
+    max-width: 550px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.newarrivalsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.newarrivals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.menus h6{
+    border-radius: 10px;
+    background-color: rgb(236, 236, 238);
+    padding: 15px;
+    color: rgb(138, 138, 138,100);
+    cursor: pointer;
+    
+}
+.menus h6:hover{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+  
+  padding: 50px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap; 
+          
+}
+.imgtitle{
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.product-card {
+  flex: 1;            
+  padding: 16px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.viewmore{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.viewmorediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+.peakysection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    
+}
+
+.girlside{
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+}
+.womencollection{
+    color: rgb(138, 138, 138,100);
+    font-size: 14px;
+}
+.Peakyblinders{
+    color: rgb(72, 72, 72,100);
+}
+.desc{
+    color: rgb(138, 138, 138,100);
+    font-size: 14px;
+    color: black;
+}
+.ourpeaky{
+      color: rgb(118, 118, 118,100);
+      max-width: 700px;
+      width: 100%;
+
+}
+.Peakyblinders{
+    background-color: rgb(218,218,218,100);
+    padding: 42px;
+    
+}
+.sizediv{
+    display: flex;
+   
+    gap:10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.m{
+    background-color: black;
+    color: white;
+    padding: 3px 20px;
+    border-radius: 3px;
+}
+.hundred{
+    font-size: 30px;
+    color: black;
+}
+.buy{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    outline: none;
+    box-shadow: none;
+}
+.warrentydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qualitydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.freediv{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calldiv{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dedicated,.crafted,.over,.order{
+    font-size: 12px;
+}
+.icon{
+    max-width: 400px;
+    width: 100%;
+    height: 40px;
+}
+.fouritemsdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 80px;
+margin-top: 30px;
+margin: 10px;
+}
+
+.stay{
+    max-width: 350px
+}
+
+.follow{
+    display: flex;
+    
+    align-items: center;
+    
+    flex-direction: column;
+    padding-top: 100px;
+}
+.follow h6{
+    font-size: 23px;
+}
+.browncoat{
+
+    max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+
+.blueheel{
+    max-width: 220px;
+    width: 100%;
+    height: 340px;
+     
+}
+.greydress{
+    max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+.redpant{
+    max-width: 220px;
+    width: 100%;
+    height: 340px;
+}
+.blackcoat{
+     max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+.blackgirl{
+    max-width: 200px;
+    width: 100%;
+    height: 340px;
+}
+.redfull{
+    max-width: 200px;
+    width: 100%;
+    height: 230px;
+}
+
+.followsecimg{
+    padding: 20px;
+}
+.thisissection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250,100);
+    margin-top: 50px;
+    padding: 50px;
+    
+    
+    
+}
+.is{
+    font-size: 35px;
+     
+     color: rgb(72, 72, 72,100);
+   
+
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.card1{
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+.card2{
+    background-color: #e9e9e9;
+     display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.blacktshirt{
+   max-width: 500px;
+    width: 100%;
+    height: auto;
+
+
+}
+.yellowshirt{
+   max-width: 500px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+
+.you{
+    max-width: 200px;
+    width: 100%;
+}
+.hrcard1{
+    max-width: 100px;
+    background-color: gray;
+    height: 10px;
+}
+.btndiv{
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.previousbtn{
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+}
+.previousbtn:focus {
+  outline: none;
+}
+
+.nextbtn{
+    padding: 10px;
+    margin: 5px;
+    background-color: #ddd;
+    
+    border-radius: 20px;
+    border: none;
+     border: none !important;
+  box-shadow: none !important;
+}
+.nextbtn:focus {
+  outline: none;
+}
+.lastsectionscubs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    
+}
+.subsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subsnow{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.subscribeto{
+    color: rgb(72, 72, 72,100);
+    font-size: 23px;
+}
+.getthe{
+    color: rgb(138, 138, 138,100);
+    max-width: 500px;
+    width: 100%;
+    font-size: 13.5px;
+}
+.camelcoat{
+    max-width: 270px;
+    width: 100%;
+     height: 400px;
+}
+.darkgreycoat{
+    max-width: 200px;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.ftdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+
+}
+.arecom{
+    color: rgb(72, 72, 72,100);
+    color: black;
+    font-weight: 700;
+}
+.footer-box a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(72, 72, 72,100);
+    gap: 10px;
+}
+.copydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(72, 72, 72,100);
+    padding-top: 10px;
+}
 }

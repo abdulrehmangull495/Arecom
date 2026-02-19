@@ -36,7 +36,7 @@ const Home = () => {
       <div className="lastdatesection">
         <div>
           <h3 className="dealsof">Deals Of The Month</h3>
-          <p className="lorem">
+          <p className="exc">
            Exclusive deals of the month. Shop now and enjoy special prices before they’re gone.
           </p>
           <button className="buynow">Buynow</button>
@@ -45,24 +45,16 @@ const Home = () => {
         <div className="mixgirlimg">
           <img className="blackgirlimg" src="blackgirl.png" alt="" />
           <img className="bluegirlimg" src="bluegirl.png" alt="" />
-          {/* <img className='whiteshirtgirlimg' src="whiteshirtgirl.png" alt="" /> */}
+          
         </div>
-        {/* <div className='prenexdiv'>
-              <img className='previousimg' src="previous.png" alt="" />
-              <img className='nextimg' src="next.png" alt="" />
-            </div> */}
-        {/* <div>
-                
-            </div> */}
+        
       </div>
 
       <div className="newarrivalsection">
         <div className="newarrivals">
           <h1 className="newarrival">New Arrivals</h1>
-          <p className="lor">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-            sollicitudin{" "}
+          <p className="Fresh">
+            Fresh arrivals are here! Be the first to grab the newest products.
           </p>
         </div>
         <div className="menus">
@@ -159,11 +151,8 @@ const Home = () => {
           <h6 className="womencollection mb-0">Women Collection</h6>
           <h4 className="Peakyblinders  mb-0">Peaky Blinders</h4>
           <h6 className="desc mb-0">DESCRIPTION</h6>
-          <p className="ipsum mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-            sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Scelerisque duis.
+          <p className="ourpeaky  mb-0">
+           Shop our Peaky Blinders Women Collection and elevate your wardrobe with exclusive, stylish pieces.
           </p>
           <div className="sizediv">
             <p>Size:</p>
@@ -218,10 +207,8 @@ const Home = () => {
 
       <div className="follow">
         <h6>Follow Us On Instagram</h6>
-        <p className="sit">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-          duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-          sollicitudin
+        <p className="stay">
+      Stay updated with our latest products and offers.
         </p>
         <div className="followsecimg">
           <img  className="browncoat" src="brown coat.png" alt="" />
@@ -231,24 +218,18 @@ const Home = () => {
           <img  className="blackcoat" src="black coat.png" alt="" />
           <img  className="blackgirl" src="blackgirl.png" alt="" />
           <img  className="redfull" src="redfull.png" alt="" />
-          {/* <img  className="redfull" src="redfull.png" alt="" /> */}
-          {/* <img  className="redfull" src="redfull.png" alt="" /> */}
+          
         </div>
       </div>
       <div className="thisissection">
         <h6 className="is">This Is What Our Customers Say</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis</p>
+        <p>Hear from our satisfied customers and see why our products are loved by many.</p>
         <div className="cardbox">
           <div className="card1">
             <div className="d-flex blacktshirtsec p-5">
               <img className="blacktshirt" src="blacktshirt.png" alt="" />
             
-                 {/* <div className="">
-                  <h3>James K.</h3>
-                 <p>Traveler</p>
-                 </div>
-               
-                 <hr className="hrcard1"/> */}
+                 
             </div>
             <div>
                 <p className="you">"You won't regret it. I would like to personally thank you for
@@ -262,7 +243,7 @@ const Home = () => {
           </div>
           <div className="card2">
             <div className="d-flex blacktshirtsec p-5">
-              <img className="blacktshirt" src="yellowshirt.png" alt="" />
+              <img className="yellowshirt" src="yellowshirt.png" alt="" />
             
                  
             </div>
@@ -289,10 +270,8 @@ const Home = () => {
           <img src="camelcoat.png" className="camelcoat" alt="" />
         </div>
         <div className="subsdiv">
-          <h5 className="news">Subscribe To Our Newsletter</h5>
-          <p className="amet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Neque iure dignissimos illum, vero, error reiciendis amet magni
-             explicabo assumenda corporis, eos eius.</p>
+          <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
+          <p className="getthe">Get the best deals and product updates delivered straight to your inbox.</p>
              <p>abdulrehmangull495@gmail.com</p>
              <div>
               <button className="subsnow">Subscribe Now</button>

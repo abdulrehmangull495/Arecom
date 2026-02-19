@@ -1,86 +1,218 @@
-.newarrivalsection{
+.fouritemsdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 80px;
+margin-top: 30px;
+margin: 10px;
+}
+
+.stay{
+    max-width: 350px
+}
+
+.follow{
+    display: flex;
+    
+    align-items: center;
+    
+    flex-direction: column;
+    padding-top: 100px;
+}
+.follow h6{
+    font-size: 23px;
+}
+.browncoat{
+
+    max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+
+.blueheel{
+    max-width: 220px;
+    width: 100%;
+    height: 340px;
+     
+}
+.greydress{
+    max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+.redpant{
+    max-width: 220px;
+    width: 100%;
+    height: 340px;
+}
+.blackcoat{
+     max-width: 200px;
+    width: 100%;
+    height: 260px;
+}
+.blackgirl{
+    max-width: 200px;
+    width: 100%;
+    height: 340px;
+}
+.redfull{
+    max-width: 200px;
+    width: 100%;
+    height: 230px;
+}
+
+.followsecimg{
+    padding: 20px;
+}
+.thisissection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250,100);
     margin-top: 50px;
+    padding: 50px;
+    
+    
+    
 }
-.newarrival{
-    color: rgb(72, 72, 72,100);
+.is{
+    font-size: 35px;
+     
+     color: rgb(72, 72, 72,100);
+   
+
 }
-.lor{
-     color: rgb(138, 138, 138,100);
-    max-width: 550px;
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.card1{
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+.card2{
+    background-color: #e9e9e9;
+     display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.blacktshirt{
+   max-width: 500px;
+    width: 100%;
+    height: auto;
+
+
+}
+.yellowshirt{
+   max-width: 500px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+
+.you{
+    max-width: 200px;
     width: 100%;
 }
-.newarrivals{
+.hrcard1{
+    max-width: 100px;
+    background-color: gray;
+    height: 10px;
+}
+.btndiv{
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.previousbtn{
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+}
+.previousbtn:focus {
+  outline: none;
+}
+
+.nextbtn{
+    padding: 10px;
+    margin: 5px;
+    background-color: #ddd;
+    
+    border-radius: 20px;
+    border: none;
+     border: none !important;
+  box-shadow: none !important;
+}
+.nextbtn:focus {
+  outline: none;
+}
+.lastsectionscubs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    
+}
+.subsdiv{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
-.imgtitle{
-    font-weight: 700;
-    padding-top: 10px;
-}
-.menus{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-.menus h6{
-    border-radius: 10px;
-    background-color: rgb(236, 236, 238);
-    padding: 15px;
-    color: rgb(138, 138, 138,100);
-    cursor: pointer;
-    
-}
-.menus h6:hover{
-    background-color: black;
-    padding: 15px;
-    color: white;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-
-.cards {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;  
-  
-  padding: 50px;
-}
-
-.card-row {
-  display: flex;
-  gap: 20px; 
-  flex-wrap: wrap; 
-          
-}
-
-.product-card {
-  flex: 1;            
-  padding: 16px;
-  border: 1px solid #ddd;
-  text-align: center;
-}
-.viewmore{
+.subsnow{
     background-color: black;
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
-.viewmorediv{
+.subscribeto{
+    color: rgb(72, 72, 72,100);
+    font-size: 23px;
+}
+.getthe{
+    color: rgb(138, 138, 138,100);
+    max-width: 500px;
+    width: 100%;
+    font-size: 13.5px;
+}
+.camelcoat{
+    max-width: 270px;
+    width: 100%;
+     height: 400px;
+}
+.darkgreycoat{
+    max-width: 200px;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.ftdiv{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    outline: none;
+    padding-top: 100px;
 
 }
-
-
-
 
 .ftdiv{
     display: flex;

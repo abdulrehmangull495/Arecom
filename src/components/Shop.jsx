@@ -1,5 +1,6 @@
 import React from 'react'
 import './shop.css';
+
 import { NavLink } from 'react-router-dom';
 const Shop = () => {
   return (
@@ -178,10 +179,8 @@ const Shop = () => {
 
       <div className="follow">
         <h6>Follow Us On Instagram</h6>
-        <p className="sit">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-          duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-          sollicitudin
+        <p className="stay">
+      Stay updated with our latest products and offers.
         </p>
         <div className="followsecimg">
           <img  className="browncoat" src="brown coat.png" alt="" />
@@ -191,24 +190,18 @@ const Shop = () => {
           <img  className="blackcoat" src="black coat.png" alt="" />
           <img  className="blackgirl" src="blackgirl.png" alt="" />
           <img  className="redfull" src="redfull.png" alt="" />
-          {/* <img  className="redfull" src="redfull.png" alt="" /> */}
-          {/* <img  className="redfull" src="redfull.png" alt="" /> */}
+          
         </div>
       </div>
       <div className="thisissection">
         <h6 className="is">This Is What Our Customers Say</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis</p>
+        <p>Hear from our satisfied customers and see why our products are loved by many.</p>
         <div className="cardbox">
           <div className="card1">
             <div className="d-flex blacktshirtsec p-5">
               <img className="blacktshirt" src="blacktshirt.png" alt="" />
             
-                 {/* <div className="">
-                  <h3>James K.</h3>
-                 <p>Traveler</p>
-                 </div>
-               
-                 <hr className="hrcard1"/> */}
+                 
             </div>
             <div>
                 <p className="you">"You won't regret it. I would like to personally thank you for
@@ -222,14 +215,9 @@ const Shop = () => {
           </div>
           <div className="card2">
             <div className="d-flex blacktshirtsec p-5">
-              <img className="blacktshirt" src="yellowshirt.png" alt="" />
+              <img className="yellowshirt" src="yellowshirt.png" alt="" />
             
-                 {/* <div className="">
-                  <h3>James K.</h3>
-                 <p>Traveler</p>
-                 </div>
-               
-                 <hr className="hrcard1"/> */}
+                 
             </div>
             <div>
                 <p className="you">"Just saw i was looking for .Thank you for making it painless,pleasent and most of all hassle Free.
@@ -254,10 +242,8 @@ const Shop = () => {
           <img src="camelcoat.png" className="camelcoat" alt="" />
         </div>
         <div className="subsdiv">
-          <h5 className="news">Subscribe To Our Newsletter</h5>
-          <p className="amet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Neque iure dignissimos illum, vero, error reiciendis amet magni
-             explicabo assumenda corporis, eos eius.</p>
+          <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
+          <p className="getthe">Get the best deals and product updates delivered straight to your inbox.</p>
              <p>abdulrehmangull495@gmail.com</p>
              <div>
               <button className="subsnow">Subscribe Now</button>
