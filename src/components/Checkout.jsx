@@ -1,7 +1,7 @@
 import React from 'react'
 import "./checkout.css"
 import { NavLink } from 'react-router-dom'
-const checkout = () => {
+const Checkout = () => {
   return (
     <>
     <div className="title">
@@ -126,4 +126,4 @@ const checkout = () => {
   )
 }
 
-export default checkout
+export default Checkout
