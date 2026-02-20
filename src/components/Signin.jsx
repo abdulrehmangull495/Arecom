@@ -45,7 +45,7 @@ const Signin = () => {
 
 <div className='forgot'>
   
-  <ul><li><NavLink to="/Forgot">Forget Your Password</NavLink></li></ul>
+  <ul><li><NavLink to="/Forget">Forget Your Password</NavLink></li></ul>
   
 </div>
 
