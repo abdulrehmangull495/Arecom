@@ -115,7 +115,7 @@ const Shop = () => {
 </div>
  
 
- <div className="peakysection">
+ <div className="itspeakysection">
         <div>
           <img className="girlside" src="girlsidepose.png" alt="" />
         </div>
@@ -123,11 +123,8 @@ const Shop = () => {
           <h6 className="womencollection mb-0">Women Collection</h6>
           <h4 className="Peakyblinders  mb-0">Peaky Blinders</h4>
           <h6 className="desc mb-0">DESCRIPTION</h6>
-          <p className="ipsum mb-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
-            duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices
-            sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Scelerisque duis.
+          <p className="shopover mb-0">
+            Shop our Peaky Blinders Women Collection and elevate your wardrobe with exclusive, stylish pieces.
           </p>
           <div className="sizediv">
             <p>Size:</p>
@@ -197,8 +194,8 @@ const Shop = () => {
         </div>
       </div>
       <div className="thisissection">
-        <h6 className="is">This Is What Our Customers Say</h6>
-        <p>Hear from our satisfied customers and see why our products are loved by many.</p>
+        <h6 className="thiswhatis">This Is What Our Customers Say</h6>
+        <p className='hearfrom'>Hear from our satisfied customers and see why our products are loved by many.</p>
         <div className="cardbox">
           <div className="card1">
             <div className="d-flex blacktshirtsec p-5">
@@ -267,7 +264,7 @@ const Shop = () => {
     <p className="m-0 arecom">Arecom</p>
   </div>
 
-  <div class="footer-box">
+  <div className="footer-box">
   
 
     <a href="#">Support Center</a>
