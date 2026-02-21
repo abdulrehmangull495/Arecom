@@ -6,7 +6,7 @@ const Signup = () => {
     <>
       <div className="leftrightsigupdiv">
         <div className="leftsignupside">
-          <img className="leftsignupsideimg" src="brown coat.png" alt="" />
+          <img className="leftsignupsideimg" src="blackclassicshirt.png" alt="" />
         </div>
         <div className="rightsignupside">
           <h1>Arecom</h1>
