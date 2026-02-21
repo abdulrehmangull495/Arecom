@@ -15,10 +15,10 @@ const Forget = () => {
         <h5>Forget Password</h5>
         <div className='createaccountdiv'>
               <div className='googlediv'>
-            <h6 className='google'>  <img className='goo' src="google.png" alt="" />Sign up with Google</h6>
+            <button className='google'>  <img className='goo' src="google.png" alt="" />Sign up with Google</button>
               </div>
           <div>
-            <h6 className='mail'> <img className='ma' src="mail.png" alt="" />Sign up with Mail</h6>
+            <button className='mail'> <img className='ma' src="mail.png" alt="" />Sign up with Mail</button>
           </div>
           
         </div>

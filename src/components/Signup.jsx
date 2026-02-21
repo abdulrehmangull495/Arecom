@@ -13,18 +13,18 @@ const Signup = () => {
           <h5>Create Account</h5>
           <div className="createaccountdiv">
             <div className="googlediv">
-              <h6 className="google">
+              <button className="google">
                 
                 <img className="goo" src="google.png" alt="" />
                 Sign up with Google
-              </h6>
+              </button>
             </div>
             <div>
-              <h6 className="mail">
+              <button className="mail">
                 
                 <img className="ma" src="mail.png" alt="" />
                 Sign up with Mail
-              </h6>
+              </button>
             </div>
           </div>
           <div className="or">
