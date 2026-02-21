@@ -39,8 +39,8 @@ const Signin = () => {
 </div>
 
 <div className="createbtn">
-  <button className='createaccount'>Sign In</button>
-  <button className='registernow '>Register Now</button>
+  <button className='signinbtn'>Sign In</button>
+  <button className='registernowbtn '>Register Now</button>
 </div>
 
 <div className='forgot'>

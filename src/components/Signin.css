@@ -84,7 +84,7 @@
   color: rgb(157,157,157);
   font-size: 13px;
 }
-.createaccount{
+.signinbtn{
     background-color: black;
     color: white;
     font-size: 13px;
@@ -98,10 +98,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 20px;
     padding-top: 10px;
-    outline: none;
-    border: none;
    
+   
+}
+
+.registernowbtn{
+     background-color: rgb(255, 255, 255);
+    color: rgb(91, 134, 229);
+    font-size: 13px;
+    padding: 10px 185px;
+    outline: none;
+    border:  1px solid rgb(91, 134, 229);
+    text-align: center;
+     border-radius: 10px;
+     font-weight: bold;
 }
 .already{
     display: flex;
@@ -142,11 +154,50 @@
 }
 .forget a{
       text-decoration:none;
-      color: rgb(131, 131, 131);
+      /* color: rgb(131, 131, 131); */
+       color: rgb(91, 134, 229);
+      font-weight: bold;
+      
 }
 .forgot a,
 .forgot a.active {
   text-decoration: none;
   font-size: 12px;
+   font-weight: bold;
+  color: rgb(91, 134, 229);
+}
+
+@media (max-width:535px) {
+    .createbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    outline: none;
+    border: none;
+    gap: 10px;
+   
+}
+
+.signinbtn{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 10px 15px;
+    text-align: center;
+     border-radius: 10px
+    
+}
+
+.registernowbtn{
+     background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 10px 15px;
+    text-align: center;
+     border-radius: 10px
+}
+    
 }
 
