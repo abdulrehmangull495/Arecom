@@ -10,8 +10,10 @@ import Signup from './components/Signup'
 import Signin from './components/Signin'
 import Forget from './components/Forget'
 import Mycheckout from './components/Mycheckout'
-
+import Confirmation from './components/Confirmation'
+import Resend from './components/Resend'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
+
 function App() {
   // const [count, setCount] = useState(0)
   
@@ -56,6 +58,14 @@ function App() {
      {
      path:"/Forget",
      element:<><Headers/><Forget/></>
+    },
+     {
+     path:"/Confirmation",
+     element:<><Headers/><Confirmation/></>
+    },
+     {
+     path:"/Resend",
+     element:<><Headers/><Resend/></>
     },
 
 

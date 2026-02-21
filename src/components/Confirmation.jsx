@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Forget.css"
+import "./Confirmation.css"
 import { NavLink } from 'react-router-dom'
-const Forget = () => {
+const Confirmation = () => {
   return (
    <>
     <div className='leftrightsigupdiv'>
@@ -12,8 +12,8 @@ const Forget = () => {
         <h1>
           Arecom
         </h1>
-        <h5>Forget Password</h5>
-        <div className='createaccountdiv'>
+        <h6 className='enterthe'>Enter The Confirmation Code</h6>
+        {/* <div className='createaccountdiv'>
               <div className='googlediv'>
             <button className='google'>  <img className='goo' src="google.png" alt="" />Sign up with Google</button>
               </div>
@@ -22,30 +22,30 @@ const Forget = () => {
           </div>
           
         </div>
-        <div className='or'><h6>OR</h6></div>
+        <div className='or'><h6>OR</h6></div> */}
         
        <div className="inputfields">
   <div className="row">
-    <input type="text" placeholder="Enter First Name" required />
-    <input type="text" placeholder="Enter Last Name" required />
+    <input type="text" placeholder="Enter Confirmation Code" required />
+    {/* <input type="text" placeholder="Enter Last Name" required /> */}
   </div>
 
-  <div className="row">
+  {/* <div className="row">
     <input type="email" placeholder="Enter Email" />
     <input type="text" placeholder="Enter Phone Number" />
-  </div>
+  </div> */}
 
 
 </div>
 
 <div className="createbtn">
-  {/* <NavLink to="/Confirmation">Send Confirmation Code</NavLink> */}
-  <button className='createaccount'><NavLink to="/Confirmation">Send Confirmation Code</NavLink></button>
-  <div className='alreadyhave'>
-    <p className='alreadytext'>Already have an account?  </p>
-       <NavLink to="/Signin" className="loginbtnforget">Login</NavLink>
+    
+  <button className='createaccount'>Recover Account</button>
+  <div className='resenddiv'>
+    <p className='Dont'>Don't Receive Confirmation Code? </p>
+        <NavLink to="/Resend" className="resendbtn">Resend</NavLink>
       
-     
+      
   </div>
 </div>
 
@@ -53,8 +53,9 @@ const Forget = () => {
 
       </div>
     </div>
+   
    </>
   )
 }
 
-export default Forget
+export default Confirmation

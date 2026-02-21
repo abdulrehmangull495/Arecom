@@ -33,18 +33,18 @@ const Signup = () => {
 
           <form className="inputfields">
             <div className="row">
-              <input type="text" placeholder="Enter First Name" />
-              <input type="text" placeholder="Enter Last Name" />
+              <input type="text" placeholder="Enter First Name" required />
+              <input type="text" placeholder="Enter Last Name" required />
             </div>
 
             <div className="row">
-              <input type="email" placeholder="Enter Email" />
-              <input type="text" placeholder="Enter Phone Number" />
+              <input type="email" placeholder="Enter Email" required />
+              <input type="text" placeholder="Enter Phone Number" required />
             </div>
 
             <div className="row">
-              <input type="password" placeholder="Enter Your Password" />
-              <input type="password" placeholder="Confirm Password" />
+              <input type="password" placeholder="Enter Your Password" required />
+              <input type="password" placeholder="Confirm Password" required />
             </div>
           </form>
 

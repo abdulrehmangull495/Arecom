@@ -1,0 +1,16 @@
+.createaccount a {
+    text-decoration: none;
+    color: white;
+}
+
+.alreadyhave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginbtnforget{
+    text-decoration: none;
+    
+}
