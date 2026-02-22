@@ -4,7 +4,7 @@ const Deals = () => {
   return (
     <div>
       <h1>
-        abdul
+        my deals
       </h1>
     </div>
   )

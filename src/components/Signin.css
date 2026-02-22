@@ -2,7 +2,6 @@
     display: flex;
     justify-items: center;
     gap: 30px;
-    /* align-items: center; */
 }
 .leftsignupsideimg{
     max-width: 900px;
@@ -154,7 +153,6 @@
 }
 .forget a{
       text-decoration:none;
-      /* color: rgb(131, 131, 131); */
        color: rgb(91, 134, 229);
       font-weight: bold;
       

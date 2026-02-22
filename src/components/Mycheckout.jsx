@@ -1,7 +1,6 @@
 import React from 'react'
 import "./checkout.css"
 
-// import { NavLink } from 'react-router-dom'
 const Mycheckout = () => {
   return (
     <>
@@ -54,7 +53,7 @@ const Mycheckout = () => {
   <div className='paymentdiv'>
   <div className='crddiv'>
     <input className='carddetails' type="text" name="" id=""  placeholder='Credit Card'/>
-    {/* <img src="trustbag.png" alt="" /> */}
+    
   </div>
   <div className='cardnodiv'>
 <input type="text"  placeholder='Enter Card Number' className='cardno'/>
