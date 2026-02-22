@@ -18,13 +18,12 @@ const Resend = () => {
        <div className="inputfields">
   <div className="row">
     <input type="text" placeholder="New Password" required />
-    {/* <input type="text" placeholder="Enter Confirmation Code" required /> */}
-    {/* <input type="text" placeholder="Enter Last Name" required /> */}
+   
   </div>
 
   <div className="row">
     <input type="text" placeholder="Confirm New Password" />
-    {/* <input type="text" placeholder="Enter Phone Number" /> */}
+   
   </div>
 
 
