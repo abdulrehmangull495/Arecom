@@ -71,34 +71,7 @@ function App() {
 
 
   ])
-// const router=createBrowserRouter([
-//   {
-//     path:"/",
-//     element:<><Headers/><Home/></>
-//   },
 
-//    {
-//     path:"/Deals",
-//     element:<><Headers/><Deals/></>
-
-//   },
-//    {
-//     path:"/Contact",
-//     element:<><Navbar/><Contact/></>
-
-//   },
-//    {
-//     path:"/Services",
-//     element:<><Navbar/><Services/></>
-
-//   },
-//   {
-//     path:"/user/:username",
-//     element:<><Navbar/><User/></>
-
-//   },
-
-//  ])
   return (
     <>
     

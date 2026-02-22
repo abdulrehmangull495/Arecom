@@ -39,7 +39,7 @@ const Forget = () => {
 </div>
 
 <div className="createbtn">
-  {/* <NavLink to="/Confirmation">Send Confirmation Code</NavLink> */}
+  
   <button className='createaccount'><NavLink to="/Confirmation">Send Confirmation Code</NavLink></button>
   <div className='alreadyhave'>
     <p className='alreadytext'>Already have an account?  </p>
