@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import { NavLink } from "react-router-dom";
+NavLink
 const Home = () => {
   return (
     <>
@@ -39,7 +41,8 @@ const Home = () => {
           <p className="exc">
            Exclusive deals of the month. Shop now and enjoy special prices before they’re gone.
           </p>
-          <button className="buynow">Buynow</button>
+          <button className="buynow">
+             <NavLink to="/Shop" className="buynowbtn">Buy Now</NavLink></button>
           <h3 className="hurry">Hurry, Before It’s Too Late!</h3>
         </div>
         <div className="mixgirlimg">
