@@ -13,16 +13,7 @@ const Resend = () => {
           Arecom
         </h1>
         <h6 className='enterthe'>Enter Your New Password</h6>
-        {/* <div className='createaccountdiv'>
-              <div className='googlediv'>
-            <button className='google'>  <img className='goo' src="google.png" alt="" />Sign up with Google</button>
-              </div>
-          <div>
-            <button className='mail'> <img className='ma' src="mail.png" alt="" />Sign up with Mail</button>
-          </div>
-          
-        </div>
-        <div className='or'><h6>OR</h6></div> */}
+        
         
        <div className="inputfields">
   <div className="row">

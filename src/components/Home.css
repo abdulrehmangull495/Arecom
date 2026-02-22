@@ -699,7 +699,6 @@ margin-top: 30px;
 }
 .newarrivalsection{
     margin-top: 200px;
-    /* padding-right: 100px; */
     margin-right: 20px;
 }
 .newarrival{
@@ -799,7 +798,6 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 100px; */
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px;
@@ -894,10 +892,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 80px;
-/* margin-top: 30px;
-
-
-margin: 10px; */
 padding-left: 50px;
 
 }
@@ -969,8 +963,6 @@ padding-left: 50px;
     
     position: relative;
     left: 50px;
-    
-    
     
 }
 .isthis{
@@ -1880,10 +1872,6 @@ margin: 10px;
 }
 .Peakyblinders{
     color: rgb(72, 72, 72,100);
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
 .desc{
     color: rgb(138, 138, 138,100);
@@ -2350,10 +2338,6 @@ margin-top: 30px;
 }
 .Peakyblinders{
     color: rgb(72, 72, 72,100);
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
 .desc{
     color: rgb(138, 138, 138,100);
