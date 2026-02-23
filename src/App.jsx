@@ -12,6 +12,7 @@ import Forget from './components/Forget'
 import Mycheckout from './components/Mycheckout'
 import Confirmation from './components/Confirmation'
 import Resend from './components/Resend'
+import Contactus from './components/Contactus'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 function App() {
@@ -67,6 +68,11 @@ function App() {
      path:"/Resend",
      element:<><Headers/><Resend/></>
     },
+     {
+     path:"/Contactus",
+     element:<><Headers/><Contactus/></>
+    },
+
 
 
 
