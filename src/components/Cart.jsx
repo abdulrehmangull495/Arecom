@@ -14,10 +14,10 @@ const Cart = () => {
       
       <div className="lastsectionscubs">
         <div>
-          <img src="camelcoat.png" className="camelcoat" alt="" />
+          <img src="camelcoat.png" className="camelcoatpic" alt="" />
         </div>
         <div className="subsdiv">
-          <h5 className="news">Subscribe To Our Newsletter</h5>
+          <h5 className="newsletter">Subscribe To Our Newsletter</h5>
           <p className="getthe">Get the best deals and product updates delivered straight to your inbox.</p>
              <p>abdulrehmangull495@gmail.com</p>
              <div>
@@ -26,7 +26,7 @@ const Cart = () => {
 
         </div>
         <div>
-          <img src="darkgreycoat.png" className="darkgreycoat" alt="" />
+          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
       </div>
 

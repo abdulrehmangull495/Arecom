@@ -35,3 +35,14 @@
 .shopingcart p{
     margin-left: 10px;
 }
+.newsletter{
+    white-space: nowrap;
+}
+
+@media (min-width:200px)  and (max-width:525px){
+    .newsletter{
+    white-space: nowrap;
+    font-size: 17px;
+}
+    
+}

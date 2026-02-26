@@ -27,7 +27,7 @@ const Header = () => {
   <li><NavLink to="/Mycheckout" onClick={handleLinkClick}>Checkout</NavLink></li>
   <li><NavLink to="/Contactus" onClick={handleLinkClick}>Contact Us</NavLink></li>
   <li><NavLink to="/Signin" onClick={handleLinkClick}>Sign In</NavLink></li>
-  <li><NavLink to="/Contactus" onClick={handleLinkClick}><img src="cart.png" alt="cart" /></NavLink></li>
+  <li><NavLink to="/Cart" onClick={handleLinkClick}><img src="cart.png" alt="cart" /></NavLink></li>
   <li>
     <NavLink to="/Signup" className="signup-btn" onClick={handleLinkClick}>
       Sign Up
