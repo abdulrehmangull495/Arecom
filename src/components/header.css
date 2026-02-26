@@ -3,7 +3,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  /* border-bottom: 1px solid #eee; */
+  
   position: sticky;
 }
 
@@ -76,5 +76,8 @@
 
   .nav-links.active {
     display: flex;
+  }
+  .logo{
+    margin-left: 10px;
   }
 }
