@@ -1,49 +1,50 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import "./contactus.css"
 const Contactus = () => {
   return (
     <>
-    <div className='leftrightsigupdiv'>
-          <div className="leftsignupside">
-            <img className='leftsignupsideimg' src="blackclassicshirt.png" alt="" />
+    <div className='contactus'>
+      <h1>Contact Us</h1>
+      <p>Get in touch with us</p>
+    
+    </div>
+    <div className='leftrightcontactusdiv'>
+          <div className="leftcontactusside">
+            <img className='leftcontactussideimg' src="blackclassicshirt.png" alt="" />
           </div>
-          <div className="rightsignupside">
-            <h1>
-              Arecom
-            </h1>
-            <h5>Sign in to Arecom</h5>
-            <div className='createaccountdiv'>
-                  <div className='googlediv'>
-                <button className='google'>  <img className='goo' src="google.png" alt="" />Sign up with Google</button>
-                  </div>
-              <div>
-                <button className='mail'> <img className='ma' src="mail.png" alt="" />Sign up with Mail</button>
-              </div>
-              
-            </div>
-            <div className='or'><h6>OR</h6></div>
-            
-            <form className="inputfields">
-      <div className="row">
-        <input type="email" placeholder="Email" />
-        
+          <div className="rightcontactusside">
+
+           
+
+     
+
+<div className="contact-wrapper">
+  <div className="contact-form">
+    <form action="">
+      <div className="group-form">
+        <label htmlFor="Name">Name</label>
+        <input type="text" id='name' />
       </div>
-      <div className="row">
-        <input type="password" placeholder="Enter Your Password" />
-        
+      <div className="group-form">
+        <label htmlFor="email">Email</label>
+        <input type="email" id='email' />
+      </div>
+      <div className="group-form">
+        <label htmlFor="Message">Message</label>
+        <textarea name="" id="" className='textarea'></textarea>
+      </div>
+      <div className="buttonsubmit">
+        <button type='submit' className='send'>Send Message</button>
       </div>
     </form>
-    <div className="createbtn">
-      <button className='signinbtn'>Sign In</button>
-      <button className='registernowbtn '>Register Now</button>
+    <div className="contact-info">
+      <h6>Gulistan Colony no 1 near awan chowk fsd</h6>
+      <p>abdulrehmangull495@gmail.com</p>
+      <p>03141458867</p>
     </div>
-    
-    <div className='forgot'>
-      
-      <ul><li><NavLink to="/Forget">Forget Your Password</NavLink></li></ul>
-      
-    </div>
-    
+  </div>
+</div>
           </div>
         </div>
     </>
