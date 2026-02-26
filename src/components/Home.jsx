@@ -289,7 +289,7 @@ const Home = () => {
       
       <footer className="footer">
         <div className="d-flex ftdiv">
-  <div class="footer-box">
+  <div className="footer-box">
     
     <p className="m-0 arecom">Arecom</p>
   </div>
