@@ -83,7 +83,7 @@ const Mycheckout = () => {
       </div>
        <div className="lastsectionscubs">
         <div>
-          <img src="camelcoat.png" className="camelcoat" alt="" />
+          <img src="camelcoat.png" className="camelcoatpic" alt="" />
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
@@ -95,19 +95,19 @@ const Mycheckout = () => {
 
         </div>
         <div>
-          <img src="darkgreycoat.png" className="darkgreycoat" alt="" />
+          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
       </div>
 
       
-      <footer class="footer">
+      <footer className="footer">
         <div className="d-flex ftdiv">
   <div class="footer-box">
     
     <p className="m-0 arecom">Arecom</p>
   </div>
 
-  <div class="footer-box">
+  <div className="footer-box">
   
 
     <a href="#">Support Center</a>

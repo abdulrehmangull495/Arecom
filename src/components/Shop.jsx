@@ -193,50 +193,7 @@ const Shop = () => {
           
         </div>
       </div>
-      <div className="thisissection">
-        <h6 className="thiswhatis">This Is What Our Customers Say</h6>
-        <p className='hearfrom'>Hear from our satisfied customers and see why our products are loved by many.</p>
-        <div className="cardbox">
-          <div className="card1">
-            <div className="d-flex blacktshirtsec p-5">
-              <img className="blacktshirtimg" src="blacktshirt.png" alt="" />
-            
-                 
-            </div>
-            <div>
-                <p className="you">"You won't regret it. I would like to personally thank you for
-                 your outstanding product. Absolutely wonderful!"</p>
-                 <h3>James.k</h3>
-                 <p>Traveler</p>
-            </div>
-            <div>
-              
-            </div>
-          </div>
-          <div className="card2">
-            <div className="d-flex blacktshirtsec p-5">
-              <img className="yellowshirtimg" src="yellowshirt.png" alt="" />
-            
-                 
-            </div>
-            <div>
-                <p className="you">"Just saw i was looking for .Thank you for making it painless,pleasent and most of all hassle Free.
-                  All Products are Great"</p>
-                 <h3>Megen.W</h3>
-                 <p>UI Designer</p>
-            </div>
-            <div>
-              
-            </div>
-          </div>
-         
-          
-        </div>
-         <div className="d-flex btndiv">
-             <button><img  className="previousbtn" src="previous.png" alt="" /></button>
-          <button><img className="nextbtn" src="nextbt.png" alt="" /></button>
-          </div>
-      </div>
+      
       <div className="lastsectionscubs">
         <div>
           <img src="camelcoat.png" className="camelcoatpic" alt="" />
