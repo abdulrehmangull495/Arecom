@@ -199,7 +199,7 @@ const Shop = () => {
         <div className="cardbox">
           <div className="card1">
             <div className="d-flex blacktshirtsec p-5">
-              <img className="blacktshirt" src="blacktshirt.png" alt="" />
+              <img className="blacktshirtimg" src="blacktshirt.png" alt="" />
             
                  
             </div>
@@ -215,7 +215,7 @@ const Shop = () => {
           </div>
           <div className="card2">
             <div className="d-flex blacktshirtsec p-5">
-              <img className="yellowshirt" src="yellowshirt.png" alt="" />
+              <img className="yellowshirtimg" src="yellowshirt.png" alt="" />
             
                  
             </div>
@@ -239,7 +239,7 @@ const Shop = () => {
       </div>
       <div className="lastsectionscubs">
         <div>
-          <img src="camelcoat.png" className="camelcoat" alt="" />
+          <img src="camelcoat.png" className="camelcoatpic" alt="" />
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
@@ -251,7 +251,7 @@ const Shop = () => {
 
         </div>
         <div>
-          <img src="darkgreycoat.png" className="darkgreycoat" alt="" />
+          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
       </div>
 

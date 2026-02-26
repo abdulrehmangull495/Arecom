@@ -450,12 +450,12 @@ margin-top: 30px;
     width: 100%;
     font-size: 14.5px;
 }
-.camelcoat{
+.camelcoatpic{
     max-width: 270px;
     width: 100%;
      height: 400px;
 }
-.darkgreycoat{
+.darkgreycoatpic{
     max-width: 200px;
     height: 400px;
     width: 100%;
@@ -763,6 +763,9 @@ margin-top: 30px;
     padding-top: 100px;
     padding-right: 60px;
 }
+.follow h6{
+    white-space: nowrap;
+}
 .browncoat{
 
     max-width: 200px;
@@ -810,8 +813,14 @@ margin-top: 30px;
     align-items: center;
     flex-direction: column;
     background-color: rgb(250, 250, 250,100);
-    margin-top: 50px;
-    padding-right: 30px;
+    /* margin-top: 50px; */
+    /* padding-right: 30px; */
+    /* position: relative; */
+    /* margin: 50px;
+    padding: 30px; */
+    
+    /* right: 100px; */
+
     /* padding: 50px; */
     /* padding: 30px; */
     
@@ -853,10 +862,14 @@ margin-top: 30px;
     hei */
 }
 
-.blacktshirt{
-    max-width: 100px;
+.blacktshirtimg{
+    max-width: 300px;
     width: 100%;
 
+}
+.yellowshirtimg{
+      max-width: 300px;
+    width: 100%;
 }
 
 .you{
@@ -902,6 +915,7 @@ margin-top: 30px;
     align-items: center;
     padding-top: 100px;
     margin-right: 100px;
+    gap: 30px;
     
 }
 .subsdiv{
@@ -910,13 +924,20 @@ margin-top: 30px;
     align-items: center;
     flex-direction: column;
 }
+.getthe{
+    text-align: center;
+}
 .subsnow{
      background-color: black;
 
     color: white;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 10px;
     font-weight: 600;
+    font-size: 14px;
+}
+.subscribeto{
+    white-space: nowrap;
 }
 .news{
     color: rgb(72, 72, 72,100);
@@ -928,14 +949,14 @@ margin-top: 30px;
     width: 100%;
     font-size: 14.5px;
 }
-.camelcoat{
-    max-width: 270px;
-    width: 100%;
-     height: 400px;
-}
-.darkgreycoat{
+.camelcoatpic{
     max-width: 200px;
-    height: 400px;
+    width: 100%;
+     height: 200px;
+}
+.darkgreycoatpic{
+    max-width: 200px;
+    height: 200px;
     width: 100%;
 }
 
@@ -1341,7 +1362,7 @@ margin-top: 30px;
     background-color: rgb(250, 250, 250,100);
     margin-top: 50px;
     /* padding: 50px; */
-    padding-right: 30px;
+    /* padding-right: 30px; */
     margin: 30px;
     
     
@@ -1387,6 +1408,10 @@ margin-top: 30px;
     width: 100%;
 
 }
+.yellowshirt{
+     max-width: 100px;
+    width: 100%;
+}
 
 .you{
     max-width: 500px;
@@ -1429,8 +1454,9 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     padding-top: 100px;
-    margin-right: 100px;
+    /* margin-right: 50px; */
     
 }
 .subsdiv{
@@ -1457,14 +1483,14 @@ margin-top: 30px;
     width: 100%;
     font-size: 14.5px;
 }
-.camelcoat{
-    max-width: 270px;
+.camelcoatpic{
+    max-width: 150px;
     width: 100%;
-     height: 400px;
+     height: 200px;
 }
-.darkgreycoat{
-    max-width: 200px;
-    height: 400px;
+.darkgreycoatpic{
+    max-width: 150px;
+    height: 200px;
     width: 100%;
 }
 
