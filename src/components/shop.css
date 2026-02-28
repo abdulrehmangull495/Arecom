@@ -179,12 +179,12 @@ nav ul li a{
     font-weight: 700;
 }
 
-.itspeakysection{
+.itsmypeakysection{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 600px;
+    padding-top: 800px;
     gap: 20px;
     
 }
@@ -645,12 +645,12 @@ margin-top: 30px;
     font-weight: 700;
 }
 
-.itspeakysection{
+.itsmypeakysection{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 1860px;
+    padding-top: 2000px;
     gap: 20px;
     margin: 10px;
     
@@ -1195,12 +1195,12 @@ margin-top: 30px;
     font-weight: 700;
 }
 
-.itspeakysection{
+.itsmypeakysection{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 1860px;
+    padding-top: 2300px;
     gap: 20px;
     margin: 10px;
     
@@ -1713,12 +1713,12 @@ margin-top: 30px;
     font-weight: 700;
 }
 
-.itspeakysection{
+.itsmypeakysection{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 1860px;
+    padding-top:2400px;
     gap: 20px;
     margin: 10px;
     
