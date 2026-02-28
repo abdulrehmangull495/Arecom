@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
-NavLink
+NavLink;
 const Home = () => {
   return (
     <>
@@ -39,18 +39,20 @@ const Home = () => {
         <div>
           <h3 className="dealsof">Deals Of The Month</h3>
           <p className="exc">
-           Exclusive deals of the month. Shop now and enjoy special prices before they’re gone.
+            Exclusive deals of the month. Shop now and enjoy special prices
+            before they’re gone.
           </p>
           <button className="buynow">
-             <NavLink to="/Shop" className="buynowbtn">Buy Now</NavLink></button>
+            <NavLink to="/Shop" className="buynowbtn">
+              Buy Now
+            </NavLink>
+          </button>
           <h3 className="hurry">Hurry, Before It’s Too Late!</h3>
         </div>
         <div className="mixgirlimg">
           <img className="blackgirlimg" src="blackgirl.png" alt="" />
           <img className="bluegirlimg" src="bluegirl.png" alt="" />
-          
         </div>
-        
       </div>
 
       <div className="newarrivalsection">
@@ -67,7 +69,7 @@ const Home = () => {
           <h6>Men Accessories</h6>
           <h6>Discount Deals</h6>
         </div>
-        
+
         <div className="cards">
           <div className="card-row">
             <div className="product-card">
@@ -113,7 +115,7 @@ const Home = () => {
                   src="whitedress.png"
                   alt="Full Sweater"
                 />
-                <h6 className="imgtitle">Full Sweater</h6>
+                <h6 className="imgtitle">White Dress</h6>
                 <h6>PKR 3999</h6>
               </div>
             </div>
@@ -124,7 +126,7 @@ const Home = () => {
                   src="colorfulldress.png"
                   alt="Full Sweater"
                 />
-                <h6 className="imgtitle">Full Sweater</h6>
+                <h6 className="imgtitle">Colorful Dress</h6>
                 <h6>PKR 3999</h6>
               </div>
             </div>
@@ -135,14 +137,21 @@ const Home = () => {
                   src="whiteshirt.png"
                   alt="Full Sweater"
                 />
-                <h6 className="imgtitle">Full Sweater</h6>
+                <h6 className="imgtitle">White Shirt</h6>
                 <h6>PKR 3999</h6>
               </div>
             </div>
           </div>
         </div>
         <div className="viewmorediv">
-          <button className="viewmore">viewmore</button>
+          <button className="viewmore">
+            <ul>
+              <li>
+                <NavLink to="/Shop">Viewmore</NavLink>
+              </li>
+            </ul>
+            
+          </button>
         </div>
       </div>
 
@@ -155,7 +164,8 @@ const Home = () => {
           <h4 className="Peakyblinders  mb-0">Peaky Blinders</h4>
           <h6 className="desc mb-0">DESCRIPTION</h6>
           <p className="ourpeaky  mb-0">
-           Shop our Peaky Blinders Women Collection and elevate your wardrobe with exclusive, stylish pieces.
+            Shop our Peaky Blinders Women Collection and elevate your wardrobe
+            with exclusive, stylish pieces.
           </p>
           <div className="sizediv">
             <p>Size:</p>
@@ -211,62 +221,63 @@ const Home = () => {
       <div className="follow">
         <h6>Follow Us On Instagram</h6>
         <p className="stay">
-      Stay updated with our latest products and offers.
+          Stay updated with our latest products and offers.
         </p>
         <div className="followsecimg">
-          <img  className="browncoat" src="brown coat.png" alt="" />
-          <img  className="blueheel" src="blueheel.png" alt="" />
-          <img  className="greydress" src="greydress.png" alt="" />
-          <img  className="redpant" src="red pant.png" alt="" />
-          <img  className="blackcoat" src="black coat.png" alt="" />
-          <img  className="blackgirl" src="blackgirl.png" alt="" />
-          <img  className="redfull" src="redfull.png" alt="" />
-          
+          <img className="browncoat" src="brown coat.png" alt="" />
+          <img className="blueheel" src="blueheel.png" alt="" />
+          <img className="greydress" src="greydress.png" alt="" />
+          <img className="redpant" src="red pant.png" alt="" />
+          <img className="blackcoat" src="black coat.png" alt="" />
+          <img className="blackgirl" src="blackgirl.png" alt="" />
+          <img className="redfull" src="redfull.png" alt="" />
         </div>
       </div>
       <div className="thisissection">
         <h6 className="isthis">This Is What Our Customers Say</h6>
-        <p>Hear from our satisfied customers and see why our products are loved by many.</p>
+        <p>
+          Hear from our satisfied customers and see why our products are loved
+          by many.
+        </p>
         <div className="cardbox">
           <div className="card1">
             <div className="d-flex blacktshirtsec p-5">
               <img className="blacktshirt" src="blacktshirt.png" alt="" />
-            
-                 
             </div>
             <div>
-                <p className="you">"You won't regret it. I would like to personally thank you for
-                 your outstanding product. Absolutely wonderful!"</p>
-                 <h3>James.k</h3>
-                 <p>Traveler</p>
+              <p className="you">
+                "You won't regret it. I would like to personally thank you for
+                your outstanding product. Absolutely wonderful!"
+              </p>
+              <h3>James.k</h3>
+              <p>Traveler</p>
             </div>
-            <div>
-              
-            </div>
+            <div></div>
           </div>
           <div className="card2">
             <div className="d-flex blacktshirtsec p-5">
               <img className="yellowshirt" src="yellowshirt.png" alt="" />
-            
-                 
             </div>
             <div>
-                <p className="you">"Just saw i was looking for .Thank you for making it painless,pleasent and most of all hassle Free.
-                  All Products are Great"</p>
-                 <h3>Megen.W</h3>
-                 <p>UI Designer</p>
+              <p className="you">
+                "Just saw i was looking for .Thank you for making it
+                painless,pleasent and most of all hassle Free. All Products are
+                Great"
+              </p>
+              <h3>Megen.W</h3>
+              <p>UI Designer</p>
             </div>
-            <div>
-              
-            </div>
+            <div></div>
           </div>
-         
-          
         </div>
-         <div className="d-flex btndiv">
-             <button><img  className="previousbtn" src="previous.png" alt="" /></button>
-          <button><img className="nextbtn" src="nextbt.png" alt="" /></button>
-          </div>
+        <div className="d-flex btndiv">
+          <button>
+            <img className="previousbtn" src="previous.png" alt="" />
+          </button>
+          <button>
+            <img className="nextbtn" src="nextbt.png" alt="" />
+          </button>
+        </div>
       </div>
       <div className="lastsectionscubs">
         <div>
@@ -274,40 +285,37 @@ const Home = () => {
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
-          <p className="getthe">Get the best deals and product updates delivered straight to your inbox.</p>
-             <p>abdulrehmangull495@gmail.com</p>
-             <div>
-              <button className="subsnow">Subscribe Now</button>
-             </div>
-
+          <p className="getthe">
+            Get the best deals and product updates delivered straight to your
+            inbox.
+          </p>
+          <p>abdulrehmangull495@gmail.com</p>
+          <div>
+            <button className="subsnow">Subscribe Now</button>
+          </div>
         </div>
         <div>
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
       </div>
 
-      
       <footer className="footer">
         <div className="d-flex ftdiv">
-  <div className="footer-box">
-    
-    <p className="m-0 arecom">Arecom</p>
-  </div>
+          <div className="footer-box">
+            <p className="m-0 arecom">Arecom</p>
+          </div>
 
-  <div className="footer-box">
-  
+          <div className="footer-box">
+            <a href="#">Support Center</a>
+            <a href="/Checkout">Invoicing</a>
 
-    <a href="#">Support Center</a>
-    <a href="/Checkout">Invoicing</a>
-    
-    <a href="#">Blog</a>
-  </div>
-  </div>
-  <div className="copydiv">
-    <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
-  </div>
-</footer>
-
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <div className="copydiv">
+          <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
+        </div>
+      </footer>
     </>
   );
 };
