@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
+import Button from "@mui/material/Button";
 NavLink;
 const Home = () => {
   return (
@@ -81,6 +82,24 @@ const Home = () => {
                 />
                 <h6 className="imgtitle">Shiny Dress</h6>
                 <h6>PKR 4999</h6>
+                <Button
+                  variant="contained"
+                  sx={{
+                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
+                    color: "#fff",
+                    padding: "10px 22px",
+                    fontWeight: "bold",
+                    borderRadius: "12px",
+                    textTransform: "none",
+                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    "&:hover": {
+                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
+                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                    },
+                  }}
+                >
+                  Add to Cart
+                </Button>
               </div>
             </div>
             <div className="product-card">
@@ -92,6 +111,24 @@ const Home = () => {
                 />
                 <h6 className="imgtitle">Long Dress</h6>
                 <h6>PKR 4599</h6>
+                <Button
+                  variant="contained"
+                  sx={{
+                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
+                    color: "#fff",
+                    padding: "10px 22px",
+                    fontWeight: "bold",
+                    borderRadius: "12px",
+                    textTransform: "none",
+                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    "&:hover": {
+                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
+                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                    },
+                  }}
+                >
+                  Add to Cart
+                </Button>
               </div>
             </div>
             <div className="product-card">
@@ -103,6 +140,24 @@ const Home = () => {
                 />
                 <h6 className="imgtitle">Full Sweater</h6>
                 <h6>PKR 3999</h6>
+                <Button
+                  variant="contained"
+                  sx={{
+                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
+                    color: "#fff",
+                    padding: "10px 22px",
+                    fontWeight: "bold",
+                    borderRadius: "12px",
+                    textTransform: "none",
+                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    "&:hover": {
+                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
+                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                    },
+                  }}
+                >
+                  Add to Cart
+                </Button>
               </div>
             </div>
           </div>
@@ -117,6 +172,24 @@ const Home = () => {
                 />
                 <h6 className="imgtitle">White Dress</h6>
                 <h6>PKR 3999</h6>
+                <Button
+                  variant="contained"
+                  sx={{
+                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
+                    color: "#fff",
+                    padding: "10px 22px",
+                    fontWeight: "bold",
+                    borderRadius: "12px",
+                    textTransform: "none",
+                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    "&:hover": {
+                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
+                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                    },
+                  }}
+                >
+                  Add to Cart
+                </Button>
               </div>
             </div>
             <div className="product-card">
@@ -128,6 +201,24 @@ const Home = () => {
                 />
                 <h6 className="imgtitle">Colorful Dress</h6>
                 <h6>PKR 3999</h6>
+                <Button
+                  variant="contained"
+                  sx={{
+                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
+                    color: "#fff",
+                    padding: "10px 22px",
+                    fontWeight: "bold",
+                    borderRadius: "12px",
+                    textTransform: "none",
+                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    "&:hover": {
+                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
+                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                    },
+                  }}
+                >
+                  Add to Cart
+                </Button>
               </div>
             </div>
             <div className="product-card">
@@ -139,19 +230,47 @@ const Home = () => {
                 />
                 <h6 className="imgtitle">White Shirt</h6>
                 <h6>PKR 3999</h6>
+                <Button
+                  variant="contained"
+                  sx={{
+                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
+                    color: "#fff",
+                    padding: "10px 22px",
+                    fontWeight: "bold",
+                    borderRadius: "12px",
+                    textTransform: "none",
+                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    "&:hover": {
+                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
+                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                    },
+                  }}
+                >
+                  Add to Cart
+                </Button>
               </div>
             </div>
           </div>
         </div>
         <div className="viewmorediv">
-          <button className="viewmore">
-            <ul>
-              <li>
-                <NavLink to="/Shop">Viewmore</NavLink>
-              </li>
-            </ul>
-            
-          </button>
+          <Button component={NavLink} to="/shop"
+            variant="contained"
+            sx={{
+              background: "linear-gradient(45deg, #ff6a00, #ffb347)",
+              color: "#fff",
+              padding: "10px 22px",
+              fontWeight: "bold",
+              borderRadius: "12px",
+              textTransform: "none",
+              boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+              "&:hover": {
+                background: "linear-gradient(45deg, #db895d, #d8a13a)",
+                boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+              },
+            }}
+          >
+            View More
+          </Button>
         </div>
       </div>
 
