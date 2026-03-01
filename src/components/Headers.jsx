@@ -10,15 +10,15 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav">
-        {/* Logo */}
+        
         <h1 className="logo">Arecom</h1>
 
-        {/* Hamburger */}
+        
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? "✕" : "☰"}
         </div>
 
-        {/* Nav Links */}
+       
         <ul className={menuOpen ? "nav-links active" : "nav-links"}>
   <li><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
  

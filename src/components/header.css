@@ -1,4 +1,4 @@
-/* HEADER WRAPPER */
+
 .header {
   height: 80px;
   display: flex;
@@ -18,13 +18,13 @@
   padding: 0 20px;
 }
 
-/* LOGO */
+
 .logo {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* LINKS */
+
 .nav-links {
   display: flex;
   gap: 30px;
@@ -40,7 +40,6 @@
   font-weight: 500;
 }
 
-/* SIGNUP BUTTON */
 .signup-btn {
   background: black;
   color: white !important;
