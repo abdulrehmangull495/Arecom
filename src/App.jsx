@@ -23,10 +23,10 @@ function App() {
      path:"/",
      element:<><Headers/><Home/></>
     },
-     {
-     path:"/Deals",
-     element:<><Headers/><Deals/></>
-    },
+    //  {
+    //  path:"/Deals",
+    //  element:<><Headers/><Deals/></>
+    // },
     {
      path:"/Shop",
      element:<><Headers/><Shop/></>
@@ -38,10 +38,10 @@ function App() {
     },
 
 
-    {
-     path:"/Newarrivals",
-     element:<><Headers/><Newarrivals/></>
-    },
+    // {
+    //  path:"/Newarrivals",
+    //  element:<><Headers/><Newarrivals/></>
+    // },
     {
      path:"/Cart",
      element:<><Headers/><Cart/></>
