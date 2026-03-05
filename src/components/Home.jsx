@@ -337,7 +337,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="follow">
+      {/* <div className="follow">
         <h6>Follow Us On Instagram</h6>
         <p className="stay">
           Stay updated with our latest products and offers.
@@ -351,7 +351,7 @@ const Home = () => {
           <img className="blackgirl" src="blackgirl.png" alt="" />
           <img className="redfull" src="redfull.png" alt="" />
         </div>
-      </div>
+      </div> */}
       <div className="thisissection">
         <h6 className="isthis">This Is What Our Customers Say</h6>
         <p>
