@@ -366,7 +366,7 @@ const Home = () => {
             <div>
               <p className="you">
                 "You won't regret it. I would like to personally thank you for
-                your outstanding product. Absolutely wonderful!"
+                your outstanding product.Absolutely wonderful!"
               </p>
               <h3>James.k</h3>
               <p>Traveler</p>
@@ -379,7 +379,7 @@ const Home = () => {
             </div>
             <div>
               <p className="you">
-                "Just saw i was looking for .Thank you for making it
+                "Just saw i was looking for.Thank you for making it
                 painless,pleasent and most of all hassle Free. All Products are
                 Great"
               </p>
