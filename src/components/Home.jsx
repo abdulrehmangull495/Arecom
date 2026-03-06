@@ -75,11 +75,7 @@ const Home = () => {
           <div className="card-row">
             <div className="product-card">
               <div className="shinydressdiv">
-                <img
-                  className="shinydress"
-                  src="shinydress.png"
-                  alt="Shiny Dress"
-                />
+                <img className="shinydress" src="shinydress.png" alt="Shiny Dress"/>
                 <h6 className="imgtitle">Shiny Dress</h6>
                 <h6>PKR 4999</h6>
                 <Button
