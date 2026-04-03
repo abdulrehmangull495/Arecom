@@ -1246,7 +1246,6 @@ nav ul li a {
     height: 200px;
     width: 100%;
   }
-
   .ftdiv {
     display: flex;
     justify-content: space-around;
@@ -1281,13 +1280,11 @@ nav ul li a {
     color: rgb(72, 72, 72, 100);
     padding-top: 10px;
   }
-
   .ftdiv {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
   }
-
   .footer-box {
     text-align: center;
   }
@@ -1426,7 +1423,6 @@ nav ul li a {
     gap: 20px;
     margin: 10px;
   }
-
   .girlside {
     max-width: 500px;
     width: 100%;
@@ -1436,7 +1432,6 @@ nav ul li a {
     color: rgb(138, 138, 138);
     font-size: 14px;
   }
-
   .desc {
     color: rgb(138, 138, 138);
     font-size: 14px;
@@ -1455,7 +1450,6 @@ nav ul li a {
   }
   .sizediv {
     display: flex;
-
     gap: 10px;
     align-items: center;
     margin-top: 20px;
@@ -1578,7 +1572,6 @@ nav ul li a {
     flex-direction: column;
     background-color: rgb(250, 250, 250);
     margin-top: 50px;
-
     margin: 30px;
   }
   .thiswhatis {
@@ -1645,7 +1638,6 @@ nav ul li a {
     padding: 10px;
     margin: 5px;
     background-color: #ddd;
-
     border-radius: 20px;
     border: none;
     border: none !important;
