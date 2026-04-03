@@ -1,27 +1,18 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./header.css";
-
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleLinkClick = () => setMenuOpen(false);
-
-
   return (
     <header className="header">
-      <nav className="nav">
-        
-        <h1 className="logo">Arecom</h1>
-
-        
+      <nav className="nav">       
+        <h1 className="logo">Arecom</h1>       
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? "✕" : "☰"}
         </div>
-
-       
         <ul className={menuOpen ? "nav-links active" : "nav-links"}>
   <li><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
- 
   <li><NavLink to="/Shop" onClick={handleLinkClick}>Shop</NavLink></li>
   <li><NavLink to="/Mycheckout" onClick={handleLinkClick}>Checkout</NavLink></li>
   <li><NavLink to="/Contactus" onClick={handleLinkClick}>Contact Us</NavLink></li>
@@ -33,7 +24,6 @@ const Header = () => {
     </NavLink>
   </li>
 </ul>
-
       </nav>
     </header>
   );
