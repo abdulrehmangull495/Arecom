@@ -45,9 +45,12 @@ else{
 }
 }) */}
 {/* <button class="btn">i am a button</button> */}
-    <button onClick={toggleMode}>
+    {/* <button onClick={toggleMode}>
           {dark ? "Light Mode ☀️" : "Dark Mode 🌙"}
-        </button>
+        </button> */}
+        <button className="theme-btn" onClick={toggleMode}>
+  {dark ? "Light Mode ☀️" : "Dark Mode 🌙"}
+</button>
 
   </li>
 </ul>
