@@ -1,9 +1,18 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./header.css";
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleLinkClick = () => setMenuOpen(false);
+     const [dark, setDark] = useState(false);
+
+  const toggleMode = () => {
+    setDark(!dark);
+    document.body.classList.toggle("dark");
+  };
+
+
   return (
     <header className="header">
       <nav className="nav">       
@@ -22,6 +31,24 @@ const Header = () => {
     <NavLink to="/Signup" className="signup-btn" onClick={handleLinkClick}>
       Sign Up
     </NavLink>
+
+  </li>
+  <li>
+    {/* let button=document.querySelector(".btn")
+button.addEventListener("click",()=>{
+    document.body.classList.toggle("dark")
+    if(document.body.classList.contains("dark")){
+        button.innerText="light mode ☀️ "
+    }
+else{
+    button.innerText="dark mode 🌙 "
+}
+}) */}
+{/* <button class="btn">i am a button</button> */}
+    <button onClick={toggleMode}>
+          {dark ? "Light Mode ☀️" : "Dark Mode 🌙"}
+        </button>
+
   </li>
 </ul>
       </nav>

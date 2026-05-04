@@ -5,6 +5,13 @@
   
   position: sticky;
 }
+ body.dark {
+  background-color: black;
+  color: white;
+}
+body.dark a {
+  color: white;
+}
 /* NAV */
 .nav {
   width: 100%;
