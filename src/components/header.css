@@ -54,6 +54,9 @@ body.dark a {
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
+  body.dark a {
+  color: black;
+}
   .hamburger {
     display: block;
   }
