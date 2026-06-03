@@ -40,8 +40,7 @@ const Home = () => {
         <div>
           <h3 className="dealsof">Deals Of The Month</h3>
           <p className="exc">
-            Exclusive deals of the month. Shop now and enjoy special prices
-            before they’re gone.
+            Don't miss this month's exclusive offers. Shop now and enjoy special prices for a limited time.
           </p>
           <button className="buynow">
             <NavLink to="/Shop" className="buynowbtn">
