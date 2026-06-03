@@ -59,7 +59,7 @@ const Home = () => {
         <div className="newarrivals">
           <h1 className="newarrival">New Arrivals</h1>
           <p className="Fresh">
-            Fresh arrivals are here! Be the first to grab the newest products.
+            New arrivals just dropped! Shop now and be the first to get the latest products.
           </p>
         </div>
         <div className="menus">
