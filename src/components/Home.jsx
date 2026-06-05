@@ -15,10 +15,16 @@ const Home = () => {
           </div>
           <div className="ultimatesection">
             <img className="girlsimg" src="images.png" alt="" />
-            <h1 className="ulti">ULTIMATE</h1>
+            <h1 className="hero-title">ULTIMATE SALE</h1>
+
+            <p className="hero-subtitle">New Collection</p>
+
+            <button className="btnshopnow">Shop Now</button>
+            {/* <h1 className="ulti">ULTIMATE</h1>
             <h1 className="sale">SALE</h1>
             <h1 className="newcollection">New Collection</h1>
-            <button className="btnshopnow">Shop Now</button>
+            <button className="btnshopnow">Shop Now</button> */}
+
             <img className="girlsimgpink" src="image.png" alt="" />
           </div>
           <div>
@@ -40,7 +46,8 @@ const Home = () => {
         <div>
           <h3 className="dealsof">Deals Of The Month</h3>
           <p className="exc">
-            Don't miss this month's exclusive offers. Shop now and enjoy special prices for a limited time.
+            Don't miss this month's exclusive offers. Shop now and enjoy special
+            prices for a limited time.
           </p>
           <button className="buynow">
             <NavLink to="/Shop" className="buynowbtn">
@@ -59,7 +66,8 @@ const Home = () => {
         <div className="newarrivals">
           <h1 className="newarrival">New Arrivals</h1>
           <p className="Fresh">
-            New arrivals just dropped! Shop now and be the first to get the latest products.
+            New arrivals just dropped! Shop now and be the first to get the
+            latest products.
           </p>
         </div>
         <div className="menus">
@@ -74,7 +82,11 @@ const Home = () => {
           <div className="card-row">
             <div className="product-card">
               <div className="shinydressdiv">
-                <img className="shinydress" src="shinydress.png" alt="Shiny Dress"/>
+                <img
+                  className="shinydress"
+                  src="shinydress.png"
+                  alt="Shiny Dress"
+                />
                 <h6 className="imgtitle">Shiny Dress</h6>
                 <h6>PKR 4999</h6>
                 <Button
@@ -248,7 +260,9 @@ const Home = () => {
           </div>
         </div>
         <div className="viewmorediv">
-          <Button component={NavLink} to="/shop"
+          <Button
+            component={NavLink}
+            to="/shop"
             variant="contained"
             sx={{
               background: "linear-gradient(45deg, #ff6a00, #ffb347)",
