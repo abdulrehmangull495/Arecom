@@ -675,6 +675,8 @@
     width: 100%;
     font-size: 12.5px;
     font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
   }
   .newarrivalsection {
     display: flex;
@@ -762,7 +764,8 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px;
-    padding-left: 100px;
+    margin: 0 auto;
+    /* padding-left: 100px; */
   }
 
   .girlside {
@@ -1001,7 +1004,8 @@
     align-items: center;
     padding-top: 100px;
     flex-wrap: wrap;
-    padding-left: 100px;
+    margin: 0 auto;
+    /* padding-left: 100px; */
   }
   .subsdiv {
     display: flex;
@@ -1214,6 +1218,8 @@
     width: 100%;
     font-size: 16px;
     font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
   .newarrivalsection {
     display: flex;
@@ -1534,8 +1540,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    flex-wrap: wrap;
+    /* padding-top: 50px; */
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
   }
   .subsdiv {
     display: flex;
@@ -1673,6 +1685,8 @@
     width: 100%;
     font-size: 18px;
     font-weight: 600;
+    margin: 0 auto;
+     margin-bottom: 10px;
   }
 
   .newarrivals {
@@ -1741,14 +1755,15 @@
     align-items: center;
     outline: none;
   }
-  .peakysection {
+  .peakysectionhome {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     gap: 20px;
     flex-wrap: wrap;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    margin: 0 auto;
   }
 
   .girlside {
@@ -2124,13 +2139,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    /* gap: 30px; */
     flex-wrap: wrap;
+
   }
   .menus h6 {
     border-radius: 10px;
     background-color: rgb(236, 236, 238);
-    padding: 15px;
+    padding: 10px;
     color: rgb(138, 138);
     cursor: pointer;
   }
@@ -2179,14 +2195,15 @@
     align-items: center;
     outline: none;
   }
-  .peakysection {
+  .peakysectionhome {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     gap: 20px;
     flex-wrap: wrap;
-    padding-left: 50px;
+    margin-top: 0 auto;
+    /* padding-left: 50px; */
   }
 
   .girlside {
