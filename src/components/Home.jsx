@@ -414,8 +414,7 @@ const Home = () => {
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
           <p className="getthe">
-            Get the best deals and product updates delivered straight to your
-            inbox.
+            Be the first to know about new products, offers and discounts.
           </p>
           <p>abdulrehmangull495@gmail.com</p>
           <div>
