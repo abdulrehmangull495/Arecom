@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Signin.css"
 import { Form, NavLink } from 'react-router-dom'
+import Footer from './Footer'
 const Signin = () => {
   return (
     <>
@@ -47,6 +48,7 @@ const Signin = () => {
 
       </div>
     </div>
+    <Footer/>
 </>
   )
 }

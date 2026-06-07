@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "./contactus.css"
+import Footer from './Footer'
 const Contactus = () => {
   return (
     <>
@@ -47,6 +48,7 @@ const Contactus = () => {
 </div>
           </div>
         </div>
+        <Footer/>
     </>
   )
 }

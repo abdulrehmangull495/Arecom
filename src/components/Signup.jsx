@@ -1,6 +1,7 @@
 import React from "react";
 import "./Signup.css";
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 const Signup = () => {
   return (
     <>
@@ -66,6 +67,7 @@ const Signup = () => {
         </div>
         
       </div>
+      <Footer/>
     </>
   );
 };

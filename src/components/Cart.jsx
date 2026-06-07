@@ -1,6 +1,7 @@
 import React from 'react'
 import './Cart.css';
 import { NavLink } from 'react-router-dom';
+import Footer from './Footer';
 const Cart = () => {
   return (
     <>
@@ -31,7 +32,7 @@ const Cart = () => {
       </div>
 
       
-      <footer class="footer">
+      {/* <footer class="footer">
         <div className="d-flex ftdiv">
   <div class="footer-box">
     
@@ -50,7 +51,8 @@ const Cart = () => {
   <div className="copydiv">
     <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
   </div>
-</footer>
+</footer> */}
+<Footer/>
     
     </>
   )
