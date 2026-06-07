@@ -99,7 +99,7 @@ const Headers = () => {
         </div>
       </div>
     
-      <footer class="footer">
+      {/* <footer class="footer">
         <div className="d-flex ftdiv">
   <div class="footer-box">
     
@@ -118,7 +118,8 @@ const Headers = () => {
   <div className="copydiv">
     <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
   </div>
-</footer>
+</footer> */}
+<Footer/>
       </>
   );
 };

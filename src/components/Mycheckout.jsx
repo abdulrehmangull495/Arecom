@@ -1,6 +1,6 @@
 import React from 'react'
 import "./checkout.css"
-
+import Footer from './Footer'
 const Mycheckout = () => {
   return (
     <>
@@ -100,7 +100,7 @@ const Mycheckout = () => {
       </div>
 
       
-      <footer className="footer">
+      {/* <footer className="footer">
         <div className="d-flex ftdiv">
   <div class="footer-box">
     
@@ -119,7 +119,9 @@ const Mycheckout = () => {
   <div className="copydiv">
     <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
   </div>
-</footer>
+</footer> */}
+
+<Footer/>
     </>
   )
 }

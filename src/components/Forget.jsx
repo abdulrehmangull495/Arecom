@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Forget.css"
 import { NavLink } from 'react-router-dom'
+import Footer from './Footer'
 const Forget = () => {
   return (
    <>
@@ -53,6 +54,7 @@ const Forget = () => {
 
       </div>
     </div>
+    <Footer/>
    </>
   )
 }

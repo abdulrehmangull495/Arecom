@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 import Button from "@mui/material/Button";
+import Footer from "./Footer";
 NavLink;
 const Home = () => {
   return (
@@ -426,7 +427,7 @@ const Home = () => {
         </div>
       </div>
 
-      <footer className="footer">
+      {/* <footer className="footer">
         <div className="d-flex ftdiv">
           <div className="footer-box">
             <p className="m-0 arecom">Arecom</p>
@@ -442,7 +443,9 @@ const Home = () => {
         <div className="copydiv">
           <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
         </div>
-      </footer>
+      </footer> */}
+
+      <Footer/>
     </>
   );
 };
