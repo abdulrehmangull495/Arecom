@@ -44,7 +44,7 @@ const Home = () => {
         <img src="calvinklein.png" alt="" />
       </div>
       <div className="lastdatesection">
-        <div>
+        <div className="dealssection">
           <h3 className="dealsof">Deals Of The Month</h3>
           <p className="exc">
             Don't miss this month's exclusive offers. Shop now and enjoy special
@@ -66,7 +66,7 @@ const Home = () => {
       <div className="newarrivalsection">
         <div className="newarrivals">
           <h1 className="newarrival">New Arrivals</h1>
-          <p className="Fresh">
+          <p className="justdropped">
             New arrivals just dropped! Shop now and be the first to get the
             latest products.
           </p>
@@ -408,9 +408,9 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="lastsectionscubs">
+      <div className="lastsection">
         <div>
-          <img src="camelcoat.png" className="camelcoatpic" alt="" />
+          <img src="camelcoat.png" className="camelcoatboy" alt="" />
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
@@ -423,7 +423,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
+          <img src="darkgreycoat.png" className="darkgreycoatgirl" alt="" />
         </div>
       </div>
 
