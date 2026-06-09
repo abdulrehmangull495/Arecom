@@ -121,7 +121,7 @@ const Mycheckout = () => {
   </div>
 </footer> */}
 
-<Footer/>
+{/* <Footer/> */}
     </>
   )
 }
