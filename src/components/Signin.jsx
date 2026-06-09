@@ -48,7 +48,7 @@ const Signin = () => {
 
       </div>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
 </>
   )
 }

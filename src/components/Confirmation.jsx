@@ -37,7 +37,7 @@ const Confirmation = () => {
 
       </div>
     </div>
-   <Footer/>
+   {/* <Footer/> */}
    </>
   )
 }

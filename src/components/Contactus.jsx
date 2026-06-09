@@ -48,7 +48,7 @@ const Contactus = () => {
 </div>
           </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
     </>
   )
 }
