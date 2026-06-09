@@ -410,7 +410,7 @@ const Home = () => {
       </div>
       <div className="lastsection">
         <div>
-          <img src="camelcoat.png" className="camelcoatboy" alt="" />
+          <img src="camelcoat.png" className="camelcoatpic" alt="" />
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
@@ -423,7 +423,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src="darkgreycoat.png" className="darkgreycoatgirl" alt="" />
+          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
       </div>
 

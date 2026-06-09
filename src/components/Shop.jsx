@@ -71,169 +71,193 @@ const Shop = () => {
           </div>
         </div>
         <div className="right">
-          <h6>Best selling</h6>
+          <h6 className="bestselling">Best selling</h6>
           <div className="imgssec">
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="roundedredhat.png" alt="" />
                 <p className="imgtitle">Rounded Red Hat</p>
 
-                <p>1000 pkr</p>
-                 <Button
+                <p>Rs.1,000</p>
+                <Button
                   variant="contained"
                   sx={{
-                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
-                    color: "#fff",
-                    padding: "10px 22px",
-                    fontWeight: "bold",
-                    borderRadius: "12px",
-                    textTransform: "none",
-                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    background: "transparent",
+                    color: "#ff6a00",
+                    border: "2px solid #ff6a00",
+                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    fontWeight: "600",
+                    fontSize: "15px",
+                    borderRadius: "30px", // Full rounded pill-shape button
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+
                     "&:hover": {
-                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
-                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                      background: "#ff6a00",
+                      color: "#ffffff",
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
                     },
                   }}
                 >
                   Add to Cart
                 </Button>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="LinenblendShirt.png" alt="" />
                 <p className="imgtitle">Linen-blend Shirt</p>
-                <p>1000 pkr</p>
+                <p>Rs.1,000</p>
                 <Button
                   variant="contained"
                   sx={{
-                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
-                    color: "#fff",
-                    padding: "10px 22px",
-                    fontWeight: "bold",
-                    borderRadius: "12px",
-                    textTransform: "none",
-                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    background: "transparent",
+                    color: "#ff6a00",
+                    border: "2px solid #ff6a00",
+                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    fontWeight: "600",
+                    fontSize: "15px",
+                    borderRadius: "30px", // Full rounded pill-shape button
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+
                     "&:hover": {
-                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
-                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                      background: "#ff6a00",
+                      color: "#ffffff",
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
                     },
                   }}
                 >
                   Add to Cart
                 </Button>
-                
-                
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="longsleevecoat.png" alt="" />
                 <p className="imgtitle">Long Sleeve Coat</p>
-                <p>1000 pkr</p>
+                <p>Rs.1,000</p>
                 <Button
                   variant="contained"
                   sx={{
-                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
-                    color: "#fff",
-                    padding: "10px 22px",
-                    fontWeight: "bold",
-                    borderRadius: "12px",
-                    textTransform: "none",
-                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    background: "transparent",
+                    color: "#ff6a00",
+                    border: "2px solid #ff6a00",
+                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    fontWeight: "600",
+                    fontSize: "15px",
+                    borderRadius: "30px", // Full rounded pill-shape button
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+
                     "&:hover": {
-                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
-                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                      background: "#ff6a00",
+                      color: "#ffffff",
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
                     },
                   }}
                 >
                   Add to Cart
                 </Button>
-                
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="denimhat.png" alt="" />
                 <p className="imgtitle">Denim Hat</p>
-                <p>1000 pkr</p>
+                <p>Rs.1,000</p>
                 <Button
                   variant="contained"
                   sx={{
-                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
-                    color: "#fff",
-                    padding: "10px 22px",
-                    fontWeight: "bold",
-                    borderRadius: "12px",
-                    textTransform: "none",
-                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    background: "transparent",
+                    color: "#ff6a00",
+                    border: "2px solid #ff6a00",
+                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    fontWeight: "600",
+                    fontSize: "15px",
+                    borderRadius: "30px", // Full rounded pill-shape button
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+
                     "&:hover": {
-                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
-                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                      background: "#ff6a00",
+                      color: "#ffffff",
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
                     },
                   }}
                 >
                   Add to Cart
                 </Button>
-                
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="oversizedtshirt.png" alt="" />
                 <p className="imgtitle">Oversized T-shirt</p>
-                <p>1000 pkr</p>
+                <p>Rs.1,500</p>
                 <Button
                   variant="contained"
                   sx={{
-                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
-                    color: "#fff",
-                    padding: "10px 22px",
-                    fontWeight: "bold",
-                    borderRadius: "12px",
-                    textTransform: "none",
-                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    background: "transparent",
+                    color: "#ff6a00",
+                    border: "2px solid #ff6a00",
+                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    fontWeight: "600",
+                    fontSize: "15px",
+                    borderRadius: "30px", // Full rounded pill-shape button
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+
                     "&:hover": {
-                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
-                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                      background: "#ff6a00",
+                      color: "#ffffff",
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
                     },
                   }}
                 >
                   Add to Cart
                 </Button>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="rockstarjacket.png" alt="" />
                 <p className="imgtitle">Rockastar Jacket</p>
-                <p>1000 pkr</p>
+                <p>Rs.10,000</p>
                 <Button
                   variant="contained"
                   sx={{
-                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
-                    color: "#fff",
-                    padding: "10px 22px",
-                    fontWeight: "bold",
-                    borderRadius: "12px",
-                    textTransform: "none",
-                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    background: "transparent",
+                    color: "#ff6a00",
+                    border: "2px solid #ff6a00",
+                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    fontWeight: "600",
+                    fontSize: "15px",
+                    borderRadius: "30px", // Full rounded pill-shape button
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+
                     "&:hover": {
-                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
-                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                      background: "#ff6a00",
+                      color: "#ffffff",
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
                     },
                   }}
                 >
                   Add to Cart
                 </Button>
               </div>
-              <div className="col-lg-4 col-md-6 col-12">
+              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="dottedblackdress.png" alt="" />
                 <p className="imgtitle">Dotted Black Dress</p>
-                <p>1000 pkr</p>
+                <p>Rs.4,000</p>
                 <Button
                   variant="contained"
                   sx={{
-                    background: "linear-gradient(45deg, #ff6a00, #ffb347)",
-                    color: "#fff",
-                    padding: "10px 22px",
-                    fontWeight: "bold",
-                    borderRadius: "12px",
-                    textTransform: "none",
-                    boxShadow: "0 6px 18px rgba(0,0,0,0.2)",
+                    background: "transparent",
+                    color: "#ff6a00",
+                    border: "2px solid #ff6a00",
+                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    fontWeight: "600",
+                    fontSize: "15px",
+                    borderRadius: "30px", // Full rounded pill-shape button
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+
                     "&:hover": {
-                      background: "linear-gradient(45deg, #ff5a00, #ffa500)",
-                      boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
+                      background: "#ff6a00",
+                      color: "#ffffff",
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
                     },
                   }}
                 >
@@ -331,7 +355,7 @@ const Shop = () => {
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
           <p className="getthe">
-           Be the first to know about new products, offers and discounts.
+            Be the first to know about new products, offers and discounts.
           </p>
           <p>abdulrehmangull495@gmail.com</p>
           <div>
@@ -362,7 +386,7 @@ const Shop = () => {
         </div>
       </footer> */}
 
-      <Footer/>
+      <Footer />
     </>
   );
 };

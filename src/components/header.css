@@ -68,7 +68,7 @@ body.dark a {
 }
 
 /* ================= MOBILE ================= */
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   body.dark a {
   color: black;
 }
