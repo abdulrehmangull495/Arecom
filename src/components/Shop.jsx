@@ -286,7 +286,9 @@ const Shop = () => {
             <p className="m">M</p>
           </div>
           <p className="hundred">$100.00</p>
-          <button className="buy">Buy Now</button>
+          <NavLink to="/shop" className="btnshopnow" target="blank">
+                           Shop Now
+                     </NavLink>
         </div>
       </div>
       <div className="fouritemsdiv">

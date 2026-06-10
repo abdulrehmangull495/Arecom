@@ -20,7 +20,10 @@ const Home = () => {
 
             <p className="hero-subtitle">New Collection</p>
 
-            <button className="btnshopnow">Shop Now</button>
+            
+            <NavLink to="/shop" className="btnshopnow" target="blank">
+                 Shop Now
+           </NavLink>
             {/* <h1 className="ulti">ULTIMATE</h1>
             <h1 className="sale">SALE</h1>
             <h1 className="newcollection">New Collection</h1>
@@ -51,9 +54,9 @@ const Home = () => {
             prices for a limited time.
           </p>
           <button className="buynow">
-            <NavLink to="/Shop" className="buynowbtn">
-              Buy Now
-            </NavLink>
+            <NavLink to="/shop" className="btnshopnow" target="blank">
+                 Shop Now
+           </NavLink>
           </button>
           <h3 className="hurry">Hurry, Before It’s Too Late!</h3>
         </div>
@@ -261,9 +264,7 @@ const Home = () => {
           </div>
         </div>
         <div className="viewmorediv">
-          <Button
-            component={NavLink}
-            to="/shop"
+          <Button component={NavLink} to="/shop"
             variant="contained"
             sx={{
               background: "linear-gradient(45deg, #ff6a00, #ffb347)",
@@ -277,9 +278,7 @@ const Home = () => {
                 background: "linear-gradient(45deg, #db895d, #d8a13a)",
                 boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
               },
-            }}
-          >
-            View More
+            }}>View More
           </Button>
         </div>
       </div>
@@ -301,7 +300,9 @@ const Home = () => {
             <p className="m">M</p>
           </div>
           <p className="hundred">$100.00</p>
-          <button className="buy">Buy Now</button>
+          <NavLink to="/shop" className="btnshopnow" target="blank">
+                 Shop Now
+           </NavLink>
         </div>
       </div>
       <div className="fouritemsdiv">
