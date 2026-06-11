@@ -54,7 +54,7 @@ const Forget = () => {
 
       </div>
     </div>
-    {/* <Footer/> */}
+   
    </>
   )
 }
