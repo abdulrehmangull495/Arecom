@@ -98,10 +98,6 @@ const Mycheckout = () => {
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
       </div>
-
-      
-     
-
     </>
   )
 }

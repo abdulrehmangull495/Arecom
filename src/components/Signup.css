@@ -174,10 +174,6 @@ text-decoration: none;
     align-items: center;
     flex-direction: column;
 }
-
- 
-
-
 @media (max-width:535px) {
     .rightsignupside{
     display: flex;
@@ -185,7 +181,6 @@ text-decoration: none;
     align-items: center;
     gap: 30px;
     padding: 20px;
-    
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -193,7 +188,6 @@ text-decoration: none;
      display: flex;
     justify-content: center;
     align-items: center;
-    
     flex-direction: column;
 }
 
@@ -210,19 +204,14 @@ text-decoration: none;
     background-color: black;
     color: white;
     font-size: 11px;
-    
-   
     text-align: center;
-     border-radius: 10px;
-     text-wrap: nowrap;
-     text-align: center;
-     background-color: black;
+    border-radius: 10px;
+    text-wrap: nowrap;
+    text-align: center;
+    background-color: black;
     color: white;
     font-size: 14px;
     width: 100%;
-    
-
-    
     border-radius: 10px;
     padding: 10px;
     

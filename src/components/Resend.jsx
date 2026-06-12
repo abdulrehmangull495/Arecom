@@ -29,14 +29,10 @@ const Resend = () => {
 
 </div>
 
-<div className="createbtn">
+      <div className="createbtn">
     
   <button className='createaccount'>Submit</button>
-  
 </div>
-
-
-
       </div>
     </div>
     </>
