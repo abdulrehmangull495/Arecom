@@ -348,21 +348,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="follow">
-        <h6>Follow Us On Instagram</h6>
-        <p className="stay">
-          Stay updated with our latest products and offers.
-        </p>
-        <div className="followsecimg">
-          <img className="browncoat" src="brown coat.png" alt="" />
-          <img className="blueheel" src="blueheel.png" alt="" />
-          <img className="greydress" src="greydress.png" alt="" />
-          <img className="redpant" src="red pant.png" alt="" />
-          <img className="blackcoat" src="black coat.png" alt="" />
-          <img className="blackgirl" src="blackgirl.png" alt="" />
-          <img className="redfull" src="redfull.png" alt="" />
-        </div>
-      </div> */}
+     
       <div className="thisissection">
         <h6 className="isthis">This Is What Our Customers Say</h6>
         <p>

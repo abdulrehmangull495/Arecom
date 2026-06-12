@@ -15,11 +15,6 @@ const Contactus = () => {
             <img className='leftcontactussideimg' src="blackclassicshirt.png" alt="" />
           </div>
           <div className="rightcontactusside">
-
-           
-
-     
-
 <div className="contact-wrapper">
   <div className="contact-form">
     <form action="">
@@ -48,7 +43,7 @@ const Contactus = () => {
 </div>
           </div>
         </div>
-        {/* <Footer/> */}
+        
     </>
   )
 }

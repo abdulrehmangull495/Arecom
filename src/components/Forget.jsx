@@ -35,8 +35,6 @@ const Forget = () => {
     <input type="email" placeholder="Enter Email" />
     <input type="text" placeholder="Enter Phone Number" />
   </div>
-
-
 </div>
 
 <div className="createbtn">
@@ -45,13 +43,8 @@ const Forget = () => {
   <div className='alreadyhave'>
     <p className='alreadytext'>Already have an account?  </p>
        <NavLink to="/Signin" className="loginbtnforget">Login</NavLink>
-      
-     
   </div>
 </div>
-
-
-
       </div>
     </div>
    
