@@ -336,9 +336,7 @@
 
 .follow {
   display: flex;
-
   align-items: center;
-
   flex-direction: column;
   padding-top: 100px;
 }
@@ -395,7 +393,6 @@
 }
 .is {
   font-size: 35px;
-
   color: rgb(72, 72, 72, 100);
 }
 .cardbox {
@@ -543,7 +540,7 @@
     align-items: center;
     flex-direction: column;
      flex: 0 0 auto; 
-  text-align: center;
+    text-align: center;
   }
   .subsnow {
     background-color: black;
@@ -578,7 +575,6 @@
 @media (min-width: 300px) and (max-width: 425px) {
   .firstboy {
     background-color: rgb(224, 224, 224, 100);
-
     padding: 50px;
   }
 
@@ -652,11 +648,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 20px; */
-    /* margin-top: 100px; */
     flex-wrap: wrap;
     margin: 0 auto;
-    /* padding-left: 30px; */
   }
   .logosection img{
     max-width: 100px;
@@ -760,7 +753,6 @@
     font-weight: 500;
     margin: 0 auto;
     text-align: center;
-    /* margin-left: 20px; */
     margin-bottom: 20px;
   }
   .newarrival{
@@ -952,9 +944,7 @@
 
   .follow {
     display: flex;
-
     align-items: center;
-
     flex-direction: column;
     padding-top: 100px;
     padding-left: 100px;
@@ -1151,7 +1141,6 @@
 @media (min-width: 426px) and (max-width: 575px) {
   .firstboy {
     background-color: rgb(224, 224, 224, 100);
-
     padding: 50px;
   }
 
@@ -1343,7 +1332,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-
     padding: 50px;
   }
 
@@ -1665,9 +1653,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-top: 100px; */
     flex-wrap: wrap;
-    
     gap: 40px;
     
   }
