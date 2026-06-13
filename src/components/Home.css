@@ -1872,7 +1872,6 @@
     margin-top: 100px;
     gap: 20px;
     flex-wrap: wrap;
-    /* padding-left: 50px; */
     margin: 0 auto;
   }
 
@@ -2098,7 +2097,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-top: 100px; */
     flex-wrap: nowrap;
   }
   .subsdiv {
@@ -2308,11 +2306,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 100px; */
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 0 auto;
-    /* padding-left: 50px; */
   }
 
   .girlside {
