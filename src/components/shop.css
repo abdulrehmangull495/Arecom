@@ -89,10 +89,10 @@ nav ul li a {
 }
 
 .btnalldiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   }
 .box span {
   border: 1px solid gray;
@@ -151,7 +151,6 @@ nav ul li a {
   border-radius: 5px;
   cursor: pointer;
   font-weight: 500;
-  /* color: rgb(88, 88, 88); */
 }
 .right {
   max-width: 900px;

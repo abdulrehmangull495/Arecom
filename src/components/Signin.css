@@ -12,10 +12,6 @@
 .goo{
     max-width: 20px;
     width: 100%;
-    
-}
-.googlediv{
-    
 }
 .ma{
    max-width: 20px;
@@ -153,7 +149,7 @@
 }
 .forget a{
       text-decoration:none;
-       color: rgb(91, 134, 229);
+      color: rgb(91, 134, 229);
       font-weight: bold;
       
 }
@@ -161,7 +157,7 @@
 .forgot a.active {
   text-decoration: none;
   font-size: 12px;
-   font-weight: bold;
+  font-weight: bold;
   color: rgb(91, 134, 229);
 }
 .or{
@@ -186,8 +182,7 @@
     font-size: 13px;
     padding: 10px 15px;
     text-align: center;
-     border-radius: 10px
-    
+     border-radius: 10px 
 }
 
 .registernowbtn{
@@ -196,7 +191,7 @@
     font-size: 13px;
     padding: 10px 15px;
     text-align: center;
-     border-radius: 10px
+    border-radius: 10px
 }
     .leftsignupsideimg{
     max-width: 500px;
