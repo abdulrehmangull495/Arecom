@@ -85,17 +85,17 @@ const Shop = () => {
                     background: "transparent",
                     color: "#ff6a00",
                     border: "2px solid #ff6a00",
-                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    padding: "11px 24px", 
                     fontWeight: "600",
                     fontSize: "15px",
-                    borderRadius: "30px", // Full rounded pill-shape button
+                    borderRadius: "30px", 
                     cursor: "pointer",
                     transition: "all 0.3s ease",
 
                     "&:hover": {
                       background: "#ff6a00",
                       color: "#ffffff",
-                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)",
                     },
                   }}
                 >
@@ -112,17 +112,17 @@ const Shop = () => {
                     background: "transparent",
                     color: "#ff6a00",
                     border: "2px solid #ff6a00",
-                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    padding: "11px 24px", 
                     fontWeight: "600",
                     fontSize: "15px",
-                    borderRadius: "30px", // Full rounded pill-shape button
+                    borderRadius: "30px", 
                     cursor: "pointer",
                     transition: "all 0.3s ease",
 
                     "&:hover": {
                       background: "#ff6a00",
                       color: "#ffffff",
-                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)",
                     },
                   }}
                 >
@@ -139,17 +139,17 @@ const Shop = () => {
                     background: "transparent",
                     color: "#ff6a00",
                     border: "2px solid #ff6a00",
-                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    padding: "11px 24px", 
                     fontWeight: "600",
                     fontSize: "15px",
-                    borderRadius: "30px", // Full rounded pill-shape button
+                    borderRadius: "30px", 
                     cursor: "pointer",
                     transition: "all 0.3s ease",
 
                     "&:hover": {
                       background: "#ff6a00",
                       color: "#ffffff",
-                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", 
                     },
                   }}
                 >
@@ -166,17 +166,17 @@ const Shop = () => {
                     background: "transparent",
                     color: "#ff6a00",
                     border: "2px solid #ff6a00",
-                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    padding: "11px 24px", 
                     fontWeight: "600",
                     fontSize: "15px",
-                    borderRadius: "30px", // Full rounded pill-shape button
+                    borderRadius: "30px",
                     cursor: "pointer",
                     transition: "all 0.3s ease",
 
                     "&:hover": {
                       background: "#ff6a00",
                       color: "#ffffff",
-                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", 
                     },
                   }}
                 >
@@ -193,17 +193,17 @@ const Shop = () => {
                     background: "transparent",
                     color: "#ff6a00",
                     border: "2px solid #ff6a00",
-                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    padding: "11px 24px", 
                     fontWeight: "600",
                     fontSize: "15px",
-                    borderRadius: "30px", // Full rounded pill-shape button
+                    borderRadius: "30px", 
                     cursor: "pointer",
                     transition: "all 0.3s ease",
 
                     "&:hover": {
                       background: "#ff6a00",
                       color: "#ffffff",
-                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", // Soft clean glow sirf hover par
+                      boxShadow: "0 8px 20px rgba(255, 106, 0, 0.25)", 
                     },
                   }}
                 >
@@ -220,10 +220,10 @@ const Shop = () => {
                     background: "transparent",
                     color: "#ff6a00",
                     border: "2px solid #ff6a00",
-                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    padding: "11px 24px", 
                     fontWeight: "600",
                     fontSize: "15px",
-                    borderRadius: "30px", // Full rounded pill-shape button
+                    borderRadius: "30px", 
                     cursor: "pointer",
                     transition: "all 0.3s ease",
 
@@ -247,10 +247,10 @@ const Shop = () => {
                     background: "transparent",
                     color: "#ff6a00",
                     border: "2px solid #ff6a00",
-                    padding: "11px 24px", // Border width ki wajah se padding 1px kam ki hai
+                    padding: "11px 24px", 
                     fontWeight: "600",
                     fontSize: "15px",
-                    borderRadius: "30px", // Full rounded pill-shape button
+                    borderRadius: "30px", 
                     cursor: "pointer",
                     transition: "all 0.3s ease",
 

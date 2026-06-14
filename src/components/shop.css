@@ -794,7 +794,6 @@ nav ul li a {
     align-items: center;
     padding-top: 100px;
     margin: 0 auto;
-    /* margin-right: 100px; */
     gap: 30px;
   }
   .subsdiv {
@@ -1333,9 +1332,7 @@ nav ul li a {
     height: 80px;
     display: flex;
     align-items: center;
-
     position: sticky;
-
     margin: 20px;
     overflow-x: none;
   }
