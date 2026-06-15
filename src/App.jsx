@@ -37,12 +37,6 @@ function App() {
      path:"/Mycheckout",
      element:<><Headers/><Mycheckout/></>
     },
-
-
-    // {
-    //  path:"/Newarrivals",
-    //  element:<><Headers/><Newarrivals/></>
-    // },
     {
      path:"/Cart",
      element:<><Headers/><Cart/></>
