@@ -71,8 +71,6 @@ margin: 10px;
 .is{
     font-size: 35px;
     color: rgb(72, 72, 72);
-   
-
 }
 .cardbox{
     display: flex;
@@ -80,7 +78,6 @@ margin: 10px;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    
 }
 .card1{
     background-color: #e9e9e9;

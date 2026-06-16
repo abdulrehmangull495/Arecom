@@ -75,8 +75,7 @@ const Headers = () => {
                 <img
                   className="colorfulldress"
                   src="colorfulldress.png"
-                  alt="Full Sweater"
-                />
+                  alt="Full Sweater"/>
                 <h6 className="imgtitle">Full Sweater</h6>
                 <h6>PKR 3999</h6>
               </div>
@@ -98,7 +97,7 @@ const Headers = () => {
           <button className="viewmore">viewmore</button>
         </div>
       </div>
-<Footer/>
+        <Footer/>
       </>
   );
 };
