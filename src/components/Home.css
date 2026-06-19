@@ -800,8 +800,7 @@
     font-weight: 700;
     cursor: pointer;
   }
-
-  .cards {
+    .cards {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -820,9 +819,15 @@
 
   .product-card {
     flex: 1;
-    padding: 7px;
+    padding: 16px;
     border: 1px solid #ddd;
     text-align: center;
+  }
+  .product-card img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
   }
   .viewmore {
     background-color: black;
@@ -1350,6 +1355,12 @@
     padding: 16px;
     border: 1px solid #ddd;
     text-align: center;
+  }
+  .product-card img {
+    width: 320px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 20px;
   }
   .viewmore {
     background-color: black;
