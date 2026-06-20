@@ -747,7 +747,7 @@
   }
   .justdropped{
     color: rgb(168, 168, 168);
-    max-width: 800px;
+    max-width: 500px;
     width: 100%;
     font-size: 16px;
     font-weight: 500;
@@ -784,7 +784,6 @@
     align-items: center;
     flex-wrap: wrap;
     margin-right: 30px;
-    
   }
   .menus h6{
     border-radius: 10px;
@@ -1034,7 +1033,6 @@
   .blacktshirt {
     max-width: 500px;
     width: 100%;
-    /* height: auto; */
   }
   .yellowshirt {
     max-width: 200px;
@@ -1071,7 +1069,6 @@
     padding: 10px;
     margin: 5px;
     background-color: #ddd;
-
     border-radius: 20px;
     border: none;
     border: none !important;
