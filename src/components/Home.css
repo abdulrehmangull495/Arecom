@@ -1615,11 +1615,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     margin: 0 auto;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 
   }
   .subsdiv {
@@ -1670,8 +1669,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-     flex: 0 0 auto; 
-  text-align: center;
+    flex: 0 0 auto; 
+    text-align: center;
   }
   .subsnow {
     background-color: black;
@@ -1805,7 +1804,7 @@
     font-size: 18px;
     font-weight: 600;
     margin: 0 auto;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .newarrivals {
@@ -1911,7 +1910,6 @@
   }
   .sizediv {
     display: flex;
-
     gap: 10px;
     align-items: center;
     margin-top: 20px;
