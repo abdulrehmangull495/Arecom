@@ -2253,9 +2253,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 30px; */
     flex-wrap: wrap;
-
   }
   .menus h6 {
     border-radius: 10px;
@@ -2414,7 +2412,6 @@
 
   .follow {
     display: flex;
-
     align-items: center;
     margin-left: 100px;
     flex-direction: column;
