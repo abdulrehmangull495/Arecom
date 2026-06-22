@@ -74,13 +74,13 @@ const Home = () => {
             latest products.
           </p>
         </div>
-        <div className="menus">
+        {/* <div className="menus">
           <h6>Men's Fashion</h6>
           <h6>Women's Fashion</h6>
           <h6>Women Accessories</h6>
           <h6>Men Accessories</h6>
           <h6>Discount Deals</h6>
-        </div>
+        </div> */}
 
         <div className="cards">
           <div className="card-row">

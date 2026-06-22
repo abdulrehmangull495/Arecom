@@ -750,13 +750,14 @@
   }
   .justdropped{
     color: rgb(168, 168, 168);
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
     font-size: 16px;
     font-weight: 500;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 20px;
+    align-items: center;
   }
   .newarrival{
     font-size: 25px;
