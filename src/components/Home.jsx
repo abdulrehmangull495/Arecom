@@ -7,6 +7,7 @@ NavLink;
 const Home = () => {
   return (
     <>
+    <main>
       <div className="herosection">
         <div className="container herosectiondiv">
           <div>
@@ -408,6 +409,7 @@ const Home = () => {
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoat" />
         </div>
       </div>
+      </main>
 
       <Footer/>
     </>
