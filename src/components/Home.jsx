@@ -24,27 +24,22 @@ const Home = () => {
             <NavLink to="/shop" className="btnshopnow" target="blank">
                  Shop Now
            </NavLink>
-            {/* <h1 className="ulti">ULTIMATE</h1>
-            <h1 className="sale">SALE</h1>
-            <h1 className="newcollection">New Collection</h1>
-            <button className="btnshopnow">Shop Now</button> */}
-
-            <img className="girlsimgpink" src="image.png" alt="" />
+            <img className="girlsimgpink" src="image.png" alt="girlimg" />
           </div>
           <div>
             <div className="brownboy">
-              <img className="brownboyimg" src="img227.png" alt="" />
+              <img className="brownboyimg" src="img227.png" alt="boy" />
             </div>
           </div>
         </div>
       </div>
 
       <div className="logosection">
-        <img src="chanellogo.png" alt="" />
-        <img src="louislogo.png" alt="" />
-        <img src="pradalogo.png" alt="" />
-        <img src="denim.png" alt="" />
-        <img src="calvinklein.png" alt="" />
+        <img src="chanellogo.png" alt="chanellogo" />
+        <img src="louislogo.png" alt="louislogo" />
+        <img src="pradalogo.png" alt="pradalogo" />
+        <img src="denim.png" alt="denim" />
+        <img src="calvinklein.png" alt="calvinklein" />
       </div>
       <div className="lastdatesection">
         <div className="dealssection">
@@ -61,8 +56,8 @@ const Home = () => {
           <h3 className="hurry">Hurry, Before It’s Too Late!</h3>
         </div>
         <div className="mixgirlimg">
-          <img className="blackgirlimg" src="blackgirl.png" alt="" />
-          <img className="bluegirlimg" src="bluegirl.png" alt="" />
+          <img className="blackgirlimg" src="blackgirl.png" alt="blackgirl" />
+          <img className="bluegirlimg" src="bluegirl.png" alt="bluegirl" />
         </div>
       </div>
 
@@ -179,7 +174,7 @@ const Home = () => {
                 <img
                   className="whitedress"
                   src="whitedress.png"
-                  alt="Full Sweater"
+                  alt="whitedress"
                 />
                 <h6 className="imgtitle">White Dress</h6>
                 <h6>PKR 3999</h6>
@@ -208,7 +203,7 @@ const Home = () => {
                 <img
                   className="colorfulldress"
                   src="colorfulldress.png"
-                  alt="Full Sweater"
+                  alt="colorfulldress"
                 />
                 <h6 className="imgtitle">Colorful Dress</h6>
                 <h6>PKR 3999</h6>
@@ -237,7 +232,7 @@ const Home = () => {
                 <img
                   className="whiteshirt"
                   src="whiteshirt.png"
-                  alt="Full Sweater"
+                  alt="whiteshirt"
                 />
                 <h6 className="imgtitle">White Shirt</h6>
                 <h6>PKR 3999</h6>
@@ -285,7 +280,7 @@ const Home = () => {
 
       <div className="peakysectionhome">
         <div>
-          <img className="girlside" src="girlsidepose.png" alt="" />
+          <img className="girlside" src="girlsidepose.png" alt="girlside" />
         </div>
         <div className="Peakyblinders">
           <h6 className="womencollection mb-0">Women Collection</h6>
@@ -308,7 +303,7 @@ const Home = () => {
       <div className="fouritemsdiv">
         <div className="qualitydiv">
           <div>
-            <img className="icon" src="support.png" alt="" />
+            <img className="icon" src="support.png" alt="support" />
           </div>
 
           <div className="m-2">
@@ -318,7 +313,7 @@ const Home = () => {
         </div>
         <div className="warrentydiv">
           <div>
-            <img className="icon" src="warrenty.png" alt="" />
+            <img className="icon" src="warrenty.png" alt="warrenty" />
           </div>
 
           <div className="m-2">
@@ -328,7 +323,7 @@ const Home = () => {
         </div>
         <div className="freediv">
           <div>
-            <img className="icon" src="ship.png" alt="" />
+            <img className="icon" src="ship.png" alt="shipping" />
           </div>
 
           <div className="m-2">
@@ -338,7 +333,7 @@ const Home = () => {
         </div>
         <div className="calldiv">
           <div>
-            <img className="icon" src="call.png" alt="" />
+            <img className="icon" src="call.png" alt="call" />
           </div>
 
           <div className="m-2">
@@ -388,16 +383,16 @@ const Home = () => {
         </div>
         <div className="d-flex btndiv">
           <button>
-            <img className="previousbtn" src="previous.png" alt="" />
+            <img className="previousbtn" src="previous.png" alt="previousbtn" />
           </button>
           <button>
-            <img className="nextbtn" src="nextbt.png" alt="" />
+            <img className="nextbtn" src="nextbt.png" alt="nextbtn" />
           </button>
         </div>
       </div>
       <div className="lastsection">
         <div>
-          <img src="camelcoat.png" className="camelcoatpic" alt="" />
+          <img src="camelcoat.png" className="camelcoatpic" alt="camelcoat" />
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
@@ -410,7 +405,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
+          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoat" />
         </div>
       </div>
 
