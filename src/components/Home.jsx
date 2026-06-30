@@ -3,6 +3,7 @@ import "./Home.css";
 import { NavLink } from "react-router-dom";
 import Button from "@mui/material/Button";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 NavLink;
 const Home = () => {
   return (
@@ -345,7 +346,7 @@ const Home = () => {
       </div>
 
      
-      <div className="thisissection">
+      {/* <div className="thisissection">
         <h6 className="isthis">This Is What Our Customers Say</h6>
         <p>
           Hear from our satisfied customers and see why our products are loved
@@ -390,7 +391,7 @@ const Home = () => {
             <img className="nextbtn" src="nextbt.png" alt="nextbtn" />
           </button>
         </div>
-      </div>
+      </div> */}
       <div className="lastsection">
         <div>
           <img src="camelcoat.png" className="camelcoatpic" alt="camelcoat" />
@@ -409,6 +410,7 @@ const Home = () => {
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoat" />
         </div>
       </div>
+      <ScrollToTop/>
       </main>
 
       <Footer/>

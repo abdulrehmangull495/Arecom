@@ -97,6 +97,15 @@
      border-radius: 10px;
     
 }
+body.dark .createaccount{
+    background-color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    padding: 10px 200px;
+    text-align: center;
+     border-radius: 10px;
+    
+}
 .registernow{
     border: 1px solid rgb(91,134,229);
      background-color: rgb(255, 255, 255);

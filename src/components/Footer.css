@@ -22,3 +22,6 @@
   color: rgb(72, 72, 72, 100);
   padding-top: 10px;
 }
+body.dark .copy{
+  color: white;
+}

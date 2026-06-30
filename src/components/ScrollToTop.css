@@ -1,20 +1,14 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .scroll-btn {
   position: fixed;
   bottom: 30px;
   right: 30px;
   width: 45px;
   height: 45px;
-  background: #4f46e5;
+  background: #2f2f30;
   color: white;
   border: none;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
@@ -28,6 +22,6 @@
 }
 
 .scroll-btn:hover {
-  background: #4338ca;
+  background: #515152;
   transform: translateY(-3px);
 }

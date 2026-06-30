@@ -21,7 +21,7 @@ const Header = () => {
           {menuOpen ? "✕" : "☰"}
         </div>
         <ul className={menuOpen ? "nav-links active" : "nav-links"}>
-  <li><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
+  <li><NavLink to="/" onClick={handleLinkClick} >Home</NavLink></li>
   <li><NavLink to="/Shop" onClick={handleLinkClick}>Shop</NavLink></li>
   <li><NavLink to="/Mycheckout" onClick={handleLinkClick}>Checkout</NavLink></li>
   <li><NavLink to="/Contactus" onClick={handleLinkClick}>Contact Us</NavLink></li>

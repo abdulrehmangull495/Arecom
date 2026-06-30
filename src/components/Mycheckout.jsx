@@ -1,6 +1,7 @@
 import React from 'react'
 import "./checkout.css"
 import Footer from './Footer'
+import ScrollToTop from './ScrollToTop'
 const Mycheckout = () => {
   return (
     <>
@@ -97,6 +98,7 @@ const Mycheckout = () => {
         <div>
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
+        <ScrollToTop/>
       </div>
     </>
   )

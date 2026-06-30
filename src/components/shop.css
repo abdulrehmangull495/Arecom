@@ -1482,10 +1482,10 @@ nav ul li a {
     margin: 20px;
   }
   .sizediv {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-top: 20px;
+    display:flex;
+    gap:10px;
+    align-items:center;
+    margin-top:20px;
   }
   .m {
     background-color: black;
@@ -1554,7 +1554,6 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     flex-direction: column;
     padding-top: 100px;
     padding-right: 60px;
@@ -1632,7 +1631,6 @@ nav ul li a {
     display: flex;
     align-items: center;
   }
-
   .blacktshirt {
     max-width: 100px;
     width: 100%;
@@ -1641,7 +1639,6 @@ nav ul li a {
     max-width: 100px;
     width: 100%;
   }
-
   .you {
     max-width: 500px;
   }
@@ -1654,7 +1651,6 @@ nav ul li a {
     gap: 10px;
     margin-top: 30px;
   }
-
   .previousbtn {
     padding: 10px;
     background-color: #ddd;

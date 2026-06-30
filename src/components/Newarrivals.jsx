@@ -1,6 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import './Newarrivals.css';
+import ScrollToTop from "./ScrollToTop";
 const Headers = () => {
   return (
     <>
@@ -96,7 +97,9 @@ const Headers = () => {
         <div className="viewmorediv">
           <button className="viewmore">viewmore</button>
         </div>
+        <ScrollToTop/>
       </div>
+
         <Footer/>
       </>
   );

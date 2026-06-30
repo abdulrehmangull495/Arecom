@@ -3,6 +3,7 @@ import "./shop.css";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 const Shop = () => {
   return (
     <>
@@ -91,7 +92,6 @@ const Shop = () => {
                     borderRadius: "30px", 
                     cursor: "pointer",
                     transition: "all 0.3s ease",
-
                     "&:hover": {
                       background: "#ff6a00",
                       color: "#ffffff",
@@ -367,6 +367,7 @@ const Shop = () => {
         <div>
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
+        <ScrollToTop/>
       </div>
 
       <Footer />

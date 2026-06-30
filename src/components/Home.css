@@ -31,6 +31,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .btnshopnow {
   background-color: black;
   color: white;
@@ -39,6 +40,7 @@
   font-weight: 600;
   text-decoration: none;
 }
+
 .btnshopnow:hover {
   background-color: rgb(63, 62, 62);
   color: white;
@@ -48,6 +50,14 @@
   text-decoration: none;
 }
 
+body.dark .btnshopnow{
+background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
 .buynowbtn {
   list-style: none;
   text-decoration: none;
@@ -68,6 +78,10 @@
 }
 .hero-subtitle{
   color: rgb(72, 72, 72, 100);
+  font-size: 35px;
+}
+body.dark .hero-subtitle{
+  color: white;
   font-size: 35px;
 }
 
@@ -111,6 +125,12 @@
   width: 100%;
   font-size: 20px;
 }
+body.dark .exc {
+  color: white;
+  max-width: 340px;
+  width: 100%;
+  font-size: 20px;
+}
 .buynow {
   background-color: black;
   color: white;
@@ -120,6 +140,10 @@
 }
 .hurry {
   color: rgb(72, 72, 72, 100);
+  margin-top: 50px;
+}
+body.dark .hurry{
+  color: white;
   margin-top: 50px;
 }
 
@@ -159,9 +183,19 @@
 .newarrival {
   color: rgb(72, 72, 72, 100);
 }
-.Fresh {
+body.dark .newarrival {
+  color: white;
+}
+.justdropped {
   color: rgb(168, 168, 168);
   max-width: 550px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+body.dark .justdropped{
+  color: rgb(255, 255, 255);
+  max-width: 700px;
   width: 100%;
   font-size: 18px;
   font-weight: 600;
@@ -551,12 +585,38 @@
     font-weight: 600;
     margin-bottom: 10px;
   }
+  body.dark .subsnow {
+    background-color:white;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+   body.dark .subsnow:hover {
+    background-color:rgb(110, 109, 109);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
   .subscribeto {
     color: rgb(72, 72, 72, 100);
     font-size: 23px;
   }
+  body.dark .subscribeto {
+    color: white;
+    font-size: 23px;
+  }
   .getthe {
     color: rgb(138, 138, 138, 100);
+    max-width: 500px;
+    width: 100%;
+    font-size: 13.5px;
+  }
+  body.dark .getthe {
+    color:white;
     max-width: 500px;
     width: 100%;
     font-size: 13.5px;
