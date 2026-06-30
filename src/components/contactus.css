@@ -25,9 +25,6 @@
     width: 100%;
     
 }
-.googlediv{
-    
-}
 .ma{
    max-width: 20px;
     width: 100%; 
@@ -148,14 +145,10 @@
 list-style: none;
 text-decoration: none;
 }
-
-
-
 .already ul {
   list-style: none;
   padding: 0;
   margin: 0;
-
 }
 .forget a{
       text-decoration:none;
@@ -241,7 +234,6 @@ body.dark label {
     flex-direction: column;
 }
 body.dark .group-form label{
-    /* font-weight: 500; */
     color: rgb(0, 0, 0);
 }
 
