@@ -8,9 +8,14 @@ import { useState } from 'react'
 const Contactus = () => {
   const [email, setEmail]= useState("");
   const [emailError, setEmailError]= useState("");
+  const [name, setName] = useState("");
+  const[textarea, setTextArea]=useState("")
+  // const[textareaError, setTextAreaError]=useState("")
 
   const handlesubmit=(e)=>{
+
      e.preventDefault();
+      let isValid = true;
     //  if(!email.includes("@")){
      
     //   alert("please enter a valid email address")
@@ -28,6 +33,15 @@ if (email === "") {
     setEmailError("");
     alert("Form Submitted");
   }
+  if (isValid){
+      setName("");
+  setEmail("");
+  setTextArea("");
+      setName("");
+setEmail("");
+setMessage("");
+  }
+  
   }
   return (
     <>
@@ -46,7 +60,7 @@ if (email === "") {
     <form onSubmit={handlesubmit} noValidate>
       <div className="group-form">
         <label htmlFor="Name">Name</label>
-        <input type="text" id='name' />
+        <input type="text" id='name'  value={name} onChange={(e)=>setName(e.target.value)}/>
       </div>
       <div className="group-form">
         <label htmlFor="email">Email</label>
@@ -55,7 +69,7 @@ if (email === "") {
       </div>
       <div className="group-form">
         <label htmlFor="message">Message</label>
-        <textarea name="" id="message" className='textarea'></textarea>
+        <textarea name="" id="message" className='textarea' value={textarea} onChange={(e)=>setTextArea(e.target.value)}></textarea>
       </div>
       <div className="buttonsubmit">
         <button type='submit' className='send'>Send Message</button>
