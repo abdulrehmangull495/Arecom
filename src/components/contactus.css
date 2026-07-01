@@ -172,6 +172,11 @@ text-decoration: none;
     height: 600px;
     padding: 50px 30px 50px 20px
  }
+ .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
  form input{
     width: 100%;
  }

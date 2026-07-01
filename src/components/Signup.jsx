@@ -2,8 +2,53 @@ import React from "react";
 import "./Signup.css";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
+import { useState } from "react";
 const Signup = () => {
+  const [firstName, SetFirstName]= useState("");
+  const [firstNameError, SetFirstNameError]= useState("");
+
+  const [email, setEmail]= useState("");
+  const [emailError, setEmailError]= useState("");
+  
+    // const handlesubmit=(e)=>{
+      
+    // }
+
+   const handlename=(e)=>{
+
+    e.preventDefault();
+    if(firstName ===""){
+      SetFirstNameError("First name is required")
+      return;
+    }
+    else if(firstName[0] !== firstName[0].toUpperCase()){
+      SetFirstNameError("first alphabet should be capital")
+      return;
+    }
+
+    else{
+        SetFirstNameError("");
+        
+      }
+
+      
+      
+  if (email === "") {
+      setEmailError("Email is required");
+      return;
+    } else if (!email.includes("@")) {
+      setEmailError("@ is missing");
+    } else {
+      setEmailError("");
+      alert("Form Submitted");
+    }
+   }
+
+
   return (
+   
+
+    
     <>
       <div className="leftrightsigupdiv">
         <div className="leftsignupside">
@@ -32,14 +77,17 @@ const Signup = () => {
             <h6>OR</h6>
           </div>
 
-          <form className="inputfields">
+          <form className="inputfields" onSubmit={handlename} noValidate>
             <div className="row">
-              <input type="text" placeholder="Enter First Name" required />
+              <input type="text" placeholder="Enter First Name" value={firstName} onChange={(e)=>SetFirstName(e.target.value)}   />
+              {firstNameError && <p className="firstnameerror" >{firstNameError}</p>}
+              
               <input type="text" placeholder="Enter Last Name" required />
             </div>
 
             <div className="row">
-              <input type="email" placeholder="Enter Email" required />
+              <input type="email" placeholder="Enter Email" value={email} onChange={(e)=>setEmail(e.target.value)} />
+              {emailError && <p className="error">{emailError}</p>}
               <input type="text" placeholder="Enter Phone Number" required />
             </div>
 
@@ -47,12 +95,13 @@ const Signup = () => {
               <input type="password" placeholder="Enter Your Password" required />
               <input type="password" placeholder="Confirm Password" required />
             </div>
-          </form>
-
-          <div className="lastcreatebtn">
             <div className="createbtn">
               <button className="createaccount">Create Account</button>
             </div>
+          </form>
+
+          <div className="lastcreatebtn">
+            
             <div className="already">
               <p className="alreadytext">
                 Already have an account?

@@ -3,7 +3,32 @@ import { NavLink } from 'react-router-dom'
 import "./contactus.css"
 import Footer from './Footer'
 import ScrollToTop from './ScrollToTop'
+import { useState } from 'react'
+
 const Contactus = () => {
+  const [email, setEmail]= useState("");
+  const [emailError, setEmailError]= useState("");
+
+  const handlesubmit=(e)=>{
+     e.preventDefault();
+    //  if(!email.includes("@")){
+     
+    //   alert("please enter a valid email address")
+    //  }
+//     if (email === "") {
+//   alert("Email is required");
+// } else if (!email.includes("@")) {
+//   alert("Please enter a valid email address");
+// }
+if (email === "") {
+    setEmailError("Email is required");
+  } else if (!email.includes("@")) {
+    setEmailError("@ is missing");
+  } else {
+    setEmailError("");
+    alert("Form Submitted");
+  }
+  }
   return (
     <>
     <div className='contactus'>
@@ -13,23 +38,24 @@ const Contactus = () => {
     </div>
     <div className='leftrightcontactusdiv'>
           <div className="leftcontactusside">
-            <img className='leftcontactussideimg' src="blackclassicshirt.png" alt="" />
+            <img className='leftcontactussideimg' src="blackclassicshirt.png" alt="Black classic shirt" />
           </div>
           <div className="rightcontactusside">
 <div className="contact-wrapper">
   <div className="contact-form">
-    <form action="">
+    <form onSubmit={handlesubmit} noValidate>
       <div className="group-form">
         <label htmlFor="Name">Name</label>
         <input type="text" id='name' />
       </div>
       <div className="group-form">
         <label htmlFor="email">Email</label>
-        <input type="email" id='email' />
+        <input type="email" id='email'  value={email}  onChange={(e)=>setEmail(e.target.value)}/>
+        {emailError && <p className="error">{emailError}</p>}
       </div>
       <div className="group-form">
-        <label htmlFor="Message">Message</label>
-        <textarea name="" id="" className='textarea'></textarea>
+        <label htmlFor="message">Message</label>
+        <textarea name="" id="message" className='textarea'></textarea>
       </div>
       <div className="buttonsubmit">
         <button type='submit' className='send'>Send Message</button>
