@@ -8,7 +8,6 @@ const Signup = () => {
   const [firstNameError, SetFirstNameError]= useState("");
   const [lastName, SetLastName]= useState("");
   const [lastNameError, SetLastNameError]= useState("");
-
   const [email, setEmail]= useState("");
   const [emailError, setEmailError]= useState("");
   const [phoneNumber, setphoneNumber]= useState("");
@@ -17,9 +16,6 @@ const Signup = () => {
   const [passwordError, setPasswordError]= useState("");
   const [confirmPassword, setConfirmPassword]= useState("");
   const [confirmPasswordError, setConfirmPasswordError]= useState("");
-  
-    
-
    const handlename=(e)=>{
 
     e.preventDefault();
@@ -43,8 +39,6 @@ const Signup = () => {
       SetLastNameError("Last name is required")
       isValid = false;
     }
-    
-
     else{
         SetLastNameError("");
         
@@ -76,10 +70,6 @@ const Signup = () => {
       setphoneNumberError("");
       
     }
-
-     
-
-
   if(password===""){
     setPasswordError("password is required")
     isValid=false;
@@ -125,8 +115,6 @@ const Signup = () => {
 
 
   return (
-   
-
     
     <>
       <div className="leftrightsigupdiv">

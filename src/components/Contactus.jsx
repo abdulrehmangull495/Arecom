@@ -16,20 +16,14 @@ const Contactus = () => {
 
      e.preventDefault();
       let isValid = true;
-    //  if(!email.includes("@")){
-     
-    //   alert("please enter a valid email address")
-    //  }
-//     if (email === "") {
-//   alert("Email is required");
-// } else if (!email.includes("@")) {
-//   alert("Please enter a valid email address");
-// }
+    
 if (email === "") {
     setEmailError("Email is required");
-  } else if (!email.includes("@")) {
+  } 
+  else if (!email.includes("@")) {
     setEmailError("@ is missing");
-  } else {
+  } 
+  else {
     setEmailError("");
     alert("Form Submitted");
   }
