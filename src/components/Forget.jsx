@@ -2,7 +2,9 @@ import React from 'react'
 import "./Forget.css"
 import { NavLink } from 'react-router-dom'
 import Footer from './Footer'
+import { useState } from 'react'
 const Forget = () => {
+  
   return (
    <>
     <div className='leftrightsigupdiv'>
@@ -25,7 +27,7 @@ const Forget = () => {
         </div>
         <div className='or'><h6>OR</h6></div>
         
-       <div className="inputfields">
+       <div className="inputfields" onSubmit={handlesubmit}>
   <div className="row">
     <input type="text" placeholder="Enter First Name" required />
     <input type="text" placeholder="Enter Last Name" required />

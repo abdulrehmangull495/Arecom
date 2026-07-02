@@ -11,7 +11,7 @@ const Footer = () => {
     <p className="m-0 arecom">Arecom</p>
   </div>
 
-  <div class="footer-box">
+  <div className="footer-box">
   
 
     <a href="#">Support Center</a>

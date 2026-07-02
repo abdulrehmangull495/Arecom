@@ -162,6 +162,12 @@ body.dark
 .or{
     padding-top: 10px;
 }
+
+.firstemailerror{
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
 @media (max-width:535px) {
     .createbtn{
     display: flex;
