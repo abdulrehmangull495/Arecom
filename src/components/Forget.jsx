@@ -32,11 +32,9 @@ const Forget = () => {
       setLastNameError("Last name is required")
       isValid=false
      }
-     
      else{
       setLastNameError("")
      }
-
       if(email===""){
       setEmailError("Email is required")
       isValid=false
@@ -88,10 +86,8 @@ const Forget = () => {
           <div>
             <button className='mail'> <img className='ma' src="mail.png" alt="" />Sign up with Mail</button>
           </div>
-          
         </div>
         <div className='or'><h6>OR</h6></div>
-        
        <form className="inputfields" onSubmit={handlesubmit} noValidate>
   <div className="row">
     <input type="text" placeholder="Enter First Name" value={firstname} onChange={(e)=>setFirstName(e.target.value)}/>
@@ -108,10 +104,7 @@ const Forget = () => {
   </div>
   <button type='submit' className='createaccount'><NavLink to="/Confirmation">Send Confirmation Code</NavLink></button>
 </form>
-
 <div className="createbtn">
-  
-  
   <div className='alreadyhave'>
     <p className='alreadytext'>Already have an account?  </p>
        <NavLink to="/Signin" className="loginbtnforget">Login</NavLink>
