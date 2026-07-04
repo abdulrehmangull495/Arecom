@@ -5,16 +5,16 @@ import Footer from './Footer'
 import { useState } from 'react'
 import { useNavigate } from "react-router-dom";
 const Forget = () => {
-  const[firstname,setFirstName]=useState("")
-  const[firstnameError,setFirstNameError]=useState("")
-  const [lastName, setLastName]=useState("")
-  const [lastNameError, setLastNameError]=useState("")
-  const [email,setEmail]=useState("")
-  const [emailError,setEmailError]=useState("")
-  const [phone, setPhone] = useState("")
-  const [phoneError, setPhoneError] = useState("")
-  const navigate = useNavigate();
-  const handlesubmit=(e)=>{
+const[firstname,setFirstName]=useState("")
+const[firstnameError,setFirstNameError]=useState("")
+const [lastName, setLastName]=useState("")
+const [lastNameError, setLastNameError]=useState("")
+const [email,setEmail]=useState("")
+const [emailError,setEmailError]=useState("")
+const [phone, setPhone] = useState("")
+const [phoneError, setPhoneError] = useState("")
+const navigate = useNavigate();
+const handlesubmit=(e)=>{
     e.preventDefault()
     let isValid=true;
      if(firstname===""){
@@ -43,7 +43,6 @@ const Forget = () => {
       setEmailError("@ is required")
       isValid=false
      }
-     
      else{
       setEmailError("")
      }
@@ -55,7 +54,6 @@ const Forget = () => {
       setPhoneError("phone number must be 11 digits")
       isValid=false
      }
-     
      else{
       setPhoneError("")
      }
@@ -103,13 +101,13 @@ const Forget = () => {
     {phoneError && <p className='error' >{phoneError}</p>}
   </div>
   <button type='submit' className='createaccount'><NavLink to="/Confirmation">Send Confirmation Code</NavLink></button>
-</form>
-<div className="createbtn">
+  </form>
+   <div className="createbtn">
   <div className='alreadyhave'>
     <p className='alreadytext'>Already have an account?  </p>
        <NavLink to="/Signin" className="loginbtnforget">Login</NavLink>
   </div>
-</div>
+    </div>
       </div>
     </div>
    

@@ -2,7 +2,6 @@
   height: 80px;
   display: flex;
   align-items: center;
-  
   position: sticky;
 }
  body.dark {
