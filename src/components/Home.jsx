@@ -344,54 +344,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
      
-      {/* <div className="thisissection">
-        <h6 className="isthis">This Is What Our Customers Say</h6>
-        <p>
-          Hear from our satisfied customers and see why our products are loved
-          by many.
-        </p>
-        <div className="cardbox">
-          <div className="card1">
-            <div className="d-flex blacktshirtsec p-5">
-              <img className="blacktshirt" src="blacktshirt.png" alt="" />
-            </div>
-            <div>
-              <p className="you">
-                "You won't regret it. I would like to personally thank you for
-                your outstanding product.Absolutely wonderful!"
-              </p>
-              <h3>James.k</h3>
-              <p>Traveler</p>
-            </div>
-            <div></div>
-          </div>
-          <div className="card2">
-            <div className="d-flex blacktshirtsec p-5">
-              <img className="yellowshirt" src="yellowshirt.png" alt="" />
-            </div>
-            <div>
-              <p className="you">
-                "Just saw i was looking for.Thank you for making it
-                painless,pleasent and most of all hassle Free. All Products are
-                Great"
-              </p>
-              <h3>Megen.W</h3>
-              <p>UI Designer</p>
-            </div>
-            <div></div>
-          </div>
-        </div>
-        <div className="d-flex btndiv">
-          <button>
-            <img className="previousbtn" src="previous.png" alt="previousbtn" />
-          </button>
-          <button>
-            <img className="nextbtn" src="nextbt.png" alt="nextbtn" />
-          </button>
-        </div>
-      </div> */}
       <div className="lastsection">
         <div>
           <img src="camelcoat.png" className="camelcoatpic" alt="camelcoat" />
