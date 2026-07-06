@@ -5,6 +5,7 @@ import "./header.css";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleLinkClick = () => setMenuOpen(false);
+  const [search, setSearch] = useState("");
      const [dark, setDark] = useState(false);
 
   const toggleMode = () => {
@@ -28,6 +29,20 @@ const Header = () => {
   <li><NavLink to="/Signin" onClick={handleLinkClick}>Sign In</NavLink></li>
   <li><NavLink to="/Cart" onClick={handleLinkClick}><img src="cart.png" alt="cart" /></NavLink></li>
   <li>
+    {/* <input
+    type="text"
+    placeholder="Search products..."
+  /> */}
+  <input
+  type="text"
+  value={search}
+  onChange={(e) => setSearch(e.target.value)}
+  placeholder="Search products..."
+/>
+     {/* <button className="mic-btn">
+    🎤
+  </button> */}
+
     <NavLink to="/Signup" className="signup-btn" onClick={handleLinkClick}>
       Sign Up
     </NavLink>
