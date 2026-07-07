@@ -49,23 +49,9 @@ const Header = () => {
 
   </li>
   <li>
-    {/* let button=document.querySelector(".btn")
-button.addEventListener("click",()=>{
-    document.body.classList.toggle("dark")
-    if(document.body.classList.contains("dark")){
-        button.innerText="light mode ☀️ "
-    }
-else{
-    button.innerText="dark mode 🌙 "
-}
-}) */}
-{/* <button class="btn">i am a button</button> */}
-    {/* <button onClick={toggleMode}>
-          {dark ? "Light Mode ☀️" : "Dark Mode 🌙"}
-        </button> */}
         <button className="theme-btn" onClick={toggleMode}>
-  {dark ? "Light Mode ☀️" : "Dark Mode 🌙"}
-</button>
+         {dark ? "Light Mode ☀️" : "Dark Mode 🌙"}
+          </button>
 
   </li>
 </ul>
