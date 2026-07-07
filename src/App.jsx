@@ -24,10 +24,7 @@ function App() {
      path:"/",
      element:<><Headers/><Home/></>
     },
-    //  {
-    //  path:"/Deals",
-    //  element:<><Headers/><Deals/></>
-    // },
+    
     {
      path:"/Shop",
      element:<><Headers/><Shop/></>
@@ -67,18 +64,11 @@ function App() {
      path:"/Contactus",
      element:<><Headers/><Contactus/></>
     },
-
-
-
-
   ])
 
   return (
     <>
-    
      <RouterProvider router={router}/>
-     
-    
     </>
   )
 }
