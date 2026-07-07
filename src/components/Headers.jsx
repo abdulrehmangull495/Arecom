@@ -33,12 +33,12 @@ const Header = () => {
     type="text"
     placeholder="Search products..."
   /> */}
-  <input
+  {/* <input
   type="text"
   value={search}
   onChange={(e) => setSearch(e.target.value)}
   placeholder="Search products..."
-/>
+/> */}
      {/* <button className="mic-btn">
     🎤
   </button> */}
