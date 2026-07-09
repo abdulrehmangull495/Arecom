@@ -21,7 +21,7 @@ if (email === "") {
     setEmailError("Email is required");
   } 
   else if (!email.includes("@")) {
-    setEmailError("@ is missing");
+    setEmailError("Email must contain '@'");
   } 
   else {
     setEmailError("");

@@ -41,7 +41,7 @@ const Signup = () => {
       setEmailError("Email is required");
       isValid = false;
     } else if (!email.includes("@")) {
-      setEmailError("@ is missing");
+      setEmailError("Please enter a valid email address.");
       isValid = false;
     } else {
       setEmailError("");
@@ -60,7 +60,7 @@ const Signup = () => {
       setPasswordError("password is required");
       isValid = false;
     } else if (password.length < 8) {
-      setPasswordError("password at least 8 characters or digits");
+      setPasswordError("Password must be at least 8 characters long.");
       isValid = false;
     } else {
       setPasswordError("");
@@ -70,7 +70,7 @@ const Signup = () => {
       setConfirmPasswordError("confirm password is required");
       isValid = false;
     } else if (password !== confirmPassword) {
-      setConfirmPasswordError("Password does not match");
+      setConfirmPasswordError("Passwords do not match");
       isValid = false;
     } else {
       setConfirmPasswordError("");

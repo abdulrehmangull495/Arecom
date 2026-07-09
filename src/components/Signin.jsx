@@ -20,7 +20,7 @@ e.preventDefault()
     isValid=false
   }
   else if(!email.includes("@")){
-    setEmailError("email must contain @")
+    setEmailError("Please enter a valid email address.")
     isValid=false
   }
 
@@ -28,13 +28,13 @@ e.preventDefault()
     setEmailError("")
   }
   if(password===""){
-    setPasswordError("password is required")
+    setPasswordError("Please enter your password")
     isValid=false
   }
   
 
   else if(password.length<8){
-    setPasswordError("password must contain 8 characters or digits")
+    setPasswordError("Password must be at least 8 characters long.")
     isValid=false
   }
   else{
