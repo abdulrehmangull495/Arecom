@@ -72,24 +72,25 @@ const Signup = () => {
     } else if (password !== confirmPassword) {
       setConfirmPasswordError("Passwords do not match");
       isValid = false;
-    } else {
+    } 
+    else {
       setConfirmPasswordError("");
     }
     if (isValid) {
       alert("Form Submitted");
       SetFirstName("");
-      SetLastName("");
-      setEmail("");
-      setphoneNumber("");
-      setPassword("");
-      setConfirmPassword("");
-
       SetFirstNameError("");
+      SetLastName("");
       SetLastNameError("");
-      setEmailError("");
+      setEmail("");
+      setEmailError("")
+      setphoneNumber("");
       setphoneNumberError("");
+      setPassword("");
       setPasswordError("");
+      setConfirmPassword("");
       setConfirmPasswordError("");
+      
     }
   };
 
@@ -125,7 +126,7 @@ const Signup = () => {
           </div>
 
           <form className="inputfields" onSubmit={handlename} noValidate>
-            <div className="row">
+            {/* <div className="row">
               <input
                 type="text"
                 placeholder="Enter First Name"
@@ -185,7 +186,71 @@ const Signup = () => {
               {confirmPasswordError && (
                 <p className="firstnameerror">{confirmPasswordError}</p>
               )}
-            </div>
+            </div> */}
+
+            <div className="row">
+  <div className="field">
+    <input
+      type="text"
+      placeholder="Enter First Name"
+      value={firstName}
+      onChange={(e) => SetFirstName(e.target.value)}
+    />
+    {firstNameError && <p className="error">{firstNameError}</p>}
+  </div>
+
+  <div className="field">
+    <input
+      type="text"
+      placeholder="Enter Last Name"
+      value={lastName}
+      onChange={(e) => SetLastName(e.target.value)}
+    />
+    {lastNameError && <p className="error">{lastNameError}</p>}
+  </div>
+</div>
+<div className="row">
+  <div className="field">
+    <input
+      type="email"
+      placeholder="Enter Email"
+      value={email}
+      onChange={(e) => setEmail(e.target.value)}
+    />
+    {emailError && <p className="error">{emailError}</p>}
+  </div>
+
+  <div className="field">
+    <input
+      type="tel"
+      placeholder="Enter Phone Number"
+      value={phoneNumber}
+      onChange={(e) => setphoneNumber(e.target.value)}
+    />
+    {phoneNumberError && <p className="error">{phoneNumberError}</p>}
+  </div>
+</div>
+<div className="row">
+  <div className="field">
+    <input
+      type="password"
+      placeholder="Enter Your Password"
+      value={password}
+      onChange={(e) => setPassword(e.target.value)}
+    />
+    {passwordError && <p className="error">{passwordError}</p>}
+  </div>
+
+  <div className="field">
+    <input
+      type="password"
+      placeholder="Confirm Password"
+      value={confirmPassword}
+      onChange={(e) => setConfirmPassword(e.target.value)}
+    />
+    {confirmPasswordError && <p className="error">{confirmPasswordError}</p>}
+  </div>
+</div>
             <div className="createbtn">
               <button className="createaccount">Create Account</button>
             </div>

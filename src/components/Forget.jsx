@@ -40,7 +40,7 @@ const handlesubmit=(e)=>{
       isValid=false
      }
      else if(!email.includes("@")){
-      setEmailError("@ is required")
+      setEmailError("Please enter a valid email address.")
       isValid=false
      }
      else{
@@ -87,20 +87,65 @@ const handlesubmit=(e)=>{
         </div>
         <div className='or'><h6>OR</h6></div>
        <form className="inputfields" onSubmit={handlesubmit} noValidate>
-  <div className="row">
+  {/* <div className="row">
     <input type="text" placeholder="Enter First Name" value={firstname} onChange={(e)=>setFirstName(e.target.value)}/>
     {firstnameError && <p className='error'>{firstnameError}</p>}
     <input type="text" placeholder="Enter Last Name" value={lastName} onChange={(e)=>setLastName(e.target.value)} />
     {lastNameError && <p className='error' >{lastNameError}</p>}
-  </div>
+  </div> */}
 
-  <div className="row">
+  {/* <div className="row">
     <input type="email" placeholder="Enter Email" value={email} onChange={(e)=>setEmail(e.target.value)} />
     {emailError && <p className='error'>{emailError}</p>}
     <input type="tel"placeholder="Enter Phone Number" value={phone} onChange={(e)=>setPhone(e.target.value)}/>
     {phoneError && <p className='error' >{phoneError}</p>}
+  </div> */}
+  <div className="row">
+  <div className="field">
+    <input
+      type="text"
+      placeholder="Enter First Name"
+      value={firstname}
+      onChange={(e) => setFirstName(e.target.value)}
+    />
+    {firstnameError && <p className="error">{firstnameError}</p>}
   </div>
-  <button type='submit' className='createaccount'><NavLink to="/Confirmation">Send Confirmation Code</NavLink></button>
+
+  <div className="field">
+    <input
+      type="text"
+      placeholder="Enter Last Name"
+      value={lastName}
+      onChange={(e) => setLastName(e.target.value)}
+    />
+    {lastNameError && <p className="error">{lastNameError}</p>}
+  </div>
+</div>
+<div className="row">
+  <div className="field">
+    <input
+      type="email"
+      placeholder="Enter Email"
+      value={email}
+      onChange={(e) => setEmail(e.target.value)}
+    />
+    {emailError && <p className="error">{emailError}</p>}
+  </div>
+
+  <div className="field">
+    <input
+      type="tel"
+      placeholder="Enter Phone Number"
+      value={phone}
+      onChange={(e) => setPhone(e.target.value)}
+    />
+    {phoneError && <p className="error">{phoneError}</p>}
+  </div>
+</div>
+  {/* <button type='submit' className='createaccount'><NavLink to="/Confirmation">Send Confirmation Code</NavLink></button> */}
+  <button type="submit" className="createaccount">
+  Send Confirmation Code
+</button>
   </form>
    <div className="createbtn">
   <div className='alreadyhave'>
