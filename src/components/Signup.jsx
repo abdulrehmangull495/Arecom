@@ -126,68 +126,6 @@ const Signup = () => {
           </div>
 
           <form className="inputfields" onSubmit={handlename} noValidate>
-            {/* <div className="row">
-              <input
-                type="text"
-                placeholder="Enter First Name"
-                value={firstName}
-                onChange={(e) => SetFirstName(e.target.value)}
-              />
-              {firstNameError && (
-                <p className="firstnameerror">{firstNameError}</p>
-              )}
-
-              <input
-                type="text"
-                placeholder="Enter Last Name"
-                value={lastName}
-                onChange={(e) => SetLastName(e.target.value)}
-              />
-              {lastNameError && (
-                <p className="firstnameerror">{lastNameError}</p>
-              )}
-            </div>
-
-            <div className="row">
-              <input
-                type="email"
-                placeholder="Enter Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-              {emailError && <p className="error">{emailError}</p>}
-              <input
-                type="text"
-                placeholder="Enter Phone Number"
-                value={phoneNumber}
-                onChange={(e) => setphoneNumber(e.target.value)}
-              />
-              {phoneNumberError && (
-                <p className="firstnameerror">{phoneNumberError}</p>
-              )}
-            </div>
-
-            <div className="row">
-              <input
-                type="password"
-                placeholder="Enter Your Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              {passwordError && (
-                <p className="firstnameerror">{passwordError}</p>
-              )}
-              <input
-                type="password"
-                placeholder="Confirm Password"
-                value={confirmPassword}
-                onChange={(e) => setConfirmPassword(e.target.value)}
-              />
-              {confirmPasswordError && (
-                <p className="firstnameerror">{confirmPasswordError}</p>
-              )}
-            </div> */}
-
             <div className="row">
   <div className="field">
     <input
