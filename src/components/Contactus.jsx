@@ -13,11 +13,9 @@ const Contactus = () => {
   // const[textareaError, setTextAreaError]=useState("")
 
   const handlesubmit=(e)=>{
-
      e.preventDefault();
       let isValid = true;
-    
-if (email === "") {
+  if (email === "") {
     setEmailError("Email is required");
   } 
   else if (!email.includes("@")) {
@@ -29,11 +27,11 @@ if (email === "") {
   }
   if (isValid){
       setName("");
-  setEmail("");
-  setTextArea("");
+      setEmail("");
+      setTextArea("");
       setName("");
-setEmail("");
-setMessage("");
+      setEmail("");
+      setMessage("");
   }
   
   }
@@ -78,7 +76,6 @@ setMessage("");
 </div>
           </div>
         </div>
-        
     </>
   )
 }
