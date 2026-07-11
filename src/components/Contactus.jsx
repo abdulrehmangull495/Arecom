@@ -32,15 +32,12 @@ const Contactus = () => {
       setName("");
       setEmail("");
       setMessage("");
-  }
-  
-  }
+  }}
   return (
     <>
     <div className='contactus'>
       <h1>Contact Us</h1>
       <p>Get in touch with us</p>
-    
     </div>
     <div className='leftrightcontactusdiv'>
           <div className="leftcontactusside">
