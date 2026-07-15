@@ -280,21 +280,24 @@ const Shop = () => {
                   <ProductCard key={p.title}  {...p}/>
                 })}
               </div> */}
+              
               {/* <div className="shop-page">
-                {
-                  shopproduct.map((p)=>{
-                    <ProductCard  key={p.title} {...p}/>
-                  })
-                }
-
-              </div> */}
-              <div className="shop-page">
               {shopproduct.map((p) => (
             <ProductCard key={p.title} {...p} />
             ))}
-            {/* {...p} iska seedha matlab hai: "p dabbay ke andar jitni bhi cheezein hain,
-             sab automatically props bana do." Ek hi line mein sab kuch chala jata hai. */}
+            
+           
+              </div> */}
+
+              <div className="shop-page">
+                {shopproduct.map((p)=>(
+                  <ProductCard key={p.title} {...p}/>
+))}
+
               </div>
+               {/* {...p} iska seedha matlab hai: "p dabbay ke andar jitni bhi cheezein hain,
+             sab automatically props bana do." Ek hi line mein sab kuch chala jata hai. */}
+
 
             </div>
           </div>
