@@ -4,6 +4,17 @@ import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
+import Shopproductcart from "./Shopproductcart";
+import ProductCard from "./ProductCard";
+const shopproduct=[
+  {image:"roundedredhat.png", alt:"roundedredhat",title:"Rounded Red Hat", price:"PKR 1000", className:"btnalldiv" },
+  {image:"LinenblendShirt.png", alt:"LinenblendShirt",title:"Linen-blend Shirt", price:"PKR 1000", className:"btnalldiv" },
+  {image:"longsleevecoat.png", alt:"longsleevecoat",title:"Long Sleeve Coat", price:"PKR 5000", className:"btnalldiv" },
+  {image:"denimhat.png", alt:"denimhat",title:"Denim Hat", price:"PKR 1000", className:"btnalldiv" },
+  {image:"oversizedtshirt.png", alt:"oversizedtshirt",title:"Oversized T-shirt", price:"PKR 3000", className:"btnalldiv" },
+  {image:"rockstarjacket.png", alt:"rockstarjacket",title:"Rockastar Jacket", price:"PKR 10000", className:"btnalldiv" },
+  {image:"dottedblackdress.png", alt:"dottedblackdress",title:"Dotted Black Dress", price:"PKR 4,000", className:"btnalldiv" },
+];
 const Shop = () => {
   return (
     <>
@@ -75,7 +86,7 @@ const Shop = () => {
           <h6 className="bestselling">Best selling</h6>
           <div className="imgssec">
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-12 btnalldiv">
+              {/* <div className="col-lg-4 col-md-6 col-12 btnalldiv">
                 <img src="roundedredhat.png" alt="" />
                 <p className="imgtitle">Rounded Red Hat</p>
 
@@ -263,7 +274,28 @@ const Shop = () => {
                 >
                   Add to Cart
                 </Button>
+              </div> */}
+              {/* <div className="shop-page"> 
+                {shopproduct.map((p)=>{
+                  <ProductCard key={p.title}  {...p}/>
+                })}
+              </div> */}
+              {/* <div className="shop-page">
+                {
+                  shopproduct.map((p)=>{
+                    <ProductCard  key={p.title} {...p}/>
+                  })
+                }
+
+              </div> */}
+              <div className="shop-page">
+              {shopproduct.map((p) => (
+            <ProductCard key={p.title} {...p} />
+            ))}
+            {/* {...p} iska seedha matlab hai: "p dabbay ke andar jitni bhi cheezein hain,
+             sab automatically props bana do." Ek hi line mein sab kuch chala jata hai. */}
               </div>
+
             </div>
           </div>
         </div>
