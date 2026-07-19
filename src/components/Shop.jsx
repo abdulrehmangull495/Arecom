@@ -316,19 +316,17 @@ const Shop = () => {
     <ProductCard key={p.title} {...p} />
   ))}
 </div> */}
-<div className="shop-page">
+      <div className="shop-page">
   {filteredProducts.length > 0 ? (
     filteredProducts.map((p) => (
       <ProductCard key={p.title} {...p} />
     ))
   ) : (
     <p className="no-results">No products found.</p>
-  )}
-</div>
+      )}
+     </div>
                {/* {...p} iska seedha matlab hai: "p dabbay ke andar jitni bhi cheezein hain,
              sab automatically props bana do." Ek hi line mein sab kuch chala jata hai. */}
-
-
             </div>
           </div>
         </div>
@@ -361,7 +359,6 @@ const Shop = () => {
           <div>
             <img className="icon" src="support.png" alt="" />
           </div>
-
           <div className="m-2">
             <p className="mb-0">High Quality</p>
             <p className="mb-0 crafted">crafted from top materials</p>
@@ -371,7 +368,6 @@ const Shop = () => {
           <div>
             <img className="icon" src="warrenty.png" alt="" />
           </div>
-
           <div className="m-2">
             <p className="mb-0">Warrany Protection</p>
             <p className="mb-0 over">Over 2 years</p>
@@ -391,19 +387,15 @@ const Shop = () => {
           <div>
             <img className="icon" src="call.png" alt="" />
           </div>
-
           <div className="m-2">
             <p className="mb-0 ">24 / 7 Support</p>
             <p className="mb-0 dedicated">Dedicated support</p>
           </div>
         </div>
       </div>
-
       <div className="follow">
         <h6>Follow Us On Instagram</h6>
-        <p className="stay">
-          Stay updated with our latest products and offers.
-        </p>
+        <p className="stay">Stay updated with our latest products and offers.</p>
         <div className="followsecimg">
           <img className="browncoat" src="brown coat.png" alt="" />
           <img className="blueheel" src="blueheel.png" alt="" />
@@ -421,9 +413,7 @@ const Shop = () => {
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
-          <p className="getthe">
-            Be the first to know about new products, offers and discounts.
-          </p>
+          <p className="getthe">Be the first to know about new products, offers and discounts.</p>
           <p>abdulrehmangull495@gmail.com</p>
           <div>
             <button className="subsnow">Subscribe Now</button>
