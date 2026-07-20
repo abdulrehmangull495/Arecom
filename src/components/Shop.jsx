@@ -334,7 +334,7 @@ const Shop = () => {
 
       <div className="itsmypeakysection">
         <div>
-          <img className="girlside" src="girlsidepose.png" alt="" />
+          <img className="girlside" src="girlsidepose.png" alt="girlsidepose" />
         </div>
         <div className="Peakyblinders">
           <h6 className="womencollection mb-0">Women Collection</h6>
@@ -357,7 +357,7 @@ const Shop = () => {
       <div className="fouritemsdiv">
         <div className="qualitydiv">
           <div>
-            <img className="icon" src="support.png" alt="" />
+            <img className="icon" src="support.png" alt="support" />
           </div>
           <div className="m-2">
             <p className="mb-0">High Quality</p>
@@ -366,7 +366,7 @@ const Shop = () => {
         </div>
         <div className="warrentydiv">
           <div>
-            <img className="icon" src="warrenty.png" alt="" />
+            <img className="icon" src="warrenty.png" alt="warrenty" />
           </div>
           <div className="m-2">
             <p className="mb-0">Warrany Protection</p>
@@ -375,7 +375,7 @@ const Shop = () => {
         </div>
         <div className="freediv">
           <div>
-            <img className="icon" src="ship.png" alt="" />
+            <img className="icon" src="ship.png" alt="shipicon" />
           </div>
 
           <div className="m-2">
@@ -385,7 +385,7 @@ const Shop = () => {
         </div>
         <div className="calldiv">
           <div>
-            <img className="icon" src="call.png" alt="" />
+            <img className="icon" src="call.png" alt="call" />
           </div>
           <div className="m-2">
             <p className="mb-0 ">24 / 7 Support</p>
@@ -397,19 +397,19 @@ const Shop = () => {
         <h6>Follow Us On Instagram</h6>
         <p className="stay">Stay updated with our latest products and offers.</p>
         <div className="followsecimg">
-          <img className="browncoat" src="brown coat.png" alt="" />
-          <img className="blueheel" src="blueheel.png" alt="" />
-          <img className="greydress" src="greydress.png" alt="" />
-          <img className="redpant" src="red pant.png" alt="" />
-          <img className="blackcoat" src="black coat.png" alt="" />
-          <img className="blackgirl" src="blackgirl.png" alt="" />
-          <img className="redfull" src="redfull.png" alt="" />
+          <img className="browncoat" src="brown coat.png" alt="browncoat" />
+          <img className="blueheel" src="blueheel.png" alt="blueheel" />
+          <img className="greydress" src="greydress.png" alt="greydress" />
+          <img className="redpant" src="red pant.png" alt="redpant" />
+          <img className="blackcoat" src="black coat.png" alt="blackcoat" />
+          <img className="blackgirl" src="blackgirl.png" alt="blackgirl" />
+          <img className="redfull" src="redfull.png" alt="redfull" />
         </div>
       </div>
 
       <div className="lastsectionscubs">
         <div>
-          <img src="camelcoat.png" className="camelcoatpic" alt="" />
+          <img src="camelcoat.png" className="camelcoatpic" alt="camelcoatpic" />
         </div>
         <div className="subsdiv">
           <h6 className="subscribeto">Subscribe To Our Newsletter</h6>
@@ -420,7 +420,7 @@ const Shop = () => {
           </div>
         </div>
         <div>
-          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
+          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoatpic" />
         </div>
         <ScrollToTop/>
       </div>
