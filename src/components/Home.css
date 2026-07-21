@@ -1745,14 +1745,12 @@ body.dark .justdropped{
     max-width: 270px;
     width: 100%;
     height: auto;
-    
   }
   .darkgreycoatpic {
     max-width: 200px;
     width: 100%;
     height: auto;
   }
-
   .ftdiv {
     display: flex;
     justify-content: space-around;
@@ -1807,7 +1805,6 @@ body.dark .justdropped{
     color: rgb(72, 72, 72);
     margin-top: 50px;
   }
-
   .previousimg {
     padding: 15px;
     border-radius: 20px;
@@ -1819,7 +1816,6 @@ body.dark .justdropped{
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .blackgirlimg {
     max-width: 300px;
     width: 100%;
@@ -1830,7 +1826,6 @@ body.dark .justdropped{
     width: 100%;
     height: 400px;
   }
-
   .nextimg {
     padding: 15px;
     border-radius: 20px;
@@ -1841,7 +1836,6 @@ body.dark .justdropped{
     display: flex;
     gap: 10px;
   }
-
   .newarrivalsection {
     margin-top: 200px;
   }
@@ -1857,7 +1851,6 @@ body.dark .justdropped{
     margin: 0 auto;
     margin-bottom: 10px;
   }
-
   .newarrivals {
     display: flex;
     justify-content: center;
@@ -1886,14 +1879,12 @@ body.dark .justdropped{
     font-weight: 700;
     cursor: pointer;
   }
-
   .cards {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 50px;
   }
-
   .card-row {
     display: flex;
     gap: 20px;
@@ -1903,7 +1894,6 @@ body.dark .justdropped{
     font-weight: 700;
     padding-top: 10px;
   }
-
   .product-card {
     flex: 1;
     padding: 16px;
@@ -1932,7 +1922,6 @@ body.dark .justdropped{
     flex-wrap: wrap;
     margin: 0 auto;
   }
-
   .girlside {
     max-width: 500px;
     width: 100%;
@@ -2022,14 +2011,11 @@ body.dark .justdropped{
     gap: 80px;
     margin-top: 30px;
   }
-
   .stay {
     max-width: 350px;
   }
-
   .follow {
     display: flex;
-
     align-items: center;
     margin-left: 100px;
     flex-direction: column;
@@ -2074,7 +2060,6 @@ body.dark .justdropped{
     width: 100%;
     height: 230px;
   }
-
   .followsecimg {
     padding: 20px;
   }
@@ -2107,12 +2092,10 @@ body.dark .justdropped{
     display: flex;
     align-items: center;
   }
-
   .blacktshirt {
     max-width: 100px;
     width: 100%;
   }
-
   .you {
     max-width: 500px;
   }
@@ -2125,7 +2108,6 @@ body.dark .justdropped{
     gap: 10px;
     margin-top: 30px;
   }
-
   .previousbtn {
     padding: 10px;
     background-color: #ddd;
@@ -2136,12 +2118,10 @@ body.dark .justdropped{
   .previousbtn:focus {
     outline: none;
   }
-
   .nextbtn {
     padding: 10px;
     margin: 5px;
     background-color: #ddd;
-
     border-radius: 20px;
     border: none;
     border: none !important;
@@ -2189,7 +2169,6 @@ body.dark .justdropped{
     height: 200px;
     width: 100%;
   }
-
   .ftdiv {
     display: flex;
     justify-content: space-around;
@@ -2244,7 +2223,6 @@ body.dark .justdropped{
     color: rgb(72, 72, 72);
     margin-top: 50px;
   }
-
   .previousimg {
     padding: 15px;
     border-radius: 20px;
@@ -2256,7 +2234,6 @@ body.dark .justdropped{
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .blackgirlimg {
     max-width: 300px;
     width: 100%;
@@ -2267,7 +2244,6 @@ body.dark .justdropped{
     width: 100%;
     height: 400px;
   }
-
   .nextimg {
     padding: 15px;
     border-radius: 20px;
@@ -2278,7 +2254,6 @@ body.dark .justdropped{
     display: flex;
     gap: 10px;
   }
-
   .newarrivalsection {
     margin-top: 200px;
   }
@@ -2292,7 +2267,6 @@ body.dark .justdropped{
     font-size: 18px;
     font-weight: 600;
   }
-
   .newarrivals {
     display: flex;
     justify-content: center;
@@ -2320,14 +2294,12 @@ body.dark .justdropped{
     font-weight: 700;
     cursor: pointer;
   }
-
   .cards {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 50px;
   }
-
   .card-row {
     display: flex;
     gap: 20px;
@@ -2394,7 +2366,6 @@ body.dark .justdropped{
   }
   .sizediv {
     display: flex;
-
     gap: 10px;
     align-items: center;
     margin-top: 20px;
@@ -2456,11 +2427,9 @@ body.dark .justdropped{
     gap: 80px;
     margin-top: 30px;
   }
-
   .stay {
     max-width: 350px;
   }
-
   .follow {
     display: flex;
     align-items: center;
@@ -2476,7 +2445,6 @@ body.dark .justdropped{
     width: 100%;
     height: 260px;
   }
-
   .blueheel {
     max-width: 220px;
     width: 100%;
@@ -2507,7 +2475,6 @@ body.dark .justdropped{
     width: 100%;
     height: 230px;
   }
-
   .followsecimg {
     padding: 20px;
   }
@@ -2540,12 +2507,10 @@ body.dark .justdropped{
     display: flex;
     align-items: center;
   }
-
   .blacktshirt {
     max-width: 100px;
     width: 100%;
   }
-
   .you {
     max-width: 500px;
   }
@@ -2558,7 +2523,6 @@ body.dark .justdropped{
     gap: 10px;
     margin-top: 30px;
   }
-
   .previousbtn {
     padding: 10px;
     background-color: #ddd;
@@ -2569,7 +2533,6 @@ body.dark .justdropped{
   .previousbtn:focus {
     outline: none;
   }
-
   .nextbtn {
     padding: 10px;
     margin: 5px;
@@ -2622,7 +2585,6 @@ body.dark .justdropped{
     height: 400px;
     width: 100%;
   }
-
   .ftdiv {
     display: flex;
     justify-content: space-around;
