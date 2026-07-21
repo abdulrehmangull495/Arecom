@@ -90,7 +90,6 @@ const Home = () => {
               ))}
             </div>
           </div>
-
           <div className="viewmorediv">
             <Button
               component={NavLink}
@@ -125,8 +124,7 @@ const Home = () => {
             <h6 className="desc mb-0">DESCRIPTION</h6>
             <p className="ourpeaky mb-0">
               Shop our Peaky Blinders Women Collection and elevate your wardrobe
-              with exclusive, stylish pieces.
-            </p>
+              with exclusive, stylish pieces.</p>
             <div className="sizediv">
               <p>Size:</p>
               <p className="m">M</p>
@@ -137,7 +135,6 @@ const Home = () => {
             </NavLink>
           </div>
         </div>
-
         <div className="fouritemsdiv">
           <div className="qualitydiv">
             <div>
@@ -176,7 +173,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div className="lastsection">
           <div>
             <img src="camelcoat.png" className="camelcoatpic" alt="camelcoat" />
@@ -195,10 +191,8 @@ const Home = () => {
             <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoat" />
           </div>
         </div>
-
         <ScrollToTop />
       </main>
-
       <Footer />
     </>
   );
