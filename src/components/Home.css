@@ -726,13 +726,11 @@ body.dark .justdropped{
   flex-wrap: wrap;
   gap: 20px;
 }
-
 .logosection img {
   max-width: 100px;
   height: auto;
 }
-
-  .lastdatesection {
+.lastdatesection {
     display: flex;
     justify-content: center;
     align-items: center;
