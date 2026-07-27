@@ -403,7 +403,7 @@ const Shop = () => {
           <img className="redpant" src="red pant.png" alt="redpant" />
           <img className="blackcoat" src="black coat.png" alt="blackcoat" />
           <img className="blackgirl" src="blackgirl.png" alt="blackgirl" />
-          <img className="redfull" src="redfull.png" alt="redfull" />
+          {/* <img className="redfull" src="redfull.png" alt="redfull" /> */}
         </div>
       </div>
 

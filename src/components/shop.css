@@ -262,7 +262,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 80px;
+  gap: 20px;
   margin-top: 30px;
 }
 .sit {
@@ -312,6 +312,25 @@ nav ul li a {
 
 .followsecimg {
   padding: 20px;
+}
+.followsecimg {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  
+}
+.followsecimg img {
+  width: 200px;
+  object-fit: cover;
+    transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.followsecimg img:hover {
+  transform: scale(1.05);
 }
 .thisissection {
   display: flex;
@@ -666,7 +685,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 20px;
     margin-top: 30px;
   }
   .sit {
@@ -721,6 +740,37 @@ nav ul li a {
 
   .followsecimg {
     padding: 20px;
+  }
+
+  .follow {
+    padding: 50px 15px;
+  }
+
+  .follow h6 {
+    font-size: 24px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .stay {
+    text-align: center;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .followsecimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .followsecimg img {
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
   }
   .thisissection {
     display: flex;
@@ -1116,7 +1166,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 20px;
     margin-top: 30px;
   }
 
@@ -1172,6 +1222,36 @@ nav ul li a {
 
   .followsecimg {
     padding: 20px;
+  }
+  .follow {
+    padding: 50px 15px;
+  }
+
+  .follow h6 {
+    font-size: 24px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .stay {
+    text-align: center;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .followsecimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .followsecimg img {
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
   }
   .thisissection {
     display: flex;

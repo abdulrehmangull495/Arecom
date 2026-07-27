@@ -154,6 +154,8 @@ const Home = () => {
               <p className="mb-0 over">Over 2 years</p>
             </div>
           </div>
+          
+
           <div className="freediv">
             <div>
               <img className="icon" src="ship.png" alt="shipping" />
