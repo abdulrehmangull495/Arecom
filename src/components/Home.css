@@ -632,7 +632,28 @@ body.dark .justdropped{
     width: 100%;
     height: auto;
   }
+ .newsletter-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: 0.3s ease;
+  background-color: #fff;
+  color: #333;
+}
 
+.newsletter-input::placeholder {
+  color: #999;
+}
+
+.newsletter-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
 @media (min-width: 300px) and (max-width: 425px) {
   .firstboy {
     background-color: rgb(224, 224, 224, 100);
@@ -1182,6 +1203,29 @@ body.dark .justdropped{
     color: rgb(72, 72, 72, 100);
     padding-top: 10px;
   }
+
+  .newsletter-input {
+  width: 100%;
+  max-width: 260px;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: 0.3s ease;
+  background-color: #fff;
+  color: #333;
+}
+
+.newsletter-input::placeholder {
+  color: #999;
+}
+
+.newsletter-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
 }
 
 @media (min-width: 426px) and (max-width: 575px) {
