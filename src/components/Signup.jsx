@@ -3,6 +3,7 @@ import "./Signup.css";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 import { useState } from "react";
+import { motion } from "framer-motion";
 const Signup = () => {
   const [firstName, SetFirstName] = useState("");
   const [firstNameError, SetFirstNameError] = useState("");
@@ -16,6 +17,7 @@ const Signup = () => {
   const [passwordError, setPasswordError] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [confirmPasswordError, setConfirmPasswordError] = useState("");
+
   const handlename = (e) => {
     e.preventDefault();
     let isValid = true;
@@ -72,8 +74,7 @@ const Signup = () => {
     } else if (password !== confirmPassword) {
       setConfirmPasswordError("Passwords do not match");
       isValid = false;
-    } 
-    else {
+    } else {
       setConfirmPasswordError("");
     }
     if (isValid) {
@@ -83,28 +84,37 @@ const Signup = () => {
       SetLastName("");
       SetLastNameError("");
       setEmail("");
-      setEmailError("")
+      setEmailError("");
       setphoneNumber("");
       setphoneNumberError("");
       setPassword("");
       setPasswordError("");
       setConfirmPassword("");
       setConfirmPasswordError("");
-      
     }
   };
 
   return (
     <>
       <div className="leftrightsigupdiv">
-        <div className="leftsignupside">
+        <motion.div
+          className="leftsignupside"
+          initial={{ opacity: 0, x: -150 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <img
             className="leftsignupsideimg"
             src="blackclassicshirt.png"
             alt=""
           />
-        </div>
-        <div className="rightsignupside">
+        </motion.div>
+        <motion.div
+          className="rightsignupside"
+          initial={{ opacity: 0, x: 400 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+        >
           <h1>Arecom</h1>
           <h5>Create Account</h5>
           <div className="createaccountdiv">
@@ -113,6 +123,7 @@ const Signup = () => {
                 <img className="goo" src="google.png" alt="" />
                 Sign up with Google
               </button>
+              
             </div>
             <div>
               <button className="mail">
@@ -127,68 +138,72 @@ const Signup = () => {
 
           <form className="inputfields" onSubmit={handlename} noValidate>
             <div className="row">
-  <div className="field">
-    <input
-      type="text"
-      placeholder="Enter First Name"
-      value={firstName}
-      onChange={(e) => SetFirstName(e.target.value)}
-    />
-    {firstNameError && <p className="error">{firstNameError}</p>}
-  </div>
+              <div className="field">
+                <input
+                  type="text"
+                  placeholder="Enter First Name"
+                  value={firstName}
+                  onChange={(e) => SetFirstName(e.target.value)}
+                />
+                {firstNameError && <p className="error">{firstNameError}</p>}
+              </div>
 
-  <div className="field">
-    <input
-      type="text"
-      placeholder="Enter Last Name"
-      value={lastName}
-      onChange={(e) => SetLastName(e.target.value)}
-    />
-    {lastNameError && <p className="error">{lastNameError}</p>}
-  </div>
-</div>
-<div className="row">
-  <div className="field">
-    <input
-      type="email"
-      placeholder="Enter Email"
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
-    />
-    {emailError && <p className="error">{emailError}</p>}
-  </div>
+              <div className="field">
+                <input
+                  type="text"
+                  placeholder="Enter Last Name"
+                  value={lastName}
+                  onChange={(e) => SetLastName(e.target.value)}
+                />
+                {lastNameError && <p className="error">{lastNameError}</p>}
+              </div>
+            </div>
+            <div className="row">
+              <div className="field">
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+                {emailError && <p className="error">{emailError}</p>}
+              </div>
 
-  <div className="field">
-    <input
-      type="tel"
-      placeholder="Enter Phone Number"
-      value={phoneNumber}
-      onChange={(e) => setphoneNumber(e.target.value)}
-    />
-    {phoneNumberError && <p className="error">{phoneNumberError}</p>}
-  </div>
-</div>
-<div className="row">
-  <div className="field">
-    <input
-      type="password"
-      placeholder="Enter Your Password"
-      value={password}
-      onChange={(e) => setPassword(e.target.value)}
-    />
-    {passwordError && <p className="error">{passwordError}</p>}
-  </div>
+              <div className="field">
+                <input
+                  type="tel"
+                  placeholder="Enter Phone Number"
+                  value={phoneNumber}
+                  onChange={(e) => setphoneNumber(e.target.value)}
+                />
+                {phoneNumberError && (
+                  <p className="error">{phoneNumberError}</p>
+                )}
+              </div>
+            </div>
+            <div className="row">
+              <div className="field">
+                <input
+                  type="password"
+                  placeholder="Enter Your Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                {passwordError && <p className="error">{passwordError}</p>}
+              </div>
 
-  <div className="field">
-    <input
-      type="password"
-      placeholder="Confirm Password"
-      value={confirmPassword}
-      onChange={(e) => setConfirmPassword(e.target.value)}
-    />
-    {confirmPasswordError && <p className="error">{confirmPasswordError}</p>}
-  </div>
-</div>
+              <div className="field">
+                <input
+                  type="password"
+                  placeholder="Confirm Password"
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                />
+                {confirmPasswordError && (
+                  <p className="error">{confirmPasswordError}</p>
+                )}
+              </div>
+            </div>
             <div className="createbtn">
               <button className="createaccount">Create Account</button>
             </div>
@@ -206,7 +221,7 @@ const Signup = () => {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
