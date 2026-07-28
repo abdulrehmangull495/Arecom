@@ -5,14 +5,51 @@ import Button from "@mui/material/Button";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import ProductCard from "./ProductCard";
+import { motion } from "framer-motion";
 
 const products = [
-  { image: "shinydress.png", alt: "Shiny Dress", title: "Shiny Dress", price: "PKR 4999", className: "shinydressdiv" },
-  { image: "longdress.png", alt: "Long Dress", title: "Long Dress", price: "PKR 4599", className: "longdressdiv" },
-  { image: "fullsweater.png", alt: "Full Sweater", title: "Full Sweater", price: "PKR 3999", className: "fullsweaterdiv" },
-  { image: "whitedress.png", alt: "whitedress", title: "White Dress", price: "PKR 3999", className: "whitedressdiv" },
-  { image: "colorfulldress.png", alt: "colorfulldress", title: "Colorful Dress", price: "PKR 3999", className: "colorfulldressdiv" },
-  { image: "whiteshirt.png", alt: "whiteshirt", title: "White Shirt", price: "PKR 3999", className: "whiteshirtdiv" },
+  {
+    image: "shinydress.png",
+    alt: "Shiny Dress",
+    title: "Shiny Dress",
+    price: "PKR 4999",
+    className: "shinydressdiv",
+  },
+  {
+    image: "longdress.png",
+    alt: "Long Dress",
+    title: "Long Dress",
+    price: "PKR 4599",
+    className: "longdressdiv",
+  },
+  {
+    image: "fullsweater.png",
+    alt: "Full Sweater",
+    title: "Full Sweater",
+    price: "PKR 3999",
+    className: "fullsweaterdiv",
+  },
+  {
+    image: "whitedress.png",
+    alt: "whitedress",
+    title: "White Dress",
+    price: "PKR 3999",
+    className: "whitedressdiv",
+  },
+  {
+    image: "colorfulldress.png",
+    alt: "colorfulldress",
+    title: "Colorful Dress",
+    price: "PKR 3999",
+    className: "colorfulldressdiv",
+  },
+  {
+    image: "whiteshirt.png",
+    alt: "whiteshirt",
+    title: "White Shirt",
+    price: "PKR 3999",
+    className: "whiteshirtdiv",
+  },
 ];
 
 const Home = () => {
@@ -22,11 +59,19 @@ const Home = () => {
         <div className="herosection">
           <div className="container herosectiondiv">
             <div>
-              <div className="firstboy">
+              {/* <div className="firstboy">
                 <img className="firstboyimg" src="image228.png" alt="" />
-              </div>
+              </div> */}
+              <motion.div
+                className="firstboy"
+                initial={{ opacity: 0, x: -80 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <img className="firstboyimg" src="image228.png" alt="" />
+              </motion.div>
             </div>
-            <div className="ultimatesection">
+            {/* <div className="ultimatesection">
               <img className="girlsimg" src="images.png" alt="" />
               <h1 className="hero-title">ULTIMATE SALE</h1>
               <p className="hero-subtitle">New Collection</p>
@@ -34,29 +79,140 @@ const Home = () => {
                 Shop Now
               </NavLink>
               <img className="girlsimgpink" src="image.png" alt="girlimg" />
+            </div> */}
+            <div className="ultimatesection">
+              <motion.img
+                className="girlsimg"
+                src="images.png"
+                alt=""
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7 }}
+              />
+
+              <motion.h1
+                className="hero-title"
+                initial={{ opacity: 0, scale: 0.7 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
+                ULTIMATE SALE
+              </motion.h1>
+
+              <motion.p
+                className="hero-subtitle"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.7, delay: 0.4 }}
+              >
+                New Collection
+              </motion.p>
+
+              <motion.div
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+              >
+                <NavLink to="/shop" className="btnshopnow">
+                  Shop Now
+                </NavLink>
+              </motion.div>
+
+              <motion.img
+                className="girlsimgpink"
+                src="image.png"
+                alt="girlimg"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.8 }}
+              />
             </div>
-            <div>
+            {/* <div>
               <div className="brownboy">
                 <img className="brownboyimg" src="img227.png" alt="boy" />
               </div>
-            </div>
+            </div> */}
+            <motion.div
+              className="brownboy"
+              initial={{ opacity: 0, x: 80 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+            >
+              <img className="brownboyimg" src="img227.png" alt="boy" />
+            </motion.div>
           </div>
         </div>
 
-        <div className="logosection">
-          <img src="chanellogo.png" alt="chanellogo" />
-          <img src="louislogo.png" alt="louislogo" />
+        <motion.div className="logosection">
+          {/* <motion.img src="chanellogo.png" alt="chanellogo" initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}/>
+                <motion.img src="louislogo.png" alt="louislogo" initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}/>
+                <motion.img src="pradalogo.png" alt="pradalogo" initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}/>
+                <motion.img src="denim.png" alt="denim" initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}/>
+                <motion.img src="calvinklein.png" alt="calvinklein"  initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.7 }}/> */}
+          {/* <motion.div
+            className="logosection"
+            animate={{
+              x: ["0%", "-100%"],
+            }}
+            transition={{
+              duration: 15,
+              repeat: Infinity,
+              repeatType: "loop",
+              ease: "linear",
+            }}
+          >
+            <img src="chanellogo.png" alt="chanellogo" />
+            <img src="louislogo.png" alt="louislogo" />
+            <img src="pradalogo.png" alt="pradalogo" />
+            <img src="denim.png" alt="denim" />
+            <img src="calvinklein.png" alt="calvinklein" />
+             
+          </motion.div> */}
+          <motion.div
+  className="logosection"
+  animate={{
+    x: ["120%", "-100%"],
+  }}
+  transition={{
+    duration:15,
+    repeat: Infinity,
+    repeatType: "loop",
+    ease: "linear",
+  }}
+>
+  <img src="chanellogo.png" alt="chanellogo" />
+  <img src="louislogo.png" alt="louislogo" />
+  <img src="pradalogo.png" alt="pradalogo" />
+  <img src="denim.png" alt="denim" />
+  <img src="calvinklein.png" alt="calvinklein" />
+</motion.div>
+          
+
+          {/* initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7 }} */}
+          {/* <img src="louislogo.png" alt="louislogo" />
           <img src="pradalogo.png" alt="pradalogo" />
           <img src="denim.png" alt="denim" />
-          <img src="calvinklein.png" alt="calvinklein" />
-        </div>
+          <img src="calvinklein.png" alt="calvinklein" /> */}
+        </motion.div>
 
         <div className="lastdatesection">
           <div className="dealssection">
             <h3 className="dealsof">Deals Of The Month</h3>
             <p className="exc">
-              Don't miss this month's exclusive offers. Shop now and enjoy special
-              prices for a limited time.
+              Don't miss this month's exclusive offers. Shop now and enjoy
+              special prices for a limited time.
             </p>
             <NavLink to="/shop" className="btnshopnow">
               Shop Now
@@ -124,7 +280,8 @@ const Home = () => {
             <h6 className="desc mb-0">DESCRIPTION</h6>
             <p className="ourpeaky mb-0">
               Shop our Peaky Blinders Women Collection and elevate your wardrobe
-              with exclusive, stylish pieces.</p>
+              with exclusive, stylish pieces.
+            </p>
             <div className="sizediv">
               <p>Size:</p>
               <p className="m">M</p>
@@ -154,7 +311,6 @@ const Home = () => {
               <p className="mb-0 over">Over 2 years</p>
             </div>
           </div>
-          
 
           <div className="freediv">
             <div>
@@ -184,13 +340,21 @@ const Home = () => {
             <p className="getthe">
               Be the first to know about new products, offers and discounts.
             </p>
-            <input type="email" placeholder="Enter your email" className="newsletter-input" />
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="newsletter-input"
+            />
             <div>
               <button className="subsnow">Subscribe Now</button>
             </div>
           </div>
           <div>
-            <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoat" />
+            <img
+              src="darkgreycoat.png"
+              className="darkgreycoatpic"
+              alt="darkgreycoat"
+            />
           </div>
         </div>
         <ScrollToTop />

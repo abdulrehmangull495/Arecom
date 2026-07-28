@@ -71,7 +71,7 @@ const Shop = () => {
           <div className="collection">
             <h3 className="collections">Collections</h3>
             <p>All Products</p>
-            <p>Best Sllers</p>
+            <p>Best Sellers</p>
             <p>New Arrivals</p>
             <p>Accessories</p>
           </div>
@@ -92,12 +92,19 @@ const Shop = () => {
         </div>
         <div className="right">
           <div className="searchbar">
-  <input
+  {/* <input
     type="text"
     placeholder="Search products..."
     value={searchTerm}
     onChange={(e) => setSearchTerm(e.target.value)}
-  />
+  /> */}
+  <input
+  type="text"
+  className="search-input"
+  placeholder="Search products..."
+  value={searchTerm}
+  onChange={(e) => setSearchTerm(e.target.value)}
+/>
 </div>
           <h6 className="bestselling">Best selling</h6>
           <div className="imgssec">

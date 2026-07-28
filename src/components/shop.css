@@ -94,6 +94,28 @@ nav ul li a {
   align-items: center;
   flex-direction: column;
   }
+  .search-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background: #fff;
+  color: #333;
+  margin: 10px;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(48, 47, 47, 0.25);
+}
 .box span {
   border: 1px solid gray;
   margin: 10px;
