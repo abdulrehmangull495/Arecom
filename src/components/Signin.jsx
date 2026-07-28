@@ -3,7 +3,7 @@ import "./Signin.css"
 import { Form, NavLink } from 'react-router-dom'
 import Footer from './Footer'
 import { useState } from 'react'
-
+import { motion } from "framer-motion";
 const Signin = () => {
 const [email, setEmail]=useState("")
 const [emailError, setEmailError]=useState("")
@@ -54,7 +54,11 @@ e.preventDefault()
       <div className="leftsignupside">
         <img className='leftsignupsideimg' src="blackclassicshirt.png" alt="" />
       </div>
-      <div className="rightsignupside">
+      <motion.div className="rightsignupside"
+      initial={{ opacity: 0, x: 400 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+      >
         <h1>
           Arecom
         </h1>
@@ -99,7 +103,7 @@ e.preventDefault()
   
 </div>
 
-      </div>
+      </motion.div>
     </div>
 </>
   )
