@@ -179,24 +179,23 @@ const Home = () => {
              
           </motion.div> */}
           <motion.div
-  className="logosection"
-  animate={{
-    x: ["120%", "-100%"],
-  }}
-  transition={{
-    duration:15,
-    repeat: Infinity,
-    repeatType: "loop",
-    ease: "linear",
-  }}
->
-  <img src="chanellogo.png" alt="chanellogo" />
-  <img src="louislogo.png" alt="louislogo" />
-  <img src="pradalogo.png" alt="pradalogo" />
-  <img src="denim.png" alt="denim" />
-  <img src="calvinklein.png" alt="calvinklein" />
-</motion.div>
-          
+            className="logosection"
+            animate={{
+              x: ["100%", "-100%"],
+            }}
+            transition={{
+              duration: 15,
+              repeat: Infinity,
+              repeatType: "loop",
+              ease: "linear",
+            }}
+          >
+            <img src="chanellogo.png" alt="chanellogo" />
+            <img src="louislogo.png" alt="louislogo" />
+            <img src="pradalogo.png" alt="pradalogo" />
+            <img src="denim.png" alt="denim" />
+            <img src="calvinklein.png" alt="calvinklein" />
+          </motion.div>
 
           {/* initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
