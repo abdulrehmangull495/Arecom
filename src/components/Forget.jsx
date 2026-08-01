@@ -102,7 +102,7 @@ const Forget = () => {
           <div className="or">
             <h6>OR</h6>
           </div>
-          <form className="inputfields" onSubmit={handlesubmit} noValidate>
+          {/* <form className="inputfields" onSubmit={handlesubmit} noValidate>
             <div className="row">
               <div className="field">
                 <input
@@ -148,7 +148,30 @@ const Forget = () => {
             <button type="submit" className="createaccount">
               Send Confirmation Code
             </button>
-          </form>
+          </form> */}
+          <form className="inputfields" onSubmit={handlesubmit} noValidate>
+  <div className="field">
+    <label htmlFor="email">Email Address</label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+      placeholder="Enter your email"
+      autoComplete="email"
+      value={email}
+      onChange={(e) => setEmail(e.target.value)}
+    />
+    {emailError && (
+      <p className="error" role="alert">
+        {emailError}
+      </p>
+    )}
+  </div>
+
+  <button type="submit" className="createaccount">
+    Send Confirmation Code
+  </button>
+</form>
           <div className="createbtn">
             <div className="alreadyhave">
               <p className="alreadytext">Already have an account? </p>

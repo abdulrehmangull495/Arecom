@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import Shopproductcart from "./Shopproductcart";
 import ProductCard from "./ProductCard";
+import { motion } from "framer-motion";
 
 const shopproduct=[
   {image:"roundedredhat.png", alt:"roundedredhat",title:"Rounded Red Hat", price:"PKR 1000", className:"btnalldiv" },
@@ -26,7 +27,11 @@ const Shop = () => {
 
   return (
     <>
-      <div className="fashiondiv">
+      <motion.div className="fashiondiv"
+        initial={{opacity:0, y:50}}
+        animate={{opacity:1, y:0}}
+        transition={{duration:0.8}}
+      >
         <h1>Fashion</h1>
         <div className="homefashion">
           <li>
@@ -37,9 +42,13 @@ const Shop = () => {
             Fashion
           </p>
         </div>
-      </div>
+      </motion.div>
       <div className="leftrightdiv">
-        <div className="myleftside">
+        <motion.div className="myleftside" 
+        initial={{opacity:0, x:-150}}
+        animate={{opacity:1, x:0}}
+        transition={{duration:0.19}}
+        >
           <h3>Filters</h3>
 
           <h3 className="size">Size</h3>
@@ -89,15 +98,14 @@ const Shop = () => {
               <span>Beachwear</span>
             </div>
           </div>
-        </div>
+        </motion.div>
         <div className="right">
-          <div className="searchbar">
-  {/* <input
-    type="text"
-    placeholder="Search products..."
-    value={searchTerm}
-    onChange={(e) => setSearchTerm(e.target.value)}
-  /> */}
+          <motion.div className="searchbar"
+          initial={{opacity:0, y:50}}
+        animate={{opacity:1, y:0}}
+        transition={{duration:0.8}}
+          >
+  
   <input
   type="text"
   className="search-input"
@@ -105,8 +113,12 @@ const Shop = () => {
   value={searchTerm}
   onChange={(e) => setSearchTerm(e.target.value)}
 />
-</div>
-          <h6 className="bestselling">Best selling</h6>
+</motion.div>
+          <motion.h6 className="bestselling"
+          initial={{opacity:0, x:950}}
+        animate={{opacity:1, x:0}}
+        transition={{duration:0.5}}
+          >Best selling</motion.h6>
           <div className="imgssec">
             <div className="row">
               {/* <div className="col-lg-4 col-md-6 col-12 btnalldiv">
@@ -323,15 +335,27 @@ const Shop = () => {
     <ProductCard key={p.title} {...p} />
   ))}
 </div> */}
-      <div className="shop-page">
+      
+     <div className="shop-page">
   {filteredProducts.length > 0 ? (
-    filteredProducts.map((p) => (
-      <ProductCard key={p.title} {...p} />
+    filteredProducts.map((p, index) => (
+      <motion.div
+        key={p.title}
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{
+          duration: 0.5,
+          delay: index * 0.15,
+        }}
+      >
+        <ProductCard {...p} />
+      </motion.div>
     ))
   ) : (
     <p className="no-results">No products found.</p>
-      )}
-     </div>
+  )}
+</div>
                {/* {...p} iska seedha matlab hai: "p dabbay ke andar jitni bhi cheezein hain,
              sab automatically props bana do." Ek hi line mein sab kuch chala jata hai. */}
             </div>
@@ -339,7 +363,12 @@ const Shop = () => {
         </div>
       </div>
 
-      <div className="itsmypeakysection">
+      <motion.div className="itsmypeakysection"
+       initial={{ opacity: 0, x: 300 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true, amount: 0.3 }}
+      >
         <div>
           <img className="girlside" src="girlsidepose.png" alt="girlsidepose" />
         </div>
@@ -360,8 +389,13 @@ const Shop = () => {
                            Shop Now
                      </NavLink>
         </div>
-      </div>
-      <div className="fouritemsdiv">
+      </motion.div>
+      <motion.div className="fouritemsdiv"
+        initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true, amount: 0.4 }}
+      >
         <div className="qualitydiv">
           <div>
             <img className="icon" src="support.png" alt="support" />
@@ -399,7 +433,7 @@ const Shop = () => {
             <p className="mb-0 dedicated">Dedicated support</p>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className="follow">
         <h6>Follow Us On Instagram</h6>
         <p className="stay">Stay updated with our latest products and offers.</p>
@@ -410,11 +444,16 @@ const Shop = () => {
           <img className="redpant" src="red pant.png" alt="redpant" />
           <img className="blackcoat" src="black coat.png" alt="blackcoat" />
           <img className="blackgirl" src="blackgirl.png" alt="blackgirl" />
-          {/* <img className="redfull" src="redfull.png" alt="redfull" /> */}
+          
         </div>
       </div>
 
-      <div className="lastsectionscubs">
+      <motion.div className="lastsectionscubs"
+        initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true, amount: 0.6 }} 
+      >
         <div>
           <img src="camelcoat.png" className="camelcoatpic" alt="camelcoatpic" />
         </div>
@@ -429,9 +468,9 @@ const Shop = () => {
         <div>
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoatpic" />
         </div>
-        <ScrollToTop/>
-      </div>
-
+       
+      </motion.div>
+ <ScrollToTop/>
       <Footer />
     </>
   );

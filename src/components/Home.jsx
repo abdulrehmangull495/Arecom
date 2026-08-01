@@ -247,18 +247,23 @@ const Home = () => {
         </motion.div>
 
         <motion.div className="newarrivalsection"
-        initial={{ opacity: 0, x: 300 }}
+        // initial={{ opacity: 0, x: 300 }}
+        //     whileInView={{ opacity: 1, x: 0 }}
+        //     transition={{ duration: 0.8, delay: 0.2 }}
+        //     viewport={{ once: true, amount: 0.3 }}
+        >
+          <motion.div className="newarrivals"
+           initial={{ opacity: 0, x: 300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true, amount: 0.3 }}
-        >
-          <div className="newarrivals">
+          >
             <h1 className="newarrival">New Arrivals</h1>
             <p className="justdropped">
               New arrivals just dropped! Shop now and be the first to get the
               latest products.
             </p>
-          </div>
+          </motion.div>
 
           <div className="cards">
             <div className="card-row">
@@ -272,6 +277,7 @@ const Home = () => {
               ))}
             </div>
           </div>
+          
           <div className="viewmorediv">
             <Button
               component={NavLink}

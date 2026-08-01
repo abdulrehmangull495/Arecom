@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
-
+import { motion } from "framer-motion";
 const cardButtonStyle = {
   background: "linear-gradient(45deg, #ff6a00, #ffb347)",
   color: "#fff",

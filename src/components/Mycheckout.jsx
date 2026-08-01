@@ -2,13 +2,22 @@ import React from 'react'
 import "./checkout.css"
 import Footer from './Footer'
 import ScrollToTop from './ScrollToTop'
+import { motion } from "framer-motion";
 const Mycheckout = () => {
   return (
     <>
-    <div className="title">
+    <motion.div className="title"
+    initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+    >
         <h3>Arecom Demo Checkout</h3>
-      </div>
-      <div className="left">
+      </motion.div>
+      <motion.div className="left"
+      initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8 }}
+      >
 <div className='leftcontent'>
         <div className="contact">
         <h4>Contact</h4>
@@ -81,8 +90,13 @@ const Mycheckout = () => {
 
         </div>
         </div>
-      </div>
-       <div className="lastsectionscubs">
+      </motion.div>
+       <motion.div className="lastsectionscubs"
+       initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true, amount: 0.6 }}
+       >
         <div>
           <img src="camelcoat.png" className="camelcoatpic" alt="" />
         </div>
@@ -99,7 +113,7 @@ const Mycheckout = () => {
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
         </div>
         <ScrollToTop/>
-      </div>
+      </motion.div>
     </>
   )
 }
