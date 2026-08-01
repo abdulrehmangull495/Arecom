@@ -60,9 +60,6 @@ const Home = () => {
         <div className="herosection">
           <div className="container herosectiondiv">
             <div>
-              {/* <div className="firstboy">
-                <img className="firstboyimg" src="image228.png" alt="" />
-              </div> */}
               <motion.div
                 className="firstboy"
                 initial={{ opacity: 0, x: -80 }}
@@ -295,20 +292,17 @@ const Home = () => {
                   background: "linear-gradient(45deg, #db895d, #d8a13a)",
                   boxShadow: "0 8px 22px rgba(0,0,0,0.3)",
                 },
-              }}
-            >
+                }}>
               View More
             </Button>
           </div>
         </motion.div>
-
         <motion.div
           className="peakysectionhome"
           initial={{ opacity: 0, x: 300 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true, amount: 0.3 }}
-        >
+          viewport={{ once: true, amount: 0.3 }}>
           <div>
             <img className="girlside" src="girlsidepose.png" alt="girlside" />
           </div>
@@ -335,8 +329,7 @@ const Home = () => {
           initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true, amount: 0.4 }}
-        >
+          viewport={{ once: true, amount: 0.4 }}>
           <div className="qualitydiv">
             <div>
               <img className="icon" src="support.png" alt="support" />
@@ -355,7 +348,6 @@ const Home = () => {
               <p className="mb-0 over">Over 2 years</p>
             </div>
           </div>
-
           <div className="freediv">
             <div>
               <img className="icon" src="ship.png" alt="shipping" />
@@ -380,8 +372,7 @@ const Home = () => {
           initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true, amount: 0.6 }}
-        >
+          viewport={{ once: true, amount: 0.6 }}>
           <div>
             <img src="camelcoat.png" className="camelcoatpic" alt="camelcoat" />
           </div>
@@ -393,8 +384,7 @@ const Home = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="newsletter-input"
-            />
+              className="newsletter-input"/>
             <div>
               <button className="subsnow">Subscribe Now</button>
             </div>
