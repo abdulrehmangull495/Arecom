@@ -69,15 +69,7 @@ const Home = () => {
                 <img className="firstboyimg" src="image228.png" alt="" />
               </motion.div>
             </div>
-            {/* <div className="ultimatesection">
-              <img className="girlsimg" src="images.png" alt="" />
-              <h1 className="hero-title">ULTIMATE SALE</h1>
-              <p className="hero-subtitle">New Collection</p>
-              <NavLink to="/shop" className="btnshopnow">
-                Shop Now
-              </NavLink>
-              <img className="girlsimgpink" src="image.png" alt="girlimg" />
-            </div> */}
+            
             <div className="ultimatesection">
               <motion.img
                 className="girlsimg"
@@ -125,11 +117,7 @@ const Home = () => {
                 transition={{ duration: 0.8, delay: 0.8 }}
               />
             </div>
-            {/* <div>
-              <div className="brownboy">
-                <img className="brownboyimg" src="img227.png" alt="boy" />
-              </div>
-            </div> */}
+           
             <motion.div
               className="brownboy"
               initial={{ opacity: 0, x: 80 }}
@@ -142,40 +130,7 @@ const Home = () => {
         </div>
 
         <motion.div className="logosection">
-          {/* <motion.img src="chanellogo.png" alt="chanellogo" initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.7 }}/>
-                <motion.img src="louislogo.png" alt="louislogo" initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.7 }}/>
-                <motion.img src="pradalogo.png" alt="pradalogo" initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.7 }}/>
-                <motion.img src="denim.png" alt="denim" initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.7 }}/>
-                <motion.img src="calvinklein.png" alt="calvinklein"  initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.7 }}/> */}
-          {/* <motion.div
-            className="logosection"
-            animate={{
-              x: ["0%", "-100%"],
-            }}
-            transition={{
-              duration: 15,
-              repeat: Infinity,
-              repeatType: "loop",
-              ease: "linear",
-            }}
-          >
-            <img src="chanellogo.png" alt="chanellogo" />
-            <img src="louislogo.png" alt="louislogo" />
-            <img src="pradalogo.png" alt="pradalogo" />
-            <img src="denim.png" alt="denim" />
-            <img src="calvinklein.png" alt="calvinklein" />
-             
-          </motion.div> */}
+          
           <motion.div
             className="logosection"
             animate={{
@@ -194,28 +149,14 @@ const Home = () => {
             <img src="denim.png" alt="denim" />
             <img src="calvinklein.png" alt="calvinklein" />
           </motion.div>
-
-          {/* initial={{ opacity: 0, y: -50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7 }} 
-                */}
-          {/* <img src="louislogo.png" alt="louislogo" />
-          <img src="pradalogo.png" alt="pradalogo" />
-          <img src="denim.png" alt="denim" />
-          <img src="calvinklein.png" alt="calvinklein" /> */}
         </motion.div>
 
         <motion.div className="lastdatesection">
           <motion.div
-            //  initial={{opacity:0, x:-200}}
-            //   animate={{opacity:1, x:0}}
-            //   transition={{duration:0.8,
-            //   delay: 0.2}}
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: true, amount: 0.3 }}
-          >
+            viewport={{ once: true, amount: 0.3 }} >
             <div className="dealssection">
               <h3 className="dealsof">Deals Of The Month</h3>
               <p className="exc">
@@ -243,25 +184,18 @@ const Home = () => {
           </motion.div>
         </motion.div>
 
-        <motion.div className="newarrivalsection"
-        // initial={{ opacity: 0, x: 300 }}
-        //     whileInView={{ opacity: 1, x: 0 }}
-        //     transition={{ duration: 0.8, delay: 0.2 }}
-        //     viewport={{ once: true, amount: 0.3 }}
-        >
+        <motion.div className="newarrivalsection">
           <motion.div className="newarrivals"
            initial={{ opacity: 0, x: 300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true, amount: 0.3 }}
-          >
+            viewport={{ once: true, amount: 0.3 }}>
             <h1 className="newarrival">New Arrivals</h1>
             <p className="justdropped">
               New arrivals just dropped! Shop now and be the first to get the
               latest products.
             </p>
           </motion.div>
-
           <div className="cards">
             <div className="card-row">
               {products.slice(0, 3).map((p) => (
