@@ -22,15 +22,12 @@ const Mycheckout = () => {
         <div className="contact">
         <h4>Contact</h4>
         <h6>Have an account?<span className='create'>Create Account</span></h6>
-       
-        
         </div>
          <div className='emaildiv'>
         <input className='email' type="email" name="" id="" placeholder='Email Address' required />
         </div>
         <div className='Deliverydiv'>
           <h4>Delivery</h4>
-        
         <div className="custom-dropdown">
   <select defaultValue="">
     <option className='Country' value="" disabled>Country / Region</option>
@@ -44,7 +41,6 @@ const Mycheckout = () => {
 <input className='first' type="text" name="" id="" placeholder='Enter First Name'/>
 <input className='last' type="text" name="" id="" placeholder='Enter Last Name'/>
 </div>
-
 <div className='classdiv'>
   <input className='address' type="text" name="" id="" placeholder='Enter Address'/>
 </div>
@@ -56,14 +52,11 @@ const Mycheckout = () => {
   <input className='checkbox' type="checkbox" name="" id="" />
   <p className='mb-0 this'>Save This Info for future</p>
 </div>
-
 <div className="payment">
-  
   <h4 className='mypay'>Payment</h4>
   <div className='paymentdiv'>
   <div className='crddiv'>
     <input className='carddetails' type="text" name="" id=""  placeholder='Credit Card'/>
-    
   </div>
   <div className='cardnodiv'>
 <input type="text"  placeholder='Enter Card Number' className='cardno'/>
@@ -87,7 +80,6 @@ const Mycheckout = () => {
     <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
   </div>
 </div>
-
         </div>
         </div>
       </motion.div>
@@ -95,8 +87,7 @@ const Mycheckout = () => {
        initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true, amount: 0.6 }}
-       >
+          viewport={{ once: true, amount: 0.6 }}>
         <div>
           <img src="camelcoat.png" className="camelcoatpic" alt="" />
         </div>
@@ -107,7 +98,6 @@ const Mycheckout = () => {
              <div>
               <button className="subsnow">Subscribe Now</button>
              </div>
-
         </div>
         <div>
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
