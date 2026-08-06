@@ -444,16 +444,13 @@ const Shop = () => {
           <img className="redpant" src="red pant.png" alt="redpant" />
           <img className="blackcoat" src="black coat.png" alt="blackcoat" />
           <img className="blackgirl" src="blackgirl.png" alt="blackgirl" />
-          
         </div>
       </div>
-
       <motion.div className="lastsectionscubs"
         initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true, amount: 0.6 }} 
-      >
+          viewport={{ once: true, amount: 0.6 }} >
         <div>
           <img src="camelcoat.png" className="camelcoatpic" alt="camelcoatpic" />
         </div>
@@ -468,7 +465,6 @@ const Shop = () => {
         <div>
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoatpic" />
         </div>
-       
       </motion.div>
  <ScrollToTop/>
       <Footer />
