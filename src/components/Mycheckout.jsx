@@ -9,15 +9,13 @@ const Mycheckout = () => {
     <motion.div className="title"
     initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-    >
+          transition={{ duration: 0.8 }}>
         <h3>Arecom Demo Checkout</h3>
       </motion.div>
       <motion.div className="left"
       initial={{ opacity: 0, x: -200 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-      >
+          transition={{ duration: 0.8 }}>
 <div className='leftcontent'>
         <div className="contact">
         <h4>Contact</h4>
@@ -79,7 +77,7 @@ const Mycheckout = () => {
  <div className="copydiv">
     <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
   </div>
-</div>
+    </div>
         </div>
         </div>
       </motion.div>

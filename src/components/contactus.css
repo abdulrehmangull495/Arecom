@@ -13,7 +13,6 @@
 }
 .contactus p{
     font-size: 20px;
-    
 }
 .leftcontactussideimg{
     max-width: 900px;
@@ -23,11 +22,10 @@
 .goo{
     max-width: 20px;
     width: 100%;
-    
 }
 .ma{
    max-width: 20px;
-    width: 100%; 
+   width: 100%; 
 }
 .google{
     font-size: 13px;
@@ -60,8 +58,6 @@
     align-items: center;
     color: rgb(131,131,131);
 }
-
-
 .inputfields {
   display: flex;
   flex-direction: column;
@@ -69,13 +65,11 @@
   padding-left: 13px;
   padding-top: 20px;
 }
-
 .row {
   display: flex;
   gap: 30px;
   color: rgb(157,157,157);
 }
-
 .row input {
   flex: 1;
   border: none;
@@ -83,7 +77,6 @@
   outline: none;
   padding: 6px 0;
 }
-
 .inputfields input::placeholder {
   color: rgb(157,157,157);
   font-size: 13px;
@@ -134,13 +127,12 @@
     border: none;
     outline: none;
     background-color: none;
-    padding: 8 px;
+    padding: 8px;
 }
 
 .login:hover{
     font-weight: 500;
 }
-
 .alreadytext li{
 list-style: none;
 text-decoration: none;
@@ -165,7 +157,6 @@ text-decoration: none;
     align-items: center;
     flex-direction: column;
 }
-
  .contactform{
     border: 1px solid gray;
     max-width: 800px;
@@ -180,32 +171,25 @@ text-decoration: none;
  form input{
     width: 100%;
  }
-
  .textarea{
     max-width: 400px;
     height: 200px;
     width: 100%;
  }
-
- 
-
  .contactform {
   border: 1px solid gray;
   max-width: 800px;
   padding: 40px 30px;
 }
-
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
 form input,
 form textarea {
   width: 100%;
 }
-
 .textarea {
   height: 200px;
   max-width: 400px;
@@ -219,7 +203,6 @@ body.dark {
   background-color: black;
   color: white;
 }
-
 body.dark input,
 body.dark label {
   color: white;
@@ -241,14 +224,12 @@ body.dark label {
 body.dark .group-form label{
     color: rgb(0, 0, 0);
 }
-
 .group-form label{
     font-weight: 500;
 }
 .group-form textarea{
     margin-top: 5px;
     resize: none;
-
 }
 .group-form input,
 .group-form textarea{
@@ -258,7 +239,6 @@ body.dark .group-form label{
   border: 1px solid #ccc;
   outline: none;
 }
-
 .send{
     text-align: center;
     width: 100%;
@@ -306,7 +286,6 @@ body.dark .group-form label{
     align-items: center;
     flex-direction: column;
 }
-
 .rightsignupside{
     display: flex;
     justify-content: center;
@@ -329,7 +308,6 @@ body.dark .group-form label{
     width: 100%;
     border-radius: 10px;
     padding: 10px;
-    
 }
 
 }
