@@ -7,7 +7,6 @@ import ScrollToTop from "./ScrollToTop";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
 const MotionNavLink = motion(NavLink);
-
 const products = [
   {
     image: "shinydress.png",
@@ -52,7 +51,6 @@ const products = [
     className: "whiteshirtdiv",
   },
 ];
-
 const Home = () => {
   return (
     <>
@@ -64,12 +62,10 @@ const Home = () => {
                 className="firstboy"
                 initial={{ opacity: 0, x: -80 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
-              >
+                transition={{ duration: 0.8 }}>
                 <img className="firstboyimg" src="image228.png" alt="" />
               </motion.div>
             </div>
-            
             <div className="ultimatesection">
               <motion.img
                 className="girlsimg"
@@ -77,58 +73,46 @@ const Home = () => {
                 alt=""
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7 }}
-              />
-
+                transition={{ duration: 0.7 }}/>
               <motion.h1
                 className="hero-title"
                 initial={{ opacity: 0, scale: 0.7 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-              >
+                transition={{ duration: 0.6, delay: 0.2 }}>
                 ULTIMATE SALE
               </motion.h1>
-
               <motion.p
                 className="hero-subtitle"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.7, delay: 0.4 }}
-              >
+                transition={{ duration: 0.7, delay: 0.4 }}>
                 New Collection
               </motion.p>
-
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
-              >
+                transition={{ duration: 0.6, delay: 0.6 }}>
                 <NavLink to="/shop" className="btnshopnow">
                   Shop Now
                 </NavLink>
               </motion.div>
-
               <motion.img
                 className="girlsimgpink"
                 src="image.png"
                 alt="girlimg"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.8 }}
-              />
+                transition={{ duration: 0.8, delay: 0.8 }}/>
             </div>
-           
             <motion.div
               className="brownboy"
               initial={{ opacity: 0, x: 80 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-            >
+              transition={{ duration: 0.8 }}>
               <img className="brownboyimg" src="img227.png" alt="boy" />
             </motion.div>
           </div>
         </div>
-
         <motion.div className="logosection">
           
           <motion.div
@@ -163,7 +147,6 @@ const Home = () => {
                 Don't miss this month's exclusive offers. Shop now and enjoy
                 special prices for a limited time.
               </p>
-
               <div>
                 <NavLink to="/shop" className="btnshopnow">
                   Shop Now
@@ -177,13 +160,11 @@ const Home = () => {
             initial={{ opacity: 0, x: 300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true, amount: 0.3 }}
-          >
+            viewport={{ once: true, amount: 0.3 }}>
             <img className="blackgirlimg" src="blackgirl.png" alt="blackgirl" />
             <img className="bluegirlimg" src="bluegirl.png" alt="bluegirl" />
           </motion.div>
         </motion.div>
-
         <motion.div className="newarrivalsection">
           <motion.div className="newarrivals"
            initial={{ opacity: 0, x: 300 }}
@@ -208,7 +189,6 @@ const Home = () => {
               ))}
             </div>
           </div>
-          
           <div className="viewmorediv">
             <Button
               component={NavLink}
