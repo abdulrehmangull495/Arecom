@@ -307,8 +307,7 @@ const Home = () => {
             <img
               src="darkgreycoat.png"
               className="darkgreycoatpic"
-              alt="darkgreycoat"
-            />
+              alt="darkgreycoat"/>
           </div>
         </motion.div>
         <ScrollToTop />

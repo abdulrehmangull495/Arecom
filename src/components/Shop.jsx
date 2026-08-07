@@ -8,7 +8,6 @@ import ScrollToTop from "./ScrollToTop";
 import Shopproductcart from "./Shopproductcart";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
-
 const shopproduct=[
   {image:"roundedredhat.png", alt:"roundedredhat",title:"Rounded Red Hat", price:"PKR 1000", className:"btnalldiv" },
   {image:"LinenblendShirt.png", alt:"LinenblendShirt",title:"Linen-blend Shirt", price:"PKR 1000", className:"btnalldiv" },
@@ -20,11 +19,9 @@ const shopproduct=[
 ];
 const Shop = () => {
   const [searchTerm, setSearchTerm] = useState("");
-
   const filteredProducts = shopproduct.filter((p) =>
     p.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
-
   return (
     <>
       <motion.div className="fashiondiv"
@@ -103,16 +100,13 @@ const Shop = () => {
           <motion.div className="searchbar"
           initial={{opacity:0, y:50}}
         animate={{opacity:1, y:0}}
-        transition={{duration:0.8}}
-          >
-  
+        transition={{duration:0.8}}>
   <input
   type="text"
   className="search-input"
   placeholder="Search products..."
   value={searchTerm}
-  onChange={(e) => setSearchTerm(e.target.value)}
-/>
+  onChange={(e) => setSearchTerm(e.target.value)}/>
 </motion.div>
           <motion.h6 className="bestselling"
           initial={{opacity:0, x:950}}
@@ -347,8 +341,7 @@ const Shop = () => {
         transition={{
           duration: 0.5,
           delay: index * 0.15,
-        }}
-      >
+        }}>
         <ProductCard {...p} />
       </motion.div>
     ))
