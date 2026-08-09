@@ -27,8 +27,7 @@ const Shop = () => {
       <motion.div className="fashiondiv"
         initial={{opacity:0, y:50}}
         animate={{opacity:1, y:0}}
-        transition={{duration:0.8}}
-      >
+        transition={{duration:0.8}}>
         <h1>Fashion</h1>
         <div className="homefashion">
           <li>
@@ -44,12 +43,9 @@ const Shop = () => {
         <motion.div className="myleftside" 
         initial={{opacity:0, x:-150}}
         animate={{opacity:1, x:0}}
-        transition={{duration:0.19}}
-        >
+        transition={{duration:0.19}}>
           <h3>Filters</h3>
-
           <h3 className="size">Size</h3>
-
           <div className="box">
             <span>S</span>
             <span>M</span>
@@ -73,7 +69,6 @@ const Shop = () => {
             <option value="Abby">Abby</option>
             <option value="Vagabond">Vagabond</option>
           </select>
-
           <div className="collection">
             <h3 className="collections">Collections</h3>
             <p>All Products</p>
@@ -81,7 +76,6 @@ const Shop = () => {
             <p>New Arrivals</p>
             <p>Accessories</p>
           </div>
-
           <div className="tags">
             <h3>Tags</h3>
             <div className="tagsdiv">
@@ -345,7 +339,7 @@ const Shop = () => {
         <ProductCard {...p} />
       </motion.div>
     ))
-  ) : (
+  ):(
     <p className="no-results">No products found.</p>
   )}
 </div>
@@ -360,8 +354,7 @@ const Shop = () => {
        initial={{ opacity: 0, x: 300 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true, amount: 0.3 }}
-      >
+          viewport={{ once: true, amount: 0.3 }}>
         <div>
           <img className="girlside" src="girlsidepose.png" alt="girlsidepose" />
         </div>
