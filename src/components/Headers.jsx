@@ -9,6 +9,8 @@ const Header = () => {
   const [search, setSearch] = useState("");
      const [dark, setDark] = useState(false);
      const { cartItems } = useCart();
+     const totalQty = cartItems.reduce((sum, item) => sum + item.qty, 0);
+     
 
   const toggleMode = () => {
     setDark(!dark);
@@ -33,7 +35,7 @@ const Header = () => {
   <li>
   <NavLink to="/Cart" onClick={handleLinkClick} style={{ position: "relative" }}>
     <img src="cart.png" alt="cart" />
-    {cartItems.length > 0 && (
+    {totalQty > 0 && (
       <span
         style={{
           position: "absolute",
@@ -51,7 +53,7 @@ const Header = () => {
           justifyContent: "center",
         }}
       >
-        {cartItems.length}
+        {totalQty}
       </span>
     )}
   </NavLink>

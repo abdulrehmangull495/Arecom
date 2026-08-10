@@ -61,7 +61,7 @@ const Cart = () => {
       </div>
 
       {/* ↓↓↓ ye poora naya section add karein ↓↓↓ */}
-      <div style={{ padding: "30px" }}>
+      {/* <div style={{ padding: "30px" }}>
         {cartItems.length === 0 ? (
           <p>Your cart is empty.</p>
         ) : (
@@ -84,7 +84,34 @@ const Cart = () => {
             <h4>Total: PKR {total}</h4>
           </>
         )}
+      </div> */}
+      <div style={{ padding: "30px 60px" }}>
+  {cartItems.length === 0 ? (
+    <p>Your cart is empty.</p>
+  ) : (
+    <>
+      {cartItems.map((item) => (
+        <div key={item.id} className="cart-item">
+          <img src={item.image} alt={item.alt} />
+          <div className="cart-item-info">
+            <h6>{item.title}</h6>
+            <p>{item.price}</p>
+          </div>
+          <div className="qty-control">
+            <button onClick={() => updateQty(item.id, item.qty - 1)}>-</button>
+            <span>{item.qty}</span>
+            <button onClick={() => updateQty(item.id, item.qty + 1)}>+</button>
+          </div>
+          <button className="remove-btn" onClick={() => removeFromCart(item.id)}>Remove</button>
+        </div>
+      ))}
+      <div className="cart-total">
+        <span>Total: PKR {total}</span>
+        <button className="checkout-btn">Proceed to Checkout</button>
       </div>
+    </>
+  )}
+</div>
       {/* ↑↑↑ naya section yahan khatam ↑↑↑ */}
 
       <div className="lastsectionscubs">
