@@ -1,4 +1,6 @@
 import React from "react";
+import { useCart } from "./CartContext";
+import Snackbar from "@mui/material/Snackbar";
 import { useState } from "react";
 import "./shop.css";
 import Button from "@mui/material/Button";
@@ -7,18 +9,25 @@ import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import Shopproductcart from "./Shopproductcart";
 import ProductCard from "./ProductCard";
+
 import { motion } from "framer-motion";
 const shopproduct=[
-  {image:"roundedredhat.png", alt:"roundedredhat",title:"Rounded Red Hat", price:"PKR 1000", className:"btnalldiv" },
-  {image:"LinenblendShirt.png", alt:"LinenblendShirt",title:"Linen-blend Shirt", price:"PKR 1000", className:"btnalldiv" },
-  {image:"longsleevecoat.png", alt:"longsleevecoat",title:"Long Sleeve Coat", price:"PKR 5000", className:"btnalldiv" },
-  {image:"denimhat.png", alt:"denimhat",title:"Denim Hat", price:"PKR 1000", className:"btnalldiv" },
-  {image:"oversizedtshirt.png", alt:"oversizedtshirt",title:"Oversized T-shirt", price:"PKR 3000", className:"btnalldiv" },
-  {image:"rockstarjacket.png", alt:"rockstarjacket",title:"Rockastar Jacket", price:"PKR 10000", className:"btnalldiv" },
-  {image:"dottedblackdress.png", alt:"dottedblackdress",title:"Dotted Black Dress", price:"PKR 4,000", className:"btnalldiv" }
+  {id:1, image:"roundedredhat.png", alt:"roundedredhat",title:"Rounded Red Hat", price:"PKR 1000", className:"btnalldiv" },
+  {id:2, image:"LinenblendShirt.png", alt:"LinenblendShirt",title:"Linen-blend Shirt", price:"PKR 1000", className:"btnalldiv" },
+  {id:3,image:"longsleevecoat.png", alt:"longsleevecoat",title:"Long Sleeve Coat", price:"PKR 5000", className:"btnalldiv" },
+  {id:4,image:"denimhat.png", alt:"denimhat",title:"Denim Hat", price:"PKR 1000", className:"btnalldiv" },
+  {id:5, image:"oversizedtshirt.png", alt:"oversizedtshirt",title:"Oversized T-shirt", price:"PKR 3000", className:"btnalldiv" },
+  {id:6,image:"rockstarjacket.png", alt:"rockstarjacket",title:"Rockastar Jacket", price:"PKR 10000", className:"btnalldiv" },
+  {id:7,image:"dottedblackdress.png", alt:"dottedblackdress",title:"Dotted Black Dress", price:"PKR 4,000", className:"btnalldiv" }
 ];
 const Shop = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const { addToCart } = useCart();
+  const handleAddToCart = (product) => {
+  addToCart(product);
+  setShowToast(true);
+};
+  const [showToast, setShowToast] = useState(false);
   const filteredProducts = shopproduct.filter((p) =>
     p.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -336,7 +345,9 @@ const Shop = () => {
           duration: 0.5,
           delay: index * 0.15,
         }}>
-        <ProductCard {...p} />
+          
+        {/* <ProductCard {...p} /> */}
+        <ProductCard {...p} onAddToCart={() => handleAddToCart(p)} />
       </motion.div>
     ))
   ):(
@@ -453,6 +464,12 @@ const Shop = () => {
         </div>
       </motion.div>
  <ScrollToTop/>
+ <Snackbar
+  open={showToast}
+  autoHideDuration={2000}
+  onClose={() => setShowToast(false)}
+  message="Product added to cart"
+/>
       <Footer />
     </>
   );

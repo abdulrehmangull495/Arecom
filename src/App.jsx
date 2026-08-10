@@ -14,6 +14,7 @@ import Confirmation from './components/Confirmation'
 import Footer from './components/Footer'
 import Resend from './components/Resend'
 import Contactus from './components/Contactus'
+import { CartProvider } from "./components/CartContext"; 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 function App() {
@@ -68,7 +69,10 @@ function App() {
 
   return (
     <>
-     <RouterProvider router={router}/>
+     {/* <RouterProvider router={router}/> */}
+       <CartProvider>              {/* ← ye line add karein */}
+    <RouterProvider router={router}/>
+  </CartProvider> 
     </>
   )
 }

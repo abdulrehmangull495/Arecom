@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import { useCart } from "./CartContext";
 import "./header.css";
 
 const Header = () => {
@@ -7,6 +8,7 @@ const Header = () => {
   const handleLinkClick = () => setMenuOpen(false);
   const [search, setSearch] = useState("");
      const [dark, setDark] = useState(false);
+     const { cartItems } = useCart();
 
   const toggleMode = () => {
     setDark(!dark);
@@ -27,7 +29,34 @@ const Header = () => {
   <li><NavLink to="/Mycheckout" onClick={handleLinkClick}>Checkout</NavLink></li>
   <li><NavLink to="/Contactus" onClick={handleLinkClick}>Contact Us</NavLink></li>
   <li><NavLink to="/Signin" onClick={handleLinkClick}>Sign In</NavLink></li>
-  <li><NavLink to="/Cart" onClick={handleLinkClick}><img src="cart.png" alt="cart" /></NavLink></li>
+  {/* <li><NavLink to="/Cart" onClick={handleLinkClick}><img src="cart.png" alt="cart" /></NavLink></li> */}
+  <li>
+  <NavLink to="/Cart" onClick={handleLinkClick} style={{ position: "relative" }}>
+    <img src="cart.png" alt="cart" />
+    {cartItems.length > 0 && (
+      <span
+        style={{
+          position: "absolute",
+          top: "-8px",
+          right: "-8px",
+          background: "#ff6a00",
+          color: "#fff",
+          fontSize: "11px",
+          fontWeight: "bold",
+          borderRadius: "50%",
+          width: "18px",
+          height: "18px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {cartItems.length}
+      </span>
+    )}
+  </NavLink>
+</li>
+
   <li>
     {/* <input
     type="text"

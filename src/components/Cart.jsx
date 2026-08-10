@@ -1,59 +1,97 @@
+// import React from 'react'
+// import './Cart.css';
+// import { NavLink } from 'react-router-dom';
+// import Footer from './Footer';
+// const Cart = () => {
+//   return (
+//     <>
+//    <div className="titlediv">
+//        <h1>Shoping Cart</h1>
+//        <div className='shopingcart'>
+//            <li><NavLink to="/">Home</NavLink></li>
+//            <p className='m-0'><img className='nxtbtimg' src="nextbt.png"  alt="" />Your Shoping Cart</p></div>
+       
+//       </div>
+      
+//       <div className="lastsectionscubs">
+//         <div>
+//           <img src="camelcoat.png" className="camelcoatpic" alt="" />
+//         </div>
+//         <div className="subsdiv">
+//           <h5 className="newsletter">Subscribe To Our Newsletter</h5>
+//           <p className="getthe">Be the first to know about new products, offers and discounts.</p>
+//              <p>abdulrehmangull495@gmail.com</p>
+//              <div>
+//               <button className="subsnow">Subscribe Now</button>
+//              </div>
+
+//         </div>
+//         <div>
+//           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
+//         </div>
+//       </div>
+
+      
+      
+// <Footer/>
+    
+//     </>
+//   )
+// }
+
+// export default Cart
 import React from 'react'
 import './Cart.css';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer';
+import { useCart } from './CartContext';   {/* ← ye import add karein */}
+
 const Cart = () => {
+  const { cartItems, removeFromCart, updateQty } = useCart();   {/* ← ye line add karein */}
+  const total = cartItems.reduce((sum, item) => sum + item.qty * Number(item.price.replace(/[^0-9]/g, "")), 0);
+
   return (
     <>
-   <div className="titlediv">
-       <h1>Shoping Cart</h1>
-       <div className='shopingcart'>
-           <li><NavLink to="/">Home</NavLink></li>
-           <p className='m-0'><img className='nxtbtimg' src="nextbt.png"  alt="" />Your Shoping Cart</p></div>
-       
+      <div className="titlediv">
+        <h1>Shoping Cart</h1>
+        <div className='shopingcart'>
+          <li><NavLink to="/">Home</NavLink></li>
+          <p className='m-0'><img className='nxtbtimg' src="nextbt.png" alt="" />Your Shoping Cart</p>
+        </div>
       </div>
-      
+
+      {/* ↓↓↓ ye poora naya section add karein ↓↓↓ */}
+      <div style={{ padding: "30px" }}>
+        {cartItems.length === 0 ? (
+          <p>Your cart is empty.</p>
+        ) : (
+          <>
+            {cartItems.map((item) => (
+              <div key={item.id} style={{ display: "flex", alignItems: "center", gap: "20px", marginBottom: "15px", borderBottom: "1px solid #eee", paddingBottom: "15px" }}>
+                <img src={item.image} alt={item.alt} style={{ width: "80px" }} />
+                <div style={{ flex: 1 }}>
+                  <h6>{item.title}</h6>
+                  <p>{item.price}</p>
+                </div>
+                <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                  <button onClick={() => updateQty(item.id, item.qty - 1)}>-</button>
+                  <span>{item.qty}</span>
+                  <button onClick={() => updateQty(item.id, item.qty + 1)}>+</button>
+                </div>
+                <button onClick={() => removeFromCart(item.id)}>Remove</button>
+              </div>
+            ))}
+            <h4>Total: PKR {total}</h4>
+          </>
+        )}
+      </div>
+      {/* ↑↑↑ naya section yahan khatam ↑↑↑ */}
+
       <div className="lastsectionscubs">
-        <div>
-          <img src="camelcoat.png" className="camelcoatpic" alt="" />
-        </div>
-        <div className="subsdiv">
-          <h5 className="newsletter">Subscribe To Our Newsletter</h5>
-          <p className="getthe">Be the first to know about new products, offers and discounts.</p>
-             <p>abdulrehmangull495@gmail.com</p>
-             <div>
-              <button className="subsnow">Subscribe Now</button>
-             </div>
-
-        </div>
-        <div>
-          <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
-        </div>
+        {/* baqi sab bilkul wesa hi hai */}
+        ...
       </div>
-
-      
-      {/* <footer class="footer">
-        <div className="d-flex ftdiv">
-  <div class="footer-box">
-    
-    <p className="m-0 arecom">Arecom</p>
-  </div>
-
-  <div class="footer-box">
-  
-
-    <a href="#">Support Center</a>
-    <a href="/Checkout">Invoicing</a>
-    
-    <a href="#">Blog</a>
-  </div>
-  </div>
-  <div className="copydiv">
-    <p className="copy">Copyright © 2026 arecom. All Rights Reseved.</p>
-  </div>
-</footer> */}
-<Footer/>
-    
+      <Footer/>
     </>
   )
 }
