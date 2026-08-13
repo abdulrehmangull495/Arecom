@@ -14,7 +14,7 @@ import Confirmation from './components/Confirmation'
 import Footer from './components/Footer'
 import Resend from './components/Resend'
 import Contactus from './components/Contactus'
-import { CartProvider } from "./components/CartContext"; 
+import { CartProvider } from "./components/Cartcontext"; 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 function App() {
