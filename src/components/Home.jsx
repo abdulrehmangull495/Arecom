@@ -177,7 +177,11 @@ const Home = () => {
               latest products.
             </p>
           </motion.div>
-          <div className="cards">
+          <motion.div className="cards" 
+           initial={{ opacity: 0, x: 300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            viewport={{ once: true, amount: 0.3 }}>
             <div className="card-row">
               {products.slice(0, 3).map((p) => (
                 <ProductCard key={p.title} {...p} />
@@ -188,7 +192,7 @@ const Home = () => {
                 <ProductCard key={p.title} {...p} />
               ))}
             </div>
-          </div>
+          </motion.div>
           <div className="viewmorediv">
             <Button
               component={NavLink}

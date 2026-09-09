@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import { useCart } from "./CartContext";
+import { useCart } from "./Cartcontext";
 import "./header.css";
 
 const Header = () => {

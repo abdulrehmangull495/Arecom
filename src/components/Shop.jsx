@@ -1,5 +1,5 @@
 import React from "react";
-import { useCart } from "./CartContext";
+import { useCart } from "./Cartcontext";
 import Snackbar from "@mui/material/Snackbar";
 import { useState } from "react";
 import "./shop.css";
@@ -431,7 +431,12 @@ const Shop = () => {
           </div>
         </div>
       </motion.div>
-      <div className="follow">
+      <motion.div className="follow"
+      initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          viewport={{ once: true, amount: 0.4 }}
+      >
         <h6>Follow Us On Instagram</h6>
         <p className="stay">Stay updated with our latest products and offers.</p>
         <div className="followsecimg">
@@ -442,7 +447,7 @@ const Shop = () => {
           <img className="blackcoat" src="black coat.png" alt="blackcoat" />
           <img className="blackgirl" src="blackgirl.png" alt="blackgirl" />
         </div>
-      </div>
+      </motion.div>
       <motion.div className="lastsectionscubs"
         initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, y: 0 }}
