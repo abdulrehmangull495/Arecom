@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import Headers from './components/Headers'
 import Home from './components/Home'
-// import Deals from './components/Deals'
 import Shop from './components/Shop'
 import Newarrivals from './components/Newarrivals'
 import Cart from './components/Cart'
@@ -25,12 +24,10 @@ function App() {
      path:"/",
      element:<><Headers/><Home/></>
     },
-    
     {
      path:"/Shop",
      element:<><Headers/><Shop/></>
     },
-   
     {
      path:"/Mycheckout",
      element:<><Headers/><Mycheckout/></>
@@ -43,12 +40,10 @@ function App() {
      path:"/Signup",
      element:<><Headers/><Signup/></>
     },
-
       {
      path:"/Signin",
      element:<><Headers/><Signin/></>
     },
-
      {
      path:"/Forget",
      element:<><Headers/><Forget/></>
@@ -69,8 +64,8 @@ function App() {
 
   return (
     <>
-     {/* <RouterProvider router={router}/> */}
-       <CartProvider>              {/* ← ye line add karein */}
+     
+       <CartProvider>
     <RouterProvider router={router}/>
   </CartProvider> 
     </>
