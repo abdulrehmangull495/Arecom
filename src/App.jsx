@@ -17,8 +17,6 @@ import { CartProvider } from "./components/Cartcontext";
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 function App() {
-  
-  
   const router =createBrowserRouter([
     {
      path:"/",
@@ -64,10 +62,9 @@ function App() {
 
   return (
     <>
-     
        <CartProvider>
     <RouterProvider router={router}/>
-  </CartProvider> 
+        </CartProvider> 
     </>
   )
 }
