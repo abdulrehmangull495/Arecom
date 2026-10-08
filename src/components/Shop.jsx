@@ -258,8 +258,7 @@ const Shop = () => {
   open={showToast}
   autoHideDuration={2000}
   onClose={() => setShowToast(false)}
-  message="Product added to cart"
-/>
+  message="Product added to cart"/>
       <Footer />
     </>
   );
