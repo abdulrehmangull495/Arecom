@@ -9,7 +9,6 @@ import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import Shopproductcart from "./Shopproductcart";
 import ProductCard from "./ProductCard";
-
 import { motion } from "framer-motion";
 const shopproduct=[
   {id:1, image:"roundedredhat.png", alt:"roundedredhat",title:"Rounded Red Hat", price:"PKR 1000", className:"btnalldiv" },
@@ -110,7 +109,7 @@ const Shop = () => {
   placeholder="Search products..."
   value={searchTerm}
   onChange={(e) => setSearchTerm(e.target.value)}/>
-</motion.div>
+  </motion.div>
           <motion.h6 className="bestselling"
           initial={{opacity:0, x:950}}
         animate={{opacity:1, x:0}}
@@ -220,8 +219,7 @@ const Shop = () => {
       initial={{ opacity: 0, y: 200 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          viewport={{ once: true, amount: 0.4 }}
-      >
+          viewport={{ once: true, amount: 0.4 }}>
         <h6>Follow Us On Instagram</h6>
         <p className="stay">Stay updated with our latest products and offers.</p>
         <div className="followsecimg">

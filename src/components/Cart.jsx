@@ -1,51 +1,8 @@
-// import React from 'react'
-// import './Cart.css';
-// import { NavLink } from 'react-router-dom';
-// import Footer from './Footer';
-// const Cart = () => {
-//   return (
-//     <>
-//    <div className="titlediv">
-//        <h1>Shoping Cart</h1>
-//        <div className='shopingcart'>
-//            <li><NavLink to="/">Home</NavLink></li>
-//            <p className='m-0'><img className='nxtbtimg' src="nextbt.png"  alt="" />Your Shoping Cart</p></div>
-       
-//       </div>
-      
-//       <div className="lastsectionscubs">
-//         <div>
-//           <img src="camelcoat.png" className="camelcoatpic" alt="" />
-//         </div>
-//         <div className="subsdiv">
-//           <h5 className="newsletter">Subscribe To Our Newsletter</h5>
-//           <p className="getthe">Be the first to know about new products, offers and discounts.</p>
-//              <p>abdulrehmangull495@gmail.com</p>
-//              <div>
-//               <button className="subsnow">Subscribe Now</button>
-//              </div>
-
-//         </div>
-//         <div>
-//           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="" />
-//         </div>
-//       </div>
-
-      
-      
-// <Footer/>
-    
-//     </>
-//   )
-// }
-
-// export default Cart
 import React from 'react'
 import './Cart.css';
 import { NavLink } from 'react-router-dom';
 import Footer from './Footer';
 import { useCart } from './Cartcontext';   {/* ← ye import add karein */}
-
 const Cart = () => {
   const { cartItems, removeFromCart, updateQty } = useCart();   {/* ← ye line add karein */}
   const total = cartItems.reduce((sum, item) => sum + item.qty * Number(item.price.replace(/[^0-9]/g, "")), 0);
