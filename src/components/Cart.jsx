@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 import Footer from './Footer';
 import { useCart } from './Cartcontext';   {/* ← ye import add karein */}
 const Cart = () => {
-  const { cartItems, removeFromCart, updateQty } = useCart();   {/* ← ye line add karein */}
-  const total = cartItems.reduce((sum, item) => sum + item.qty * Number(item.price.replace(/[^0-9]/g, "")), 0);
+const { cartItems, removeFromCart, updateQty } = useCart();   {/* ← ye line add karein */}
+const total = cartItems.reduce((sum, item) => sum + item.qty * Number(item.price.replace(/[^0-9]/g, "")), 0);
 
   return (
     <>
