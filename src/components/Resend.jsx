@@ -13,24 +13,17 @@ const Resend = () => {
           Arecom
         </h1>
         <h6 className='enterthe'>Enter Your New Password</h6>
-        
-        
        <div className="inputfields">
   <div className="row">
     <input type="text" placeholder="New Password" required />
-   
   </div>
 
   <div className="row">
     <input type="text" placeholder="Confirm New Password" />
-   
   </div>
-
-
 </div>
 
       <div className="createbtn">
-    
   <button className='createaccount'>Submit</button>
 </div>
       </div>
