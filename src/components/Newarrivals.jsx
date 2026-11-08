@@ -5,8 +5,6 @@ import ScrollToTop from "./ScrollToTop";
 const Headers = () => {
   return (
     <>
-    
-
 <div className="newarrivalsection">
         <div className="newarrivals">
           <h1 className="newarrival">New Arrivals</h1>
@@ -21,7 +19,6 @@ const Headers = () => {
           <h6>Men Accessories</h6>
           <h6>Discount Deals</h6>
         </div>
-        
         <div className="cards">
           <div className="card-row">
             <div className="product-card">
@@ -29,8 +26,7 @@ const Headers = () => {
                 <img
                   className="shinydress"
                   src="shinydress.png"
-                  alt="Shiny Dress"
-                />
+                  alt="Shiny Dress"/>
                 <h6 className="imgtitle">Shiny Dress</h6>
                 <h6>PKR 4999</h6>
               </div>
@@ -40,8 +36,7 @@ const Headers = () => {
                 <img
                   className="longdress"
                   src="longdress.png"
-                  alt="Long Dress"
-                />
+                  alt="Long Dress"/>
                 <h6 className="imgtitle">Long Dress</h6>
                 <h6>PKR 4599</h6>
               </div>
@@ -51,14 +46,12 @@ const Headers = () => {
                 <img
                   className="fullsweater"
                   src="fullsweater.png"
-                  alt="Full Sweater"
-                />
+                  alt="Full Sweater"/>
                 <h6 className="imgtitle">Full Sweater</h6>
                 <h6>PKR 3999</h6>
               </div>
             </div>
           </div>
-
           <div className="card-row">
             <div className="product-card">
               <div className="whitedressdiv">
@@ -86,8 +79,7 @@ const Headers = () => {
                 <img
                   className="whiteshirt"
                   src="whiteshirt.png"
-                  alt="Full Sweater"
-                />
+                  alt="Full Sweater"/>
                 <h6 className="imgtitle">Full Sweater</h6>
                 <h6>PKR 3999</h6>
               </div>
