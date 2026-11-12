@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 import './Newarrivals.css';
 import ScrollToTop from "./ScrollToTop";
@@ -58,8 +57,7 @@ const Headers = () => {
                 <img
                   className="whitedress"
                   src="whitedress.png"
-                  alt="Full Sweater"
-                />
+                  alt="Full Sweater"/>
                 <h6 className="imgtitle">Full Sweater</h6>
                 <h6>PKR 3999</h6>
               </div>
@@ -91,7 +89,6 @@ const Headers = () => {
         </div>
         <ScrollToTop/>
       </div>
-
         <Footer/>
       </>
   );

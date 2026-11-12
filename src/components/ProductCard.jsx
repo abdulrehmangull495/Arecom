@@ -13,7 +13,6 @@ const cardButtonStyle = {
     background: "linear-gradient(45deg, #ff5a00, #ffa500)",
     boxShadow: "0 8px 22px rgba(0,0,0,0.3)",},
 };
-
 const ProductCard = ({ image, alt, title, price, className, onAddToCart }) => {
   return (
     <div className="product-card">
