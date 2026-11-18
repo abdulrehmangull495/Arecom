@@ -86,7 +86,7 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.7, delay: 0.4 }}>
-                New Collection
+                New Collection At Arecom
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
