@@ -67,20 +67,17 @@ const Forget = () => {
           className="leftsignupside"
           initial={{ opacity: 0, x: -150 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
           <img
             className="leftsignupsideimg"
             src="blackclassicshirt.png"
-            alt=""
-          />
+            alt=""/>
         </motion.div>
         <motion.div
           className="rightsignupside"
           initial={{ opacity: 0, x: 400 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
           <h1>Arecom</h1>
           <h5>Forget Password</h5>
           <div className="createaccountdiv">
@@ -102,53 +99,7 @@ const Forget = () => {
           <div className="or">
             <h6>OR</h6>
           </div>
-          {/* <form className="inputfields" onSubmit={handlesubmit} noValidate>
-            <div className="row">
-              <div className="field">
-                <input
-                  type="text"
-                  placeholder="Enter First Name"
-                  value={firstname}
-                  onChange={(e) => setFirstName(e.target.value)}
-                />
-                {firstnameError && <p className="error">{firstnameError}</p>}
-              </div>
-
-              <div className="field">
-                <input
-                  type="text"
-                  placeholder="Enter Last Name"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                />
-                {lastNameError && <p className="error">{lastNameError}</p>}
-              </div>
-            </div>
-            <div className="row">
-              <div className="field">
-                <input
-                  type="email"
-                  placeholder="Enter Email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                {emailError && <p className="error">{emailError}</p>}
-              </div>
-
-              <div className="field">
-                <input
-                  type="tel"
-                  placeholder="Enter Phone Number"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                />
-                {phoneError && <p className="error">{phoneError}</p>}
-              </div>
-            </div>
-            <button type="submit" className="createaccount">
-              Send Confirmation Code
-            </button>
-          </form> */}
+          
           <form className="inputfields" onSubmit={handlesubmit} noValidate>
   <div className="field">
     <label htmlFor="email">Email Address</label>
