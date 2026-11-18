@@ -12,7 +12,6 @@ const Contactus = () => {
   const [emailError, setEmailError] = useState("");
   const [name, setName] = useState("");
   const [textarea, setTextArea] = useState("");
-  // const[textareaError, setTextAreaError]=useState("")
 
   const handlesubmit = (e) => {
     e.preventDefault();
@@ -38,9 +37,6 @@ const Contactus = () => {
     <>
       <motion.div
         className="contactus"
-        // initial={{opacity:0, y:800}}
-        // animate={{opacity:1, y:0}}
-        // transition={{duration:0.8}}
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
@@ -55,19 +51,16 @@ const Contactus = () => {
           className="leftcontactusside"
           initial={{ opacity: 0, x: -150 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
           <img
             className="leftcontactussideimg"
             src="blackclassicshirt.png"
-            alt="Black classic shirt"
-          />
+            alt="Black classic shirt"/>
         </motion.div>
         <motion.div className="rightcontactusside"
         initial={{ opacity: 0, x: 400 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
           <div className="contact-wrapper">
             <div className="contact-form">
               <form onSubmit={handlesubmit} noValidate>
@@ -77,8 +70,7 @@ const Contactus = () => {
                     type="text"
                     id="name"
                     value={name}
-                    onChange={(e) => setName(e.target.value)}
-                  />
+                    onChange={(e) => setName(e.target.value)} />
                 </div>
                 <div className="group-form">
                   <label htmlFor="email">Email</label>
@@ -86,8 +78,7 @@ const Contactus = () => {
                     type="email"
                     id="email"
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                  />
+                    onChange={(e) => setEmail(e.target.value)}/>
                   {emailError && <p className="error">{emailError}</p>}
                 </div>
                 <div className="group-form">
