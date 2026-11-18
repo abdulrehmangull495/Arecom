@@ -97,7 +97,7 @@ const Home = () => {
                 </NavLink>
               </motion.div>
               <motion.img
-                className="girlsimgpink"
+                className="girlsimgpink "
                 src="image.png"
                 alt="girlimg"
                 initial={{ opacity: 0, y: 50 }}
