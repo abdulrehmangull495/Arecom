@@ -7,17 +7,13 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleLinkClick = () => setMenuOpen(false);
   const [search, setSearch] = useState("");
-     const [dark, setDark] = useState(false);
-     const { cartItems } = useCart();
-     const totalQty = cartItems.reduce((sum, item) => sum + item.qty, 0);
-     
-
+  const [dark, setDark] = useState(false);
+  const { cartItems } = useCart();
+  const totalQty = cartItems.reduce((sum, item) => sum + item.qty, 0);
   const toggleMode = () => {
     setDark(!dark);
     document.body.classList.toggle("dark");
   };
-
-
   return (
     <header className="header">
       <nav className="nav">       

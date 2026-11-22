@@ -11,8 +11,7 @@ const Footer = () => {
   </div>
   <div className="footer-box">
     <a href="#">Support Center</a>
-    <a href="/Checkout">Invoicing</a>
-    
+    <a href="/Checkout">Invoicing</a> 
     <a href="#">Blog</a>
   </div>
   </div>
