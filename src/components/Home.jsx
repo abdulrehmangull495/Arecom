@@ -173,8 +173,7 @@ const Home = () => {
             viewport={{ once: true, amount: 0.3 }}>
             <h1 className="newarrival">New Arrivals</h1>
             <p className="justdropped">
-              New arrivals just dropped! Shop now and be the first to get the
-              latest products.
+              New arrivals are here. Shop the latest styles now.
             </p>
           </motion.div>
           <motion.div className="cards" 
