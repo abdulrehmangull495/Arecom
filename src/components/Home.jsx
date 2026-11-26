@@ -3,7 +3,7 @@ import "./Home.css";
 import { NavLink } from "react-router-dom";
 import Button from "@mui/material/Button";
 import Footer from "./Footer";
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
 const MotionNavLink = motion(NavLink);
@@ -86,7 +86,7 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.7, delay: 0.4 }}>
-                New Collection At Arecom
+                New Collection
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
@@ -314,7 +314,7 @@ const Home = () => {
               alt="darkgreycoat"/>
           </div>
         </motion.div>
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
       </main>
       <Footer />
     </>

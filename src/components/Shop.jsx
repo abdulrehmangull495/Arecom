@@ -6,7 +6,7 @@ import "./shop.css";
 import Button from "@mui/material/Button";
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 import Shopproductcart from "./Shopproductcart";
 import ProductCard from "./ProductCard";
 import { motion } from "framer-motion";
@@ -251,7 +251,7 @@ const Shop = () => {
           <img src="darkgreycoat.png" className="darkgreycoatpic" alt="darkgreycoatpic" />
         </div>
       </motion.div>
- <ScrollToTop/>
+ {/* <ScrollToTop/> */}
  <Snackbar
   open={showToast}
   autoHideDuration={2000}

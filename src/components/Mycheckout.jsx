@@ -1,7 +1,7 @@
 import React from 'react'
 import "./checkout.css"
 import Footer from './Footer'
-import ScrollToTop from './ScrollToTop'
+// import ScrollToTop from './ScrollToTop'
 import { motion } from "framer-motion";
 const Mycheckout = () => {
   return (

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import './Newarrivals.css';
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 const Headers = () => {
   return (
     <>

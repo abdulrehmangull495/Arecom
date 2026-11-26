@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./contactus.css";
 import Footer from "./Footer";
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { duration } from "@mui/material";
