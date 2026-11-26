@@ -708,7 +708,7 @@ body.dark .justdropped{
   border-color: #007bff;
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
 }
-@media (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 300px) and (max-width: 425px) {
   .firstboy {
     background-color: rgb(224, 224, 224, 100);
     padding: 50px;
